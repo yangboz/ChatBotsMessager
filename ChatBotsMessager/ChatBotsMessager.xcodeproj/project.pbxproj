@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4AE8FBB16F616780047B6A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AE8FBA16F616780047B6A3 /* UIKit.framework */; };
+		A4AE8FBD16F616780047B6A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AE8FBC16F616780047B6A3 /* Foundation.framework */; };
+		A4AE8FBF16F616780047B6A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AE8FBE16F616780047B6A3 /* CoreGraphics.framework */; };
+		A4AE8FC516F616780047B6A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4AE8FC316F616780047B6A3 /* InfoPlist.strings */; };
+		A4AE8FC716F616780047B6A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AE8FC616F616780047B6A3 /* main.m */; };
+		A4AE8FCB16F616780047B6A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AE8FCA16F616780047B6A3 /* AppDelegate.m */; };
+		A4AE8FCE16F616780047B6A3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AE8FCC16F616780047B6A3 /* MainStoryboard_iPhone.storyboard */; };
+		A4AE8FD116F616780047B6A3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AE8FCF16F616780047B6A3 /* MainStoryboard_iPad.storyboard */; };
+		A4AE8FD416F616780047B6A3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AE8FD316F616780047B6A3 /* MasterViewController.m */; };
+		A4AE8FD716F616780047B6A3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AE8FD616F616780047B6A3 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4AE8FB616F616780047B6A3 /* ChatBotsMessager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBotsMessager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AE8FBA16F616780047B6A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4AE8FBC16F616780047B6A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4AE8FBE16F616780047B6A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4AE8FC216F616780047B6A3 /* ChatBotsMessager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatBotsMessager-Info.plist"; sourceTree = "<group>"; };
+		A4AE8FC416F616780047B6A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4AE8FC616F616780047B6A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4AE8FC816F616780047B6A3 /* ChatBotsMessager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatBotsMessager-Prefix.pch"; sourceTree = "<group>"; };
+		A4AE8FC916F616780047B6A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4AE8FCA16F616780047B6A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4AE8FCD16F616780047B6A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A4AE8FD016F616780047B6A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A4AE8FD216F616780047B6A3 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A4AE8FD316F616780047B6A3 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A4AE8FD516F616780047B6A3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A4AE8FD616F616780047B6A3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4AE8FB316F616780047B6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AE8FBB16F616780047B6A3 /* UIKit.framework in Frameworks */,
+				A4AE8FBD16F616780047B6A3 /* Foundation.framework in Frameworks */,
+				A4AE8FBF16F616780047B6A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4AE8FAB16F616780047B6A3 = {
+			isa = PBXGroup;
+			children = (
+				A4AE8FC016F616780047B6A3 /* ChatBotsMessager */,
+				A4AE8FB916F616780047B6A3 /* Frameworks */,
+				A4AE8FB716F616780047B6A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4AE8FB716F616780047B6A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE8FB616F616780047B6A3 /* ChatBotsMessager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AE8FB916F616780047B6A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE8FBA16F616780047B6A3 /* UIKit.framework */,
+				A4AE8FBC16F616780047B6A3 /* Foundation.framework */,
+				A4AE8FBE16F616780047B6A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4AE8FC016F616780047B6A3 /* ChatBotsMessager */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE8FC916F616780047B6A3 /* AppDelegate.h */,
+				A4AE8FCA16F616780047B6A3 /* AppDelegate.m */,
+				A4AE8FCC16F616780047B6A3 /* MainStoryboard_iPhone.storyboard */,
+				A4AE8FCF16F616780047B6A3 /* MainStoryboard_iPad.storyboard */,
+				A4AE8FD216F616780047B6A3 /* MasterViewController.h */,
+				A4AE8FD316F616780047B6A3 /* MasterViewController.m */,
+				A4AE8FD516F616780047B6A3 /* DetailViewController.h */,
+				A4AE8FD616F616780047B6A3 /* DetailViewController.m */,
+				A4AE8FC116F616780047B6A3 /* Supporting Files */,
+			);
+			path = ChatBotsMessager;
+			sourceTree = "<group>";
+		};
+		A4AE8FC116F616780047B6A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4AE8FC216F616780047B6A3 /* ChatBotsMessager-Info.plist */,
+				A4AE8FC316F616780047B6A3 /* InfoPlist.strings */,
+				A4AE8FC616F616780047B6A3 /* main.m */,
+				A4AE8FC816F616780047B6A3 /* ChatBotsMessager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4AE8FB516F616780047B6A3 /* ChatBotsMessager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AE8FDA16F616780047B6A3 /* Build configuration list for PBXNativeTarget "ChatBotsMessager" */;
+			buildPhases = (
+				A4AE8FB216F616780047B6A3 /* Sources */,
+				A4AE8FB316F616780047B6A3 /* Frameworks */,
+				A4AE8FB416F616780047B6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatBotsMessager;
+			productName = ChatBotsMessager;
+			productReference = A4AE8FB616F616780047B6A3 /* ChatBotsMessager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4AE8FAD16F616780047B6A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A4AE8FB016F616780047B6A3 /* Build configuration list for PBXProject "ChatBotsMessager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4AE8FAB16F616780047B6A3;
+			productRefGroup = A4AE8FB716F616780047B6A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4AE8FB516F616780047B6A3 /* ChatBotsMessager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AE8FB416F616780047B6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AE8FC516F616780047B6A3 /* InfoPlist.strings in Resources */,
+				A4AE8FCE16F616780047B6A3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A4AE8FD116F616780047B6A3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4AE8FB216F616780047B6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AE8FC716F616780047B6A3 /* main.m in Sources */,
+				A4AE8FCB16F616780047B6A3 /* AppDelegate.m in Sources */,
+				A4AE8FD416F616780047B6A3 /* MasterViewController.m in Sources */,
+				A4AE8FD716F616780047B6A3 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4AE8FC316F616780047B6A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AE8FC416F616780047B6A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4AE8FCC16F616780047B6A3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AE8FCD16F616780047B6A3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A4AE8FCF16F616780047B6A3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AE8FD016F616780047B6A3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4AE8FD816F616780047B6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4AE8FD916F616780047B6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4AE8FDB16F616780047B6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatBotsMessager/ChatBotsMessager-Prefix.pch";
+				INFOPLIST_FILE = "ChatBotsMessager/ChatBotsMessager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4AE8FDC16F616780047B6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatBotsMessager/ChatBotsMessager-Prefix.pch";
+				INFOPLIST_FILE = "ChatBotsMessager/ChatBotsMessager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4AE8FB016F616780047B6A3 /* Build configuration list for PBXProject "ChatBotsMessager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AE8FD816F616780047B6A3 /* Debug */,
+				A4AE8FD916F616780047B6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AE8FDA16F616780047B6A3 /* Build configuration list for PBXNativeTarget "ChatBotsMessager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AE8FDB16F616780047B6A3 /* Debug */,
+				A4AE8FDC16F616780047B6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4AE8FAD16F616780047B6A3 /* Project object */;
+}

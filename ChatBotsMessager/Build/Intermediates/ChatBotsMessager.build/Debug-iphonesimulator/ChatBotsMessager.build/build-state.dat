@@ -1,0 +1,284 @@
+TChatBotsMessager
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/Info.plist ChatBotsMessager/ChatBotsMessager-Info.plist
+cProcessPCH /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch.pth ChatBotsMessager/ChatBotsMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/AppDelegate.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/MasterViewController.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/DetailViewController.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager normal i386
+cGenerateDSYMFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app.dSYM /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager
+cCompileStoryboard /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPad.storyboard
+cCompileStoryboard /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPhone.storyboard
+cCopyStringsFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/InfoPlist.strings ChatBotsMessager/en.lproj/InfoPlist.strings
+cTouch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004F161A590000000000000110
+t1326848601
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F34AA100000000000245480
+t1328851472
+s2380928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F34AA1B0000000000353830
+t1328851483
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F34AA3100000000008F7390
+t1328851505
+s9401232
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/ChatBotsMessager.LinkFileList
+c000000005145DF0E00000000000002F7
+t1363533582
+s759
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/DetailViewController.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/MasterViewController.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch.pth
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app.dSYM
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/Info.plist
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/PkgInfo
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/AppDelegate.m
+c000000005145DF0E00000000000009C4
+t1363533582
+s2500
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager-Prefix.pch
+c000000005145DEF8000000000000014F
+t1363533560
+s335
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/DetailViewController.m
+c000000005145DF0E0000000000000ABB
+t1363533582
+s2747
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MasterViewController.m
+c000000005145DF0E00000000000011A8
+t1363533582
+s4520
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/InfoPlist.strings
+c000000005145DEF8000000000000002D
+t1363533560
+s45
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPad.storyboard
+c000000005145DEF800000000000023C4
+t1363533560
+s9156
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPhone.storyboard
+c000000005145DEF80000000000001CA8
+t1363533560
+s7336
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/main.m
+c000000005145DF0E0000000000000159
+t1363533582
+s345
+
+NChatBotsMessager/ChatBotsMessager-Info.plist
+c000000005145DEF80000000000000644
+t1363533560
+s1604
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/AppDelegate.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/DetailViewController.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MasterViewController.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5f5fab8e16f6b641^eb8ec18e16f6b641^---0#1#0#--18"Check dependencies36"3E3E8569-5769-4641-BE9A-506327DF1C88-
+
+CCompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/AppDelegate.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385226383.068066
+e385226383.462673
+r1
+xCompileC
+xBuild/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/AppDelegate.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/AppDelegate.mab95118f16f6b641^5871768f16f6b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/AppDelegate.m0000000000000000^3982"CompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/AppDelegate.o ChatBotsMessager/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/AppDelegate.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/AppDelegate.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/AppDelegate.o36"0D280462-CFA4-4CE4-A42F-D5CDD93BA5FD-
+
+CCompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/DetailViewController.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385226383.068752
+e385226383.479914
+r1
+xCompileC
+xBuild/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/DetailViewController.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/DetailViewController.m3cbe118f16f6b641^72df7a8f16f6b641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/DetailViewController.m0000000000000000^4036"CompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/DetailViewController.o ChatBotsMessager/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/DetailViewController.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/DetailViewController.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/DetailViewController.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/DetailViewController.o36"A6615651-B345-4F14-8111-2FE7E37FDA74-
+
+CCompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/MasterViewController.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385226383.068673
+e385226383.530637
+r1
+xCompileC
+xBuild/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/MasterViewController.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MasterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MasterViewController.m6bb7118f16f6b641^d4d7878f16f6b641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MasterViewController.m0000000000000000^4036"CompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/MasterViewController.o ChatBotsMessager/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/MasterViewController.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/MasterViewController.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MasterViewController.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/MasterViewController.o36"098960B4-C22A-4D12-8AF6-6818DF24BDCC-
+
+CCompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385226383.068059
+e385226383.157377
+r1
+xCompileC
+xBuild/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/main.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/main.m8995118f16f6b641^aa49288f16f6b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/main.m0000000000000000^3940"CompileC Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/main.o ChatBotsMessager/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/main.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/main.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/main.o36"548488FC-4EB2-49A8-8CE1-6AE277F562C3-
+
+CCompileStoryboard /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPad.storyboard
+s385226383.950115
+e385226385.258430
+r1
+xCompileStoryboard
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CompileStoryboard ChatBotsMessager/en.lproj/MainStoryboard_iPad.storyboard1e53f38f16f6b641^6380489116f6b641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^1028"CompileStoryboard ChatBotsMessager/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"4DCB7C26-088C-4C7A-82B8-5A24C20E01D8-
+
+CCompileStoryboard /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPhone.storyboard
+s385226383.950120
+e385226385.269471
+r1
+xCompileStoryboard
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CompileStoryboard ChatBotsMessager/en.lproj/MainStoryboard_iPhone.storyboard1152f38f16f6b641^2387489116f6b641^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^1034"CompileStoryboard ChatBotsMessager/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"AA37B57B-6454-48C1-8D23-E6D31900B667-
+
+CCopyStringsFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/InfoPlist.strings ChatBotsMessager/en.lproj/InfoPlist.strings
+s385226383.950125
+e385226383.953285
+r1
+xCopyStringsFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/InfoPlist.strings
+xChatBotsMessager/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy ChatBotsMessager/en.lproj/InfoPlist.stringsc24cf38f16f6b641^9318f48f16f6b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/en.lproj/InfoPlist.strings0000000000000000^681"CopyStringsFile Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj/InfoPlist.strings ChatBotsMessager/en.lproj/InfoPlist.strings    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/en.lproj -- ChatBotsMessager/en.lproj/InfoPlist.strings36"0F418C6B-F438-4934-8D0D-3191C18FE264-
+
+CGenerateDSYMFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app.dSYM /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager
+s385226383.860379
+e385226383.942675
+r1
+xGenerateDSYMFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app.dSYM
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Generating /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app.dSYM5c76dc8f16f6b641^2a52f18f16f6b641^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app.dSYM000000000080d041^802"GenerateDSYMFile Build/Products/Debug-iphonesimulator/ChatBotsMessager.app.dSYM Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app.dSYM36"07558133-A3D5-4BE5-9DDB-DA677FDE4B3E-
+
+CLd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager normal i386
+s385226383.538495
+e385226383.838275
+r1
+xLd
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessagerc0ed898f16f6b641^1e8dd78f16f6b641^---0#0#0#--1393"Ld Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager normal i386    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator -filelist /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/Objects-normal/i386/ChatBotsMessager.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/ChatBotsMessager36"B6A854E9-0BF4-4710-9DCB-8F5014D37456-
+
+CProcessInfoPlistFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/Info.plist ChatBotsMessager/ChatBotsMessager-Info.plist
+s385226382.760440
+e385226382.764433
+r1
+xProcessInfoPlistFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/Info.plist
+xChatBotsMessager/ChatBotsMessager-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process ChatBotsMessager/ChatBotsMessager-Info.plist0ebcc28e16f6b641^e2b1c38e16f6b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager-Info.plist0000000000000000^818"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/Info.plist ChatBotsMessager/ChatBotsMessager-Info.plist    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ChatBotsMessager/ChatBotsMessager-Info.plist -genpkginfo /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app/Info.plist36"986AA4B6-1915-4EE8-8590-77AEE996C5B4-
+
+CProcessPCH /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch.pth ChatBotsMessager/ChatBotsMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385226382.772004
+e385226383.061260
+r1
+xProcessPCH
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch.pth
+xChatBotsMessager/ChatBotsMessager-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile ChatBotsMessager/ChatBotsMessager-Prefix.pch0dc5c58e16f6b641^32af0f8f16f6b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager-Prefix.pch0000000000000000^3829"ProcessPCH Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch.pth ChatBotsMessager/ChatBotsMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/ChatBotsMessager-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/ChatBotsMessager.build/Debug-iphonesimulator/ChatBotsMessager.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager-Prefix.pch -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch.pth -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Intermediates/PrecompiledHeaders/ChatBotsMessager-Prefix-dbwarccptgzvtpbrqpgbzphrnmmx/ChatBotsMessager-Prefix.pch.d36"50CD00D2-9FE1-4DE6-BC69-43C2F3A4FB03-
+
+CProcessPCH /Users/smartkit/Library/Developer/Xcode/DerivedData/ChatBotsMessager-alytdkporicrnbbdrwpcsuhyzbbn/Index/PrecompiledHeaders/ChatBotsMessager-Prefix-eegtjbunnlwatsdtdxpqbdmruufr_ast/ChatBotsMessager-Prefix.pch.pth ChatBotsMessager/ChatBotsMessager-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app
+s385226385.277561
+e385226385.338759
+r1
+xTouch
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Touch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app1d1d479116f6b641^9f5b5c9116f6b641^---0#0#0#--476"Touch Build/Products/Debug-iphonesimulator/ChatBotsMessager.app    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/Build/Products/Debug-iphonesimulator/ChatBotsMessager.app36"B53CF5AD-174C-4449-8B9C-16D140F03BD2-
+
