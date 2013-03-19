@@ -8,8 +8,8 @@
 
 #import "JsonParseProxy.h"
 #import "JSONKit.h"
-#import "AllSightingsVO.h"
-#import "SightingsModel.h"
+#import "AllChatBotsVO.h"
+#import "ChatBotsModel.h"
 #import "AppDelegate.h"
 
 @implementation JsonParseProxy
@@ -55,20 +55,20 @@
     NSLog(@"Dictionary => %@\n", dict); 
     
     // 3) Now, let's create a Person object from the dictionary.
-    AllSightingsVO* allSightingsVO = [[AllSightingsVO alloc] initWithDictionary:dict];
+    AllChatBotsVO* allChatBotsVO = [[AllChatBotsVO alloc] initWithDictionary:dict];
     
     // 4) Dump the contents of the person object
     // to the debug console.
-    NSLog(@"AllSightingsVO => %@\n", allSightingsVO);
-    NSLog(@"AllSightingsVO.total: %@\n", [allSightingsVO total]);
+    NSLog(@"AllChatBotsVO => %@\n", allChatBotsVO);
+    NSLog(@"AllChatBotsVO.chatbots: %@\n", [allChatBotsVO chatbots]);
     
     // 5) Model store
-    [SightingsModel setAllSightings:allSightingsVO];
+    [ChatBotsModel setAllChatBots:allChatBotsVO];
     
     // 6) Set delegate
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     NSMutableArray *mArray = [[NSMutableArray alloc] initWithArray: 
-                              [[SightingsModel getAllSightings] results] ];
+                              [[ChatBotsModel getAllChatBots] chatbots] ];
     //
     [appDelegate setMasterControllerData:mArray];
     [mArray release];
