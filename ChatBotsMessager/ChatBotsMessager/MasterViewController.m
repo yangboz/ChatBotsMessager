@@ -84,15 +84,24 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     NSLog(@"_chatbots.count: %d",_chatbots.count);
-    return _chatbots.count;
+    NSLog(@"chatbots.count: %d",[[[ChatBotsModel getAllChatBots] chatbots] count]);
+    return [self getChatBots].count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
-    NSLog(@"Current chatbots:%@",_chatbots);
-    ChatBotVo *object = [_chatbots objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object Image];
+    static NSString *CellIdentifier = @"Cell"; 
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) { 
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle 
+                                       reuseIdentifier:CellIdentifier] autorelease]; 
+    } 
+    NSLog(@"Current _chatbots:%@",_chatbots);
+    NSLog(@"Current chatbots:%@",[self getChatBots]);
+    ChatBotVo *object = [[self getChatBots] objectAtIndex:indexPath.row];
+    cell.textLabel.text = [object Name];
+    cell.imageView.image = [UIImage imageNamed:[object Image]];
+    cell.detailTextLabel.text = [object Bio];
     return cell;
 }
 
@@ -102,15 +111,15 @@
     return YES;
 }
 
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [_chatbots removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }
-}
+//- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    if (editingStyle == UITableViewCellEditingStyleDelete) {
+//        [_chatbots removeObjectAtIndex:indexPath.row];
+//        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+//    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+//        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
+//    }
+//}
 
 /*
 // Override to support rearranging the table view.
@@ -131,7 +140,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        NSDate *object = [_chatbots objectAtIndex:indexPath.row];
+        NSDate *object = [[self getChatBots] objectAtIndex:indexPath.row];
         self.detailViewController.detailItem = (ChatBotVo *)object;
     }
 }
@@ -140,9 +149,14 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        ChatBotVo *object = (ChatBotVo *)[_chatbots objectAtIndex:indexPath.row];
+        ChatBotVo *object = (ChatBotVo *)[[self getChatBots] objectAtIndex:indexPath.row];
         [[segue destinationViewController] setDetailItem:object];
     }
+}
+
+-(NSArray *)getChatBots
+{
+    return [[ChatBotsModel getAllChatBots] chatbots];
 }
 
 @end
