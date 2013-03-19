@@ -11,7 +11,12 @@
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
+{
+    NSMutableArray *_chatbots;
+}
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+
+@property (nonatomic, retain) NSMutableArray *chatbots;
 
 @end

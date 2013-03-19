@@ -7,10 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "JsonParseProxy.h"
+#import "MasterViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize splitViewController = _splitViewController;
+
+MasterViewController *masterViewController;
 
 - (void)dealloc
 {
@@ -26,7 +31,22 @@
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
     }
+    //API initialization here.
+    [self APIinitialization];
     return YES;
+}
+
+- (void)APIinitialization
+{
+    JsonParseProxy *parser = [JsonParseProxy new];
+    //Do parse using local file bundle.
+    [parser parseJsonFile:@"chatbots"];
+}
+
+-(void)setMasterControllerData:(NSMutableArray *)data
+{
+    masterViewController.chatbots = data;
+    NSLog(@"masterViewController.chatbots %@",data);
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

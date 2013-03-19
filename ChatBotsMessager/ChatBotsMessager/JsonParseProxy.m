@@ -61,6 +61,7 @@
     // to the debug console.
     NSLog(@"AllChatBotsVO => %@\n", allChatBotsVO);
     NSLog(@"AllChatBotsVO.chatbots: %@\n", [allChatBotsVO chatbots]);
+    NSLog(@"AllChatBotsVO.chatbots[0]: %@\n", [[allChatBotsVO chatbots] objectAtIndex:0]);
     
     // 5) Model store
     [ChatBotsModel setAllChatBots:allChatBotsVO];

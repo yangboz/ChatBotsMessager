@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChatBotVo.h"
 
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) ChatBotVo *detailItem;
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 

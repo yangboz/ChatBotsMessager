@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) UISplitViewController *splitViewController;
+
+-(void)setMasterControllerData:(NSMutableArray *)data;
+
 @end
