@@ -92,10 +92,7 @@
 {
     static NSString *CellIdentifier = @"Cell"; 
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) { 
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle 
-                                       reuseIdentifier:CellIdentifier] autorelease]; 
-    } 
+//    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     NSLog(@"Current _chatbots:%@",_chatbots);
     NSLog(@"Current chatbots:%@",[self getChatBots]);
     ChatBotVo *object = [[self getChatBots] objectAtIndex:indexPath.row];
