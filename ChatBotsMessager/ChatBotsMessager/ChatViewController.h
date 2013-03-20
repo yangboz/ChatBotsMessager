@@ -37,7 +37,6 @@
 -(IBAction)showPhraseInfo:(id)sender;
 
 
--(void)openUDPServer;
 -(void)sendMassage:(NSString *)message;
 -(void)deleteContentFromTableView;
 

@@ -8,11 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "ChatBotVo.h"
+#import "FaceViewController.h"
 
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) ChatBotVo *detailItem;
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (nonatomic, retain) IBOutlet FaceViewController   *phraseViewController;
+@property (nonatomic, retain) IBOutlet UITableView            *chatTableView;
+@property (nonatomic, retain) IBOutlet UITextField            *messageTextField;
 
 @end

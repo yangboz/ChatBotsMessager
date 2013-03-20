@@ -49,14 +49,14 @@
     UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     backBtn.frame = CGRectMake(0, 0, image.size.width, image.size.height);
     [backBtn setBackgroundImage:image forState:UIControlStateNormal];
-    [backBtn setTitle:@"返回" forState:UIControlStateNormal];
+    [backBtn setTitle:@"BACK" forState:UIControlStateNormal];
     [backBtn addTarget:self action:@selector(dismissSelf) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc ] initWithCustomView:backBtn ];
     self.navigationItem.leftBarButtonItem = backItem;
     [backItem release];
 
     self.phraseViewController.chatViewController = self;
-	UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"资料"
+	UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"Settings"
 																  style:UIBarButtonItemStylePlain
 																 target:self
 																 action:nil];
@@ -98,8 +98,7 @@
 
     
 
-	self.title = @"IM通信";
-	[self openUDPServer];
+	self.title = @"iMessager";
 	
 	[self.messageTextField setText:self.messageString];
 	[self.chatTableView reloadData];
