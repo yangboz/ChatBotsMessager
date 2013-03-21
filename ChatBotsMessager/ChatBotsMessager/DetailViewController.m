@@ -7,10 +7,12 @@
 //
 
 #import "DetailViewController.h"
+#import "Constants.h"
+#import "ASIHTTPRequest.h"
+
 #define USING_IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
 #define TOOLBARTAG		200
 #define TABLEVIEWTAG	300
-
 
 @interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
@@ -204,6 +206,11 @@
 {
     NSLog(@"sendMessage_Click!");
     //
+    NSString *url = [API_DOMAIN stringByAppendingFormat:API_KEY,@"&chatBotId=",6,@"&message=hello",@"externalID=abc-639184572&firstName=Tugger&lastName=Sufani&gender=m"];
+    NSURL *nsUrl = [NSURL URLWithString:url];
+    ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:nsUrl];
+    [request setDelegate:self];
+    [request startAsynchronous];
 }
 
 -(IBAction)showPhraseInfo:(id)sender
@@ -211,5 +218,12 @@
     NSLog(@"showPhraseInfo!");
     //
 }
+
+- (void)requestFinished:(ASIHTTPRequest *)request 
+{ 
+    // Use when fetching text data 
+    NSString *responseString = [request responseString]; 
+    NSLog(@"API request finished:%@",responseString);
+} 
 
 @end
