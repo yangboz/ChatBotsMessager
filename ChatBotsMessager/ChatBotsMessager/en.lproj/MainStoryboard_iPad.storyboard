@@ -58,6 +58,9 @@
                                             <state key="highlighted">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="showPhraseInfo:" destination="4" eventType="touchUpInside" id="fqK-BM-maz"/>
+                                            </connections>
                                         </button>
                                     </barButtonItem>
                                     <barButtonItem style="plain" id="ovx-EM-zqr">
@@ -80,6 +83,9 @@
                                             <state key="highlighted">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="sendMessage_Click:" destination="4" eventType="touchUpInside" id="qLK-Qa-pap"/>
+                                            </connections>
                                         </button>
                                     </barButtonItem>
                                 </items>
@@ -211,6 +217,8 @@
         <class className="DetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
+                <relationship kind="action" name="sendMessage_Click:"/>
+                <relationship kind="action" name="showPhraseInfo:"/>
                 <relationship kind="outlet" name="chatTableView" candidateClass="UITableView"/>
                 <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="messageTextField" candidateClass="UITextField"/>

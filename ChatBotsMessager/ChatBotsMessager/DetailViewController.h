@@ -20,4 +20,7 @@
 @property (nonatomic, retain) IBOutlet UITableView            *chatTableView;
 @property (nonatomic, retain) IBOutlet UITextField            *messageTextField;
 
+-(IBAction)sendMessage_Click:(id)sender;
+-(IBAction)showPhraseInfo:(id)sender;
+
 @end

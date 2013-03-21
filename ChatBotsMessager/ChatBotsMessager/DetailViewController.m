@@ -200,4 +200,16 @@
     [self autoMovekeyBoard:0];
 }
 
+-(IBAction)sendMessage_Click:(id)sender
+{
+    NSLog(@"sendMessage_Click!");
+    //
+}
+
+-(IBAction)showPhraseInfo:(id)sender
+{
+    NSLog(@"showPhraseInfo!");
+    //
+}
+
 @end
