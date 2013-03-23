@@ -14,6 +14,12 @@ Emoticons
 http://messenger.yahoo.com/features/emoticons/
 
 
+Hash-based message authentication code
+================
+
+http://en.wikipedia.org/wiki/HMAC
+
+
 hash_hmac
 ================
 
