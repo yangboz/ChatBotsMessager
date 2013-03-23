@@ -16,3 +16,5 @@ http://messenger.yahoo.com/features/emoticons/
 
 hash_hmac
 ================
+
+https://gist.github.com/yangboz/77fffef6b6d4fe16b144
