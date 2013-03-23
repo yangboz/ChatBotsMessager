@@ -13,6 +13,7 @@
 #import "JSONKit.h"
 #import "MBProgressHUD.h"
 #import "Base64.h"
+#import "ResponseVO.h"
 
 #define USING_IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
 #define TOOLBARTAG		200
@@ -26,7 +27,6 @@
 @implementation DetailViewController
 
 @synthesize detailItem = _detailItem;
-@synthesize detailDescriptionLabel = _detailDescriptionLabel;
 @synthesize masterPopoverController = _masterPopoverController;
 
 @synthesize phraseViewController,chatTableView,messageTextField;
@@ -36,7 +36,6 @@ MBProgressHUD *hud;
 - (void)dealloc
 {
     [_detailItem release];
-    [_detailDescriptionLabel release];
     [_masterPopoverController release];
     [super dealloc];
 }
@@ -64,7 +63,7 @@ MBProgressHUD *hud;
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        //TODO:configureView
     }
 }
 
@@ -91,7 +90,7 @@ MBProgressHUD *hud;
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-    self.detailDescriptionLabel = nil;
+    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -154,12 +153,8 @@ MBProgressHUD *hud;
         tableView.frame = CGRectMake(0.0f, 0.0f, width,(float)(height-h-108.0));
     }
     
-    NSLog(@"width: %u", width);
-    NSLog(@"height: %u", height);
-    
-    
-
-    
+//    NSLog(@"width: %u", width);
+//    NSLog(@"height: %u", height);
 }
 
 #pragma mark -
@@ -245,7 +240,42 @@ MBProgressHUD *hud;
 { 
     // Use when fetching text data 
     NSString *responseString = [request responseString]; 
-    NSLog(@"API request finished:%@",responseString);
+    NSLog(@"API request response str:%@",responseString);
+    //
+    NSScanner *scanner = [NSScanner scannerWithString:responseString];
+    //
+    NSString *text = nil;
+    //Find the last pair of { }.
+    while ([scanner isAtEnd] == NO) {
+        // find start of tag
+        [scanner scanUpToString:@"{" intoString:NULL] ; 
+        // find end of tag
+        [scanner scanUpToString:@"}" intoString:&text] ;
+        // appending tags(}})
+        text = [text stringByAppendingString:@"}"];
+    } // while //
+    NSLog(@"Scanned text:%@",text);
+    // Pretend like you've called a REST service here and it returns a string.
+    // We'll just create a string from the sample json constant at the top
+    // of this file.
+    NSString *jsonKitStr = [text JSONString];
+    NSLog(@"string from JSONKit: \n%@", jsonKitStr);
+    // 1) Create a dictionary, from the result string,
+    // using JSONKit's NSString category; objectFromJSONString.
+    NSDictionary* dict = [jsonKitStr objectFromJSONString];
+    
+    // 2) Dump the dictionary to the debug console.
+    NSLog(@"Dictionary => %@\n", dict); 
+    
+    // 3) Now, let's create a Person object from the dictionary.
+    ResponseVO* responseVO = [[ResponseVO alloc] initWithDictionary:dict];
+    // 4) Dump the contents of the person object
+    // to the debug console.
+    NSLog(@"responseVO => %@\n", responseVO);
+    NSLog(@"responseVO.chatBotName: %@\n", [responseVO chatBotName]);
+    NSLog(@"responseVO.chatBotID: %@\n", [responseVO chatBotID]);
+    NSLog(@"responseVO.message: %@\n", [responseVO message]);
+    NSLog(@"responseVO.emotion: %@\n", [responseVO emotion]);
     //
     [hud hide:YES];
 } 

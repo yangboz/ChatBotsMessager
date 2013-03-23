@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Jastor.h"
 
-@interface ResponseVO : NSObject
+@interface ResponseVO : Jastor
 {}
 
 @property(nonatomic,retain) NSNumber *success;
