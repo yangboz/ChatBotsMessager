@@ -44,6 +44,7 @@ MBProgressHUD *hud;
 
 - (void)setDetailItem:(id)newDetailItem
 {
+//    NSLog(@"Detail item value:%@",newDetailItem);
     if (_detailItem != newDetailItem) {
         [_detailItem release];
         _detailItem = [newDetailItem retain];
@@ -269,27 +270,32 @@ MBProgressHUD *hud;
 //    NSDate *date = [NSDate dateWithTimeIntervalSince1970:interval64Bit];
     NSTimeInterval time = [[NSDate date] timeIntervalSince1970];
     long long int dateInt = (long long int)time; 
-    NSLog(@"date %lld",dateInt);
-    NSLog(@"chatBotID:%@",self.detailItem.Id);
+//    NSLog(@"date %lld",dateInt);
+    int chatBotId = [_detailItem.Id intValue];
+    NSLog(@"chatBotID:%d",chatBotId);
+    if(0 == chatBotId)
+    {
+        chatBotId = 6;//Default chatbot id;
+    }
     //
     NSMutableDictionary *messageDict = [[NSMutableDictionary alloc] init];
     [messageDict setValue:self.messageTextField.text forKey:@"message"];
-    [messageDict setValue:[NSNumber numberWithInt:6] forKey:@"chatBotID"];
+    [messageDict setValue:[NSNumber numberWithInt:chatBotId] forKey:@"chatBotID"];
     [messageDict setValue:[NSNumber numberWithInt:dateInt] forKey:@"timestamp"];
     NSLog(@"messageDict:%@",messageDict);
-    NSLog(@"messageDict json str:%@",[messageDict JSONString]);
+//    NSLog(@"messageDict json str:%@",[messageDict JSONString]);
     
     NSMutableDictionary *userDict = [[NSMutableDictionary alloc] init];
     [userDict setValue:@"Tugger" forKey:@"firstName"];
     [userDict setValue:@"Sufani" forKey:@"lastName"];
-    [userDict setValue:@"M" forKey:@"gender"];
+    [userDict setValue:@"m" forKey:@"gender"];
     [userDict setValue:@"abc-639184572" forKey:@"externalID"];
     NSLog(@"userDict:%@",userDict);
-    NSLog(@"userDict json str:%@",[userDict JSONString]);
+//    NSLog(@"userDict json str:%@",[userDict JSONString]);
     
     NSMutableDictionary *messageFullDict = [[NSMutableDictionary alloc] init];
-    [messageFullDict setValue:[messageDict JSONString] forKey:@"message"];
-    [messageFullDict setValue:[userDict JSONString] forKey:@"user"];
+    [messageFullDict setValue:messageDict forKey:@"message"];
+    [messageFullDict setValue:userDict forKey:@"user"];
     NSLog(@"messageFullDict:%@",messageFullDict);
     //Json writer
     jsonStrResult = [messageFullDict JSONString];
