@@ -11,6 +11,7 @@
 #import "ASIHTTPRequest.h"
 #import <CommonCrypto/CommonHMAC.h>
 #import "JSONKit.h"
+#import "MBProgressHUD.h"
 
 #define USING_IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
 #define TOOLBARTAG		200
@@ -28,6 +29,8 @@
 @synthesize masterPopoverController = _masterPopoverController;
 
 @synthesize phraseViewController,chatTableView,messageTextField;
+
+MBProgressHUD *hud;
 
 - (void)dealloc
 {
@@ -224,6 +227,9 @@
     ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:nsUrl];
     [request setDelegate:self];
     [request startAsynchronous];
+// 
+    hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    hud.userInteractionEnabled = NO;
 }
 
 -(IBAction)showPhraseInfo:(id)sender
@@ -237,6 +243,8 @@
     // Use when fetching text data 
     NSString *responseString = [request responseString]; 
     NSLog(@"API request finished:%@",responseString);
+    //
+    [hud hide:YES];
 } 
 
 //@see:http://ceegees.in/2011/02/objectivec-sha-hmac-php/
@@ -257,24 +265,36 @@
 -(NSString *)getMessageJsonString
 {
     NSString *jsonStrResult = @"";
+//    NSTimeInterval interval64Bit = (63522762851317000/1000000)-62135596800;
+//    NSDate *date = [NSDate dateWithTimeIntervalSince1970:interval64Bit];
+    NSTimeInterval time = [[NSDate date] timeIntervalSince1970];
+    long long int dateInt = (long long int)time; 
+    NSLog(@"date %lld",dateInt);
+    NSLog(@"chatBotID:%@",self.detailItem.Id);
     //
     NSMutableDictionary *messageDict = [[NSMutableDictionary alloc] init];
     [messageDict setValue:self.messageTextField.text forKey:@"message"];
-    [messageDict setValue:@"6" forKey:@"chatBotID"];
-    [messageDict setValue:@"1352857720" forKey:@"timestamp"];
+    [messageDict setValue:[NSNumber numberWithInt:6] forKey:@"chatBotID"];
+    [messageDict setValue:[NSNumber numberWithInt:dateInt] forKey:@"timestamp"];
+    NSLog(@"messageDict:%@",messageDict);
+    NSLog(@"messageDict json str:%@",[messageDict JSONString]);
     
     NSMutableDictionary *userDict = [[NSMutableDictionary alloc] init];
     [userDict setValue:@"Tugger" forKey:@"firstName"];
     [userDict setValue:@"Sufani" forKey:@"lastName"];
     [userDict setValue:@"M" forKey:@"gender"];
     [userDict setValue:@"abc-639184572" forKey:@"externalID"];
+    NSLog(@"userDict:%@",userDict);
+    NSLog(@"userDict json str:%@",[userDict JSONString]);
     
     NSMutableDictionary *messageFullDict = [[NSMutableDictionary alloc] init];
-    [userDict setValue:messageDict forKey:@"message"];
-    [userDict setValue:userDict forKey:@"user"];
+    [messageFullDict setValue:[messageDict JSONString] forKey:@"message"];
+    [messageFullDict setValue:[userDict JSONString] forKey:@"user"];
+    NSLog(@"messageFullDict:%@",messageFullDict);
+    //Json writer
+    jsonStrResult = [messageFullDict JSONString];
+    NSLog(@"messageFullDict json str:%@",[messageFullDict JSONString]);
     //
-    jsonStrResult = [messageFullDict JSONStringWithOptions:JKParseOptionNone error:nil];
-//    NSLog(@"message json string:%@",jsonStrResult);
     [messageDict release];
     [userDict release];
     [messageFullDict release];
