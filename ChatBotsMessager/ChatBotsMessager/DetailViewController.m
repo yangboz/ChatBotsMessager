@@ -12,6 +12,7 @@
 #import <CommonCrypto/CommonHMAC.h>
 #import "JSONKit.h"
 #import "MBProgressHUD.h"
+#import "Base64.h"
 
 #define USING_IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
 #define TOOLBARTAG		200
@@ -217,7 +218,8 @@ MBProgressHUD *hud;
     //Simple API example
 //    NSString *url = [NSString stringWithFormat:@"%@%@%@%@%@",API_DOMAIN,API_KEY,@"&chatBotId=6&message=",self.messageTextField.text,@"&externalID=abc-639184572&firstName=Tugger&lastName=Sufani&gender=m"];
     NSString *msgJsonStr = [self getMessageJsonString];
-    NSString *hashStr = [self getHMAC_hash_string:msgJsonStr];
+    //
+    NSString *hashStr = [self HMACWithSecret:API_SECERT andData:msgJsonStr];
     NSString *urlEncodeStr = [self getUrlEncodeString:msgJsonStr];
     NSLog(@"msgJsonStr: %@",msgJsonStr);
     NSLog(@"hashStr: %@",hashStr);
@@ -248,19 +250,12 @@ MBProgressHUD *hud;
     [hud hide:YES];
 } 
 
-//@see:http://ceegees.in/2011/02/objectivec-sha-hmac-php/
-- (NSString *)getHMAC_hash_string:(NSString *)data
+- (void)requestFailed:(ASIHTTPRequest *)request
 {
-    NSString *key = API_SECERT;
-    const char *cKey = [key cStringUsingEncoding:NSUTF8StringEncoding];
-    const char *cData = [data cStringUsingEncoding:NSUTF8StringEncoding];
-    unsigned char cHMAC[CC_SHA256_DIGEST_LENGTH];
-    CCHmac(kCCHmacAlgSHA256, cKey, strlen(cKey), cData, strlen(cData), cHMAC);
-    NSData *HMAC = [[NSData alloc] initWithBytes:cHMAC length:sizeof(cHMAC)];
-    NSString *hash = [HMAC base64Encoding];
-    [HMAC release];
-    
-    return hash;
+    NSError *error = [request error];
+    NSLog(@"API request error:%@",error);
+    //
+    [hud hide:YES];
 }
 
 -(NSString *)getMessageJsonString
@@ -312,5 +307,28 @@ MBProgressHUD *hud;
 {
     return [unEscapedString stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
 }
+
+- (NSString*) HMACWithSecret:(NSString*)secret andData:(NSString *)data
+{
+    CCHmacContext    ctx;
+    const char       *key = [secret UTF8String];
+    const char       *str = [data UTF8String];
+    unsigned char    mac[CC_SHA256_DIGEST_LENGTH];
+    char             hexmac[CC_SHA256_DIGEST_LENGTH];
+    char             *p;
+    
+    CCHmacInit( &ctx, kCCHmacAlgSHA256, key, strlen( key ));
+    CCHmacUpdate( &ctx, str, strlen(str) );
+    CCHmacFinal( &ctx, mac );
+    
+    p = hexmac;
+    for (int i = 0; i < CC_SHA256_DIGEST_LENGTH; i++ ) {
+        snprintf( p, 3, "%02x", mac[ i ] );
+        p += 2;
+    }
+    
+    return [NSString stringWithUTF8String:hexmac];
+}
+
 
 @end
