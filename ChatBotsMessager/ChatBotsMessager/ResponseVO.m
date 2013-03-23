@@ -10,6 +10,6 @@
 
 @implementation ResponseVO
 
-@synthesize success,errorType,errorMessage,chatBotName,chatBotID,message,emotion;
+@synthesize success,errorMessage,message;
 
 @end

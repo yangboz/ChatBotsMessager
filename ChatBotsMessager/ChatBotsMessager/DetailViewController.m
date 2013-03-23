@@ -258,11 +258,10 @@ MBProgressHUD *hud;
     // Pretend like you've called a REST service here and it returns a string.
     // We'll just create a string from the sample json constant at the top
     // of this file.
-    NSString *jsonKitStr = [text JSONString];
-    NSLog(@"string from JSONKit: \n%@", jsonKitStr);
+    NSLog(@"string from JSONKit: \n%@", text);
     // 1) Create a dictionary, from the result string,
     // using JSONKit's NSString category; objectFromJSONString.
-    NSDictionary* dict = [jsonKitStr objectFromJSONString];
+    NSDictionary* dict = [text objectFromJSONString];
     
     // 2) Dump the dictionary to the debug console.
     NSLog(@"Dictionary => %@\n", dict); 
@@ -272,10 +271,10 @@ MBProgressHUD *hud;
     // 4) Dump the contents of the person object
     // to the debug console.
     NSLog(@"responseVO => %@\n", responseVO);
-    NSLog(@"responseVO.chatBotName: %@\n", [responseVO chatBotName]);
-    NSLog(@"responseVO.chatBotID: %@\n", [responseVO chatBotID]);
-    NSLog(@"responseVO.message: %@\n", [responseVO message]);
-    NSLog(@"responseVO.emotion: %@\n", [responseVO emotion]);
+    NSLog(@"responseVO.message.chatBotName: %@\n", [[responseVO message] chatBotName]);
+    NSLog(@"responseVO.message.chatBotID: %@\n", [[responseVO message] chatBotID]);
+    NSLog(@"responseVO.message.message: %@\n", [[responseVO message] message]);
+    NSLog(@"responseVO.message.emotion: %@\n", [[responseVO message] emotion]);
     //
     [hud hide:YES];
 } 

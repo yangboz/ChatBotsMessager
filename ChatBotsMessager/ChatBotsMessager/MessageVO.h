@@ -7,12 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Jastor.h"
 
-@interface MessageVO : NSObject
+@interface MessageVO : Jastor
 {}
 
 @property(nonatomic,retain) NSString *message;
 @property(nonatomic,retain) NSNumber *chatBotID;
-@property(nonatomic,retain) NSNumber *timestamp;
+@property(nonatomic,retain) NSString *chatBotName;
+@property(nonatomic,retain) NSString *emotion;
 
 @end

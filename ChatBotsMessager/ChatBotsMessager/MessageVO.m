@@ -10,6 +10,6 @@
 
 @implementation MessageVO
 
-@synthesize message,chatBotID,timestamp;
+@synthesize chatBotID,chatBotName,emotion,message;
 
 @end

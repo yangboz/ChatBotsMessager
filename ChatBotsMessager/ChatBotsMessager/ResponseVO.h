@@ -8,16 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "Jastor.h"
+#import "MessageVO.h"
 
 @interface ResponseVO : Jastor
 {}
 
 @property(nonatomic,retain) NSNumber *success;
-@property(nonatomic,retain) NSString *errorType;
+//@property(nonatomic,retain) NSString *errorType;
 @property(nonatomic,retain) NSString *errorMessage;
-@property(nonatomic,retain) NSString *chatBotName;
-@property(nonatomic,retain) NSNumber *chatBotID;
-@property(nonatomic,retain) NSString *message;
-@property(nonatomic,retain) NSString *emotion;
+@property(nonatomic,retain) MessageVO *message;
 
 @end
