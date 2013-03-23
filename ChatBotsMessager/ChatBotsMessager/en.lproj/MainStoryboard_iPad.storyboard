@@ -33,6 +33,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="703" height="660"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.87198394950000002" green="0.88577875299999997" blue="0.89673913039999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="4" id="Pul-6D-QN8"/>
+                                    <outlet property="delegate" destination="4" id="BzY-sF-TUx"/>
+                                </connections>
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" tag="200" contentMode="scaleToFill" id="fOA-TS-QWC">
                                 <rect key="frame" x="0.0" y="660" width="703" height="44"/>
@@ -211,7 +215,6 @@
                 <relationship kind="action" name="sendMessage_Click:"/>
                 <relationship kind="action" name="showPhraseInfo:"/>
                 <relationship kind="outlet" name="chatTableView" candidateClass="UITableView"/>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="messageTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="phraseViewController" candidateClass="FaceViewController"/>
             </relationships>
