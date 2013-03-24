@@ -412,15 +412,21 @@ MBProgressHUD *hud;
 	NSMutableString *sendString=[NSMutableString stringWithCapacity:100];
 	[sendString appendString:message];
 	//准备发送
-	if ([self.chatArray lastObject] == nil) {
-		self.lastTime = nowTime;
-		[self.chatArray addObject:nowTime];
-	}
+//	if ([self.chatArray lastObject] == nil) {
+//		self.lastTime = nowTime;
+//		[self.chatArray addObject:nowTime];
+//	}
 	// 发送后生成泡泡显示出来
     self.lastTime = nowTime;
     [self.chatArray addObject:nowTime];
+    //Role name display.
+    NSString *roleName = @"me";
+    if(!fromSelf)
+    {
+        roleName = self.detailItem.Name;
+    }
     //
-    UIView *chatView = [self bubbleView:[NSString stringWithFormat:@"%@:%@", NSLocalizedString(@"me",nil), message] 
+    UIView *chatView = [self bubbleView:[NSString stringWithFormat:@"%@:%@", NSLocalizedString(roleName,nil), message] 
 								   from:fromSelf];
 	[self.chatArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:message, @"text", @"self", @"speaker", chatView, @"view", nil]];
     //
@@ -443,14 +449,14 @@ MBProgressHUD *hud;
     UIImageView *headImageView = [[UIImageView alloc] init];
     
     if(fromSelf){
-        [headImageView setImage:[UIImage imageNamed:@"face_test.png"]];
+        [headImageView setImage:[UIImage imageNamed:@"anonymous_user_32.png"]];
         returnView.frame= CGRectMake(9.0f, 15.0f, returnView.frame.size.width, returnView.frame.size.height);
         bubbleImageView.frame = CGRectMake(0.0f, 14.0f, returnView.frame.size.width+24.0f, returnView.frame.size.height+24.0f );
         cellView.frame = CGRectMake(265.0f-bubbleImageView.frame.size.width, 0.0f,bubbleImageView.frame.size.width+50.0f, bubbleImageView.frame.size.height+30.0f);
         headImageView.frame = CGRectMake(bubbleImageView.frame.size.width, cellView.frame.size.height-50.0f, 50.0f, 50.0f);
     }
 	else{
-        [headImageView setImage:[UIImage imageNamed:@"default_head_online.png"]];
+        [headImageView setImage:[UIImage imageNamed:_detailItem.Image]];
         returnView.frame= CGRectMake(65.0f, 15.0f, returnView.frame.size.width, returnView.frame.size.height);
         bubbleImageView.frame = CGRectMake(50.0f, 14.0f, returnView.frame.size.width+24.0f, returnView.frame.size.height+24.0f);
 		cellView.frame = CGRectMake(0.0f, 0.0f, bubbleImageView.frame.size.width+30.0f,bubbleImageView.frame.size.height+30.0f);
