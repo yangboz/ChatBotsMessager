@@ -92,7 +92,18 @@ MBProgressHUD *hud;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
-    //
+    //Variables initi
+    NSMutableArray *tempArray = [[NSMutableArray alloc] init];
+	self.chatArray = tempArray;
+	[tempArray release];
+	
+    NSMutableString *tempStr = [[NSMutableString alloc] initWithFormat:@""];
+    self.messageString = tempStr;
+    [tempStr release];
+    
+	NSDate   *tempDate = [[NSDate alloc] init];
+	self.lastTime = tempDate;
+	[tempDate release];
     //监听键盘高度的变换 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
@@ -249,6 +260,11 @@ MBProgressHUD *hud;
 // 
     hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.userInteractionEnabled = NO;
+    //Prepare to send message
+    [self beforeBubbleView:self.messageTextField.text from:YES];
+    //Text filed responder resign
+    self.messageTextField.text = @"";
+	[_messageTextField resignFirstResponder];
 }
 
 -(IBAction)showPhraseInfo:(id)sender
@@ -299,33 +315,8 @@ MBProgressHUD *hud;
     NSLog(@"responseVO.message.emotion: %@\n", [[responseVO message] emotion]);
     //
     [hud hide:YES];
-    //
-    
-	NSDate *nowTime = [NSDate date];
-	
-	NSMutableString *sendString=[NSMutableString stringWithCapacity:100];
-	[sendString appendString:message];
-	//开始发送
-	
-	if ([self.chatArray lastObject] == nil) {
-		self.lastTime = nowTime;
-		[self.chatArray addObject:nowTime];
-	}
-	// 发送后生成泡泡显示出来
-    //
-    self.lastTime = nowTime;
-    [self.chatArray addObject:nowTime];
-    //
-    UIView *chatView = [self bubbleView:[NSString stringWithFormat:@"%@:%@", NSLocalizedString(@"me",nil), message] 
-								   from:YES];
-	[self.chatArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:message, @"text", @"self", @"speaker", chatView, @"view", nil]];
-    
-	
-	[self.chatTableView reloadData];
-	[self.chatTableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:[self.chatArray count]-1 inSection:0] 
-							  atScrollPosition: UITableViewScrollPositionBottom 
-									  animated:YES];
-
+    //Prepare to send message
+    [self beforeBubbleView:message from:NO];
 } 
 
 - (void)requestFailed:(ASIHTTPRequest *)request
@@ -413,6 +404,32 @@ MBProgressHUD *hud;
  */
 #pragma mark -
 #pragma mark Table view methods
+- (void)beforeBubbleView:(NSString *)message from:(BOOL)fromSelf
+{
+    //Timestamp
+	NSDate *nowTime = [NSDate date];
+	//String with capcity limit.
+	NSMutableString *sendString=[NSMutableString stringWithCapacity:100];
+	[sendString appendString:message];
+	//准备发送
+	if ([self.chatArray lastObject] == nil) {
+		self.lastTime = nowTime;
+		[self.chatArray addObject:nowTime];
+	}
+	// 发送后生成泡泡显示出来
+    self.lastTime = nowTime;
+    [self.chatArray addObject:nowTime];
+    //
+    UIView *chatView = [self bubbleView:[NSString stringWithFormat:@"%@:%@", NSLocalizedString(@"me",nil), message] 
+								   from:fromSelf];
+	[self.chatArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:message, @"text", @"self", @"speaker", chatView, @"view", nil]];
+    //
+	[self.chatTableView reloadData];
+	[self.chatTableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:[self.chatArray count]-1 inSection:0] 
+							  atScrollPosition: UITableViewScrollPositionBottom 
+									  animated:YES];
+}
+
 - (UIView *)bubbleView:(NSString *)text from:(BOOL)fromSelf {
 	// build single chat bubble cell with given text
     UIView *returnView =  [self assembleMessageAtIndex:text from:fromSelf];
