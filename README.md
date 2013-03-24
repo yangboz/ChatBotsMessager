@@ -4,6 +4,7 @@ ChatBotsMessager
 Emotional Artificial Intelligence Chat Bots
 
 ![Screenshot of master view](https://raw.github.com/yangboz/ChatBotsMessager/master/ChatBotsMessager/ChatBotsMessager/Snapshots/ChatBotsMessagerMaster.jpg)
+![Screenshot of detail view](https://raw.github.com/yangboz/ChatBotsMessager/master/ChatBotsMessager/ChatBotsMessager/Snapshots/ChatBotsMessagerDetail.jpg)
 
 API
 ================
