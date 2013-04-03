@@ -10,6 +10,6 @@
 
 @implementation ChatBotVo
 
-@synthesize Image,Id,Name,Development,AI,Updated,Bio,Entity,Personality,Temperament,Basis,From,Country,Gender,Created,Interests;
+@synthesize Image,Id,Name,Development,AI,Updated,Bio,Entity,Personality,Temperament,Basis,From,Country,Gender,Created,Interests,Rating;
 
 @end

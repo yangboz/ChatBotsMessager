@@ -26,6 +26,7 @@
 //"Gender": "F",
 //"Created": "February 19, 2005",
 //	"Interests": "Prob is not an adult bot. PLEASE DO NOT CYBER Flora and fauna, singing, and roaming the forests are Prob's favorite things to do. She also has a fascination with campfires email her at Problem@WitchesBrew.zzn.com This is NOT an adult bot.. "
+//,"Rating": "E"
 @property(nonatomic,retain) NSString *Image;
 @property(nonatomic,retain) NSNumber *Id;
 @property(nonatomic,retain) NSString *Name;
@@ -42,5 +43,6 @@
 @property(nonatomic,retain) NSString *Gender;
 @property(nonatomic,retain) NSString *Created;
 @property(nonatomic,retain) NSString *Interests;
+@property(nonatomic,retain) NSString *Rating;
 
 @end
