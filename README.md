@@ -48,4 +48,17 @@ Raw response string
         )
 
 )
-</pre>sent on Sat, 23 Mar 2013 10:15:12 am<br>1 seconds ago. (limit is 300)<br>{"success":1,"errorMessage":"","message":{"chatBotName":"Desti","chatBotID":"6","message":"Good timing! I was just looking for someone to chat with.","emotion":"normal"}}
+</pre>sent on Sat, 23 Mar 2013 10:15:12 am<br>1 seconds ago. (limit is 300)<br>{"success":1,"errorMessage":"","
+
+TODO List
+================
+
+1.Preference implementation;
+
+2.Emotional presentation;
+
+3.Icon assets file;
+
+4.Testing and bug-issues fixing;
+
+....
