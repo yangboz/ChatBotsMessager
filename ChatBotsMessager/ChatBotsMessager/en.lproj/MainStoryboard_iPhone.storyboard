@@ -79,12 +79,48 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="u3a-yV-3a5" kind="modal" id="ijs-S5-eGY"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="459" y="64"/>
+        </scene>
+        <!--About Rating View Controller-->
+        <scene sceneID="5me-Gg-ypk">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v4D-m6-HUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="u3a-yV-3a5" customClass="AboutRatingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VFE-yj-h0I">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="mvO-Ke-DEP">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="422"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cPX-cD-8Kt">
+                                <rect key="frame" x="126" y="424" width="69" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="CLOSE">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="850" y="-546"/>
         </scene>
         <!--Detail View Controller - Detail-->
         <scene sceneID="24">
@@ -185,6 +221,9 @@
         <image name="senditem.png" width="70" height="33"/>
     </resources>
     <classes>
+        <class className="AboutRatingViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AboutRatingViewController.h"/>
+        </class>
         <class className="DetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
