@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface AboutRatingViewController : UIViewController
+{
+}
+
+@property(nonatomic,retain) IBOutlet UIWebView *_webView;
+//@property(nonatomic,retain) IBOutlet UIButton *_closeButton;
 
 @end
