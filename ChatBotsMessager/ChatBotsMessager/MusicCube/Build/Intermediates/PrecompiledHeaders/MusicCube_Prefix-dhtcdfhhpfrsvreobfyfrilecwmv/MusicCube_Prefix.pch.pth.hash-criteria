@@ -1,0 +1,25 @@
+Contents of /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/MusicCube_Prefix.pch
+3.1 (tags/Apple/clang-318.0.45) (based on LLVM 3.1svn)
+arm-apple-darwin11.4.2
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-std=c99
+-fpascal-strings
+-O0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+-g
+-fvisibility=hidden
+-mthumb
+-DIBOutlet=__attribute__((iboutlet))
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))
+-DIBAction=void)__attribute__((ibaction)
+-miphoneos-version-min=3.2
+-iquote
+-iquote
+-I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/include
+-F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos
+SDK_PRODUCT_BUILD_VERSION=9A334

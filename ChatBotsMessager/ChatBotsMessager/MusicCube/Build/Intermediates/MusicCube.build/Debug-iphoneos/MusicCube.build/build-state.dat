@@ -1,0 +1,538 @@
+TMusicCube
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Info.plist MusicCube-Info.plist
+cCompileXIB /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/en.lproj/MainWindow.xib
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/info.png images/info.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/description.png images/description.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/instr.png images/instr.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/nums.png images/nums.png
+cCpResource images/sound.wav Build/Products/Debug-iphoneos/MusicCube.app/sound.wav
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/speaker.png images/speaker.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-72.png images/Icon-72.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small-50.png images/Icon-Small-50.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small.png images/Icon-Small.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small@2x.png images/Icon-Small@2x.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon.png images/Icon.png
+cCpResource images/iTunesArtwork Build/Products/Debug-iphoneos/MusicCube.app/iTunesArtwork
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon@2x.png images/Icon@2x.png
+cProcessPCH /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch.pth MusicCube_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/main.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubeAppDelegate.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubeAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/EAGLView.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubePlayback.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubePlayback.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube normal armv7
+cGenerateDSYMFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app.dSYM /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube
+cTouch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004FE673120000000000000132
+t1340502802
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004F34A99100000000000001E5
+t1328851345
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F34A99400000000005B1A50
+t1328851348
+s5970512
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F34A99500000000003AE420
+t1328851349
+s3859488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F34A996000000000052C940
+t1328851350
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004F34A9960000000000001534
+t1328851350
+s5428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004F34A9970000000000023A10
+t1328851351
+s145936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004F34A9970000000000018510
+t1328851351
+s99600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004F34A99700000000001745D0
+t1328851351
+s1525200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004F34A9980000000000000BCB
+t1328851352
+s3019
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F34A999000000000078D300
+t1328851353
+s7918336
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/EAGLView.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCube.LinkFileList
+c0000000051A15D83000000000000030D
+t1369529731
+s781
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubeAppDelegate.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubePlayback.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch.pth
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app.dSYM
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-72.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small-50.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small@2x.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon@2x.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Info.plist
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/PkgInfo
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/ResourceRules.plist
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/description.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/iTunesArtwork
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/info.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/instr.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/nums.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/sound.wav
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/speaker.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/EAGLView.m
+c000000004C227A1E0000000000005D11
+t1277327902
+s23825
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubeAppDelegate.m
+c000000004C227A1E0000000000000C14
+t1277327902
+s3092
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubePlayback.m
+c000000004C227A1E000000000000214A
+t1277327902
+s8522
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/MusicCube_Prefix.pch
+c000000004AB17DEC00000000000009E4
+t1253146092
+s2532
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/en.lproj/MainWindow.xib
+c000000004C1F8A130000000000002B94
+t1277135379
+s11156
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-72.png
+c000000004C2250260000000000000427
+t1277317158
+s1063
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small-50.png
+c000000004C22502600000000000003E0
+t1277317158
+s992
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small.png
+c000000004C2250260000000000000396
+t1277317158
+s918
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small@2x.png
+c000000004C22502600000000000003F2
+t1277317158
+s1010
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon.png
+c000000004C22502600000000000003EF
+t1277317158
+s1007
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon@2x.png
+c000000004C22502600000000000004E4
+t1277317158
+s1252
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/description.png
+c000000004C1F8A13000000000000589A
+t1277135379
+s22682
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/iTunesArtwork
+c000000004C2250260000000000001444
+t1277317158
+s5188
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/info.png
+c000000004C1F8A130000000000001139
+t1277135379
+s4409
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/instr.png
+c000000004C1F8A130000000000001103
+t1277135379
+s4355
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/nums.png
+c000000004C1F8A130000000000001245
+t1277135379
+s4677
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/sound.wav
+c000000004C1F8A13000000000006C89C
+t1277135379
+s444572
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/speaker.png
+c000000004C1F8A130000000000001707
+t1277135379
+s5895
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/main.m
+c000000004AB17DEC0000000000000A68
+t1253146092
+s2664
+
+NMusicCube-Info.plist
+c000000004C22502600000000000004EB
+t1277317158
+s1259
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/EAGLView.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubeAppDelegate.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubePlayback.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies098792039551b741^33fda6039551b741^---0#1#0#--18"Check dependencies36"59176484-37B4-45D0-9BC8-B562C44C5327-
+
+CCompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/EAGLView.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222533.408374
+e391222533.587668
+r1
+xCompileC
+xBuild/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/EAGLView.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/EAGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/EAGLView.m10b268059551b741^697196059551b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/EAGLView.m0000000000000000^3953"CompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/EAGLView.o Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/EAGLView.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/EAGLView.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/EAGLView.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/EAGLView.o36"170F7B07-7C8A-44DE-AFC8-D1CC78B5A33E-
+
+CCompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubeAppDelegate.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubeAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222533.408369
+e391222533.507723
+r1
+xCompileC
+xBuild/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubeAppDelegate.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubeAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubeAppDelegate.m81b368059551b741^05f981059551b741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubeAppDelegate.m0000000000000000^4025"CompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubeAppDelegate.o Classes/MusicCubeAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubeAppDelegate.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubeAppDelegate.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubeAppDelegate.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubeAppDelegate.o36"965DD56F-6C62-44AA-8060-95CD2AA1D74C-
+
+CCompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubePlayback.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubePlayback.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222533.408491
+e391222533.504659
+r1
+xCompileC
+xBuild/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubePlayback.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubePlayback.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubePlayback.m8db468059551b741^333181059551b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubePlayback.m0000000000000000^4007"CompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubePlayback.o Classes/MusicCubePlayback.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubePlayback.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubePlayback.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Classes/MusicCubePlayback.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCubePlayback.o36"89BB7FDB-5525-452A-B8D0-441DDB9C6463-
+
+CCompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/main.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222533.408347
+e391222533.450391
+r1
+xCompileC
+xBuild/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/main.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/main.m64b268059551b741^186073059551b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/main.m0000000000000000^3913"CompileC Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/main.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/main.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/main.o36"D08AA0BA-CF4E-45FC-B01E-7AD5448E9081-
+
+CCompileXIB /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/en.lproj/MainWindow.xib
+s391222531.671546
+e391222533.099718
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/en.lproj/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compiling /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/en.lproj/MainWindow.xib3a02ac039551b741^558a19059551b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/en.lproj/MainWindow.xib0000000000000000^983"CompileXIB en.lproj/MainWindow.xib    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/en.lproj/MainWindow.nib /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/en.lproj/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"FF474710-DFAC-4645-9802-BF25ED739E5F-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-72.png images/Icon-72.png
+s391222531.851181
+e391222531.901073
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-72.png
+ximages/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon-72.png images/Icon-72.png15fdd9039551b741^f9c0e6039551b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-72.png0000000000000000^828"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon-72.png images/Icon-72.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-72.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-72.png36"7CC83EC0-3411-4742-8224-03EA8DE2382E-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small-50.png images/Icon-Small-50.png
+s391222531.851190
+e391222531.901079
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small-50.png
+ximages/Icon-Small-50.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small-50.png images/Icon-Small-50.png22fed9039551b741^7ac6e6039551b741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small-50.png0000000000000000^852"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small-50.png images/Icon-Small-50.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small-50.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small-50.png36"22865D2E-8D3E-4AE1-BD50-42B3D12550B1-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small.png images/Icon-Small.png
+s391222531.902285
+e391222531.945430
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small.png
+ximages/Icon-Small.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small.png images/Icon-Small.png4111e7039551b741^0115f2039551b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small.png0000000000000000^840"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small.png images/Icon-Small.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small.png36"CFB621ED-0D1B-447E-8054-FFC474D4F2D3-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small@2x.png images/Icon-Small@2x.png
+s391222531.902292
+e391222531.945432
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small@2x.png
+ximages/Icon-Small@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small@2x.png images/Icon-Small@2x.pnga511e7039551b741^e607f2039551b741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small@2x.png0000000000000000^860"CopyPNGFile "Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small@2x.png" "images/Icon-Small@2x.png"    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon-Small@2x.png" "/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon-Small@2x.png"36"C073C394-F8D7-4901-96D7-661D174AEFDB-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon.png images/Icon.png
+s391222531.902676
+e391222531.949048
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon.png
+ximages/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon.png images/Icon.pngc425e7039551b741^1ff6f2039551b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon.png0000000000000000^816"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon.png images/Icon.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon.png36"38129004-E4CD-4B6A-B0E8-297F45BC0524-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon@2x.png images/Icon@2x.png
+s391222531.946698
+e391222532.083554
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon@2x.png
+ximages/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/Icon@2x.png images/Icon@2x.pngb473f2039551b741^6bbb15049551b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon@2x.png0000000000000000^836"CopyPNGFile "Build/Products/Debug-iphoneos/MusicCube.app/Icon@2x.png" "images/Icon@2x.png"    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/Icon@2x.png" "/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Icon@2x.png"36"96E1D390-CF47-4DA8-9FA9-0501D0638999-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/description.png images/description.png
+s391222531.671561
+e391222531.901040
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/description.png
+ximages/description.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/description.png images/description.png93fdab039551b741^c4b5e6039551b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/description.png0000000000000000^844"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/description.png images/description.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/description.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/description.png36"56843B61-1120-4F30-A42B-1387FB750267-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/info.png images/info.png
+s391222531.671558
+e391222531.785763
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/info.png
+ximages/info.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/info.png images/info.png7affab039551b741^4435c9039551b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/info.png0000000000000000^816"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/info.png images/info.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/info.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/info.png36"C746DCE3-B933-4B0B-BA5D-AA32317CA3CD-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/instr.png images/instr.png
+s391222531.671991
+e391222531.790617
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/instr.png
+ximages/instr.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/instr.png images/instr.png3c15ac039551b741^cb66ca039551b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/instr.png0000000000000000^820"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/instr.png images/instr.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/instr.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/instr.png36"56560087-DA81-4F9B-B5DB-D99BCB81600C-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/nums.png images/nums.png
+s391222531.790596
+e391222531.849942
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/nums.png
+ximages/nums.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/nums.png images/nums.pngaa7dca039551b741^6496d9039551b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/nums.png0000000000000000^816"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/nums.png images/nums.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/nums.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/nums.png36"5AC95FBE-CADC-4A85-AC03-2C5D3E6637AF-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/speaker.png images/speaker.png
+s391222531.797814
+e391222531.850608
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/speaker.png
+ximages/speaker.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/speaker.png images/speaker.png9356cc039551b741^e3c2d9039551b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/speaker.png0000000000000000^828"CopyPNGFile Build/Products/Debug-iphoneos/MusicCube.app/speaker.png images/speaker.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/speaker.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/speaker.png36"B85CE68C-2CAF-4F3A-94B7-0823E1DB2F72-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/MusicCube.app/ResourceRules.plist
+r0
+
+CCpResource images/iTunesArtwork Build/Products/Debug-iphoneos/MusicCube.app/iTunesArtwork
+s391222531.946703
+e391222531.949480
+r1
+xCpResource
+ximages/iTunesArtwork
+xBuild/Products/Debug-iphoneos/MusicCube.app/iTunesArtwork
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphoneos/MusicCube.app/iTunesArtwork8f70f2039551b741^8810f3039551b741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/iTunesArtwork000000000080d041^843"CpResource images/iTunesArtwork Build/Products/Debug-iphoneos/MusicCube.app/iTunesArtwork    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/iTunesArtwork /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app36"25A64E93-DCA1-4F3D-979A-C1054B5424F8-
+
+CCpResource images/sound.wav Build/Products/Debug-iphoneos/MusicCube.app/sound.wav
+s391222531.791892
+e391222531.796510
+r1
+xCpResource
+ximages/sound.wav
+xBuild/Products/Debug-iphoneos/MusicCube.app/sound.wav
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy Build/Products/Debug-iphoneos/MusicCube.app/sound.wav08cdca039551b741^56f4cb039551b741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/sound.wav000000000080d041^831"CpResource images/sound.wav Build/Products/Debug-iphoneos/MusicCube.app/sound.wav    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/images/sound.wav /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app36"BE054A6B-8D5A-4073-9EB7-59A2B9690819-
+
+CGenerateDSYMFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app.dSYM /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube
+s391222533.650999
+e391222533.701465
+r1
+xGenerateDSYMFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app.dSYM
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Generating /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app.dSYM66bba6059551b741^8e92b3059551b741^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app.dSYM000000000080d041^761"GenerateDSYMFile Build/Products/Debug-iphoneos/MusicCube.app.dSYM Build/Products/Debug-iphoneos/MusicCube.app/MusicCube    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app.dSYM36"D12F5481-A55A-4C2C-9E9D-1B55C074408D-
+
+CLd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube normal armv7
+s391222533.594462
+e391222533.644088
+r1
+xLd
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Link /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCubee54398059551b741^97e4a4059551b741^---0#0#0#--1416"Ld Build/Products/Debug-iphoneos/MusicCube.app/MusicCube normal armv7    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos -filelist /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/Objects-normal/armv7/MusicCube.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework CoreGraphics -framework OpenAL -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/MusicCube36"B15A1C4F-60DC-43C1-96DA-3BEB6465CDD9-
+
+CProcessInfoPlistFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Info.plist MusicCube-Info.plist
+s391222531.659729
+e391222531.664031
+r1
+xProcessInfoPlistFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Info.plist
+xMusicCube-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process MusicCube-Info.plist90f5a8039551b741^22fea9039551b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/MusicCube-Info.plist0000000000000000^795"ProcessInfoPlistFile Build/Products/Debug-iphoneos/MusicCube.app/Info.plist MusicCube-Info.plist    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MusicCube-Info.plist -genpkginfo /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app/Info.plist36"64A8DDD9-E6DC-4006-84AE-BA16F966E651-
+
+CProcessPCH /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch.pth MusicCube_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222533.108634
+e391222533.401356
+r1
+xProcessPCH
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch.pth
+xMusicCube_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile MusicCube_Prefix.pch46ec1b059551b741^38be66059551b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/MusicCube_Prefix.pch0000000000000000^3799"ProcessPCH Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch.pth MusicCube_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/MusicCube-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/MusicCube.build/Debug-iphoneos/MusicCube.build/DerivedSources -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/MusicCube_Prefix.pch -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch.pth -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Intermediates/PrecompiledHeaders/MusicCube_Prefix-dhtcdfhhpfrsvreobfyfrilecwmv/MusicCube_Prefix.pch.d36"2D7BB76B-20A9-4E38-AC50-A8B884AB9E16-
+
+CProcessPCH /Users/smartkit/Library/Developer/Xcode/DerivedData/MusicCube-eidcgycodjkphcgytpboknssnnhc/Index/PrecompiledHeaders/MusicCube_Prefix-bikxqoypogfomlfhswtiyuhhfynp_ast/MusicCube_Prefix.pch.pth MusicCube_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app
+s391222533.709791
+e391222533.720698
+r1
+xTouch
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Touch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.appadc3b5059551b741^d07eb8059551b741^---0#0#0#--495"Touch Build/Products/Debug-iphoneos/MusicCube.app    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/MusicCube/Build/Products/Debug-iphoneos/MusicCube.app36"41CE7ECB-247C-4647-BBEA-C92AD735764E-
+

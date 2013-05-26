@@ -42,26 +42,9 @@
                                 <rect key="frame" x="0.0" y="660" width="703" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" style="done" id="IlX-4G-QFo">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eTk-e1-ZWb">
-                                            <rect key="frame" x="12" y="6" width="37" height="33"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                            <state key="normal" image="anonymous_user_32.png">
-                                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <state key="highlighted">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <connections>
-                                                <action selector="showPhraseInfo:" destination="4" eventType="touchUpInside" id="fqK-BM-maz"/>
-                                            </connections>
-                                        </button>
-                                    </barButtonItem>
                                     <barButtonItem style="plain" id="ovx-EM-zqr">
                                         <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input text...." minimumFontSize="17" id="Neb-mB-jW5">
-                                            <rect key="frame" x="59" y="7" width="554" height="31"/>
+                                            <rect key="frame" x="12" y="7" width="595" height="31"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <textInputTraits key="textInputTraits"/>
@@ -69,7 +52,7 @@
                                     </barButtonItem>
                                     <barButtonItem style="done" id="9vA-PM-e1E">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Enx-9S-zho">
-                                            <rect key="frame" x="623" y="6" width="72" height="33"/>
+                                            <rect key="frame" x="617" y="6" width="72" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <state key="normal" title="Send" backgroundImage="senditem.png">
@@ -255,7 +238,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="anonymous_user_32.png" width="32" height="32"/>
         <image name="senditem.png" width="70" height="33"/>
     </resources>
     <classes>

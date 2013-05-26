@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AppDelegate setMasterControllerData:]:AppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MasterViewController tableView:numberOfRowsInSection:]:MasterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_chatbots.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController HMACWithSecret:andData:]:DetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mac">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController getMessageJsonString]:DetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_detailItem.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController getHMAC_hash_string:]:DetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MasterViewController tableView:cellForRowAtIndexPath:]:MasterViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "cell">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

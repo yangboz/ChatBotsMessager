@@ -1,0 +1,680 @@
+TGLPaint
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Info.plist GLPaint-Info.plist
+cCpResource Select.caf Build/Products/Debug-iphoneos/GLPaint.app/Select.caf
+cCpResource Recording.data Build/Products/Debug-iphoneos/GLPaint.app/Recording.data
+cCpResource Erase.caf Build/Products/Debug-iphoneos/GLPaint.app/Erase.caf
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Blue.png Images/Blue.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Purple.png Images/Purple.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Green.png Images/Green.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Red.png Images/Red.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Yellow.png Images/Yellow.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Default.png Default.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Particle.png Particle.png
+cCompileXIB /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/MainWindow.xib
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-72.png Images/Icon-72.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small-50.png Images/Icon-Small-50.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small.png Images/Icon-Small.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small@2x.png Images/Icon-Small@2x.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon.png Images/Icon.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon@2x.png Images/Icon@2x.png
+cCpResource Images/iTunesArtwork Build/Products/Debug-iphoneos/GLPaint.app/iTunesArtwork
+cProcessPCH /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch.pth Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/main.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/AppController.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/SoundEffect.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingView.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingWindow.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint normal armv7
+cGenerateDSYMFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app.dSYM /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint
+cTouch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004FE673120000000000000132
+t1340502802
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004F34A99100000000000001E5
+t1328851345
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F34A99400000000005B1A50
+t1328851348
+s5970512
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F34A99500000000003AE420
+t1328851349
+s3859488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F34A996000000000052C940
+t1328851350
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004F34A9970000000000018510
+t1328851351
+s99600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004F34A99700000000001745D0
+t1328851351
+s1525200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004F34A9980000000000000BCB
+t1328851352
+s3019
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F34A999000000000078D300
+t1328851353
+s7918336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/TargetConditionals.h
+c000000004F34A9A800000000000031E9
+t1328851368
+s12777
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/AppController.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/GLPaint.LinkFileList
+c0000000051A15CC100000000000003AB
+t1369529537
+s939
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingView.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingWindow.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/SoundEffect.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch.pth
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app.dSYM
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Blue.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Default.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Erase.caf
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Green.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-72.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small-50.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small@2x.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon@2x.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Info.plist
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/MainWindow.nib
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Particle.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/PkgInfo
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Purple.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Recording.data
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Red.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/ResourceRules.plist
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Select.caf
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Yellow.png
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/iTunesArtwork
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m
+c000000004C599DF9000000000000205A
+t1280941561
+s8282
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m
+c000000004C599DF900000000000038C4
+t1280941561
+s14532
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m
+c000000004C599DF90000000000000BB3
+t1280941561
+s2995
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m
+c000000004C599DF90000000000000FE4
+t1280941561
+s4068
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Default.png
+c0000000048B6555F000000000000086F
+t1219908959
+s2159
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Erase.caf
+c0000000048B6555F0000000000008120
+t1219908959
+s33056
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Blue.png
+c0000000048B6555F000000000000049C
+t1219908959
+s1180
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Green.png
+c0000000048B6555F0000000000000487
+t1219908959
+s1159
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-72.png
+c000000004C292DED0000000000000427
+t1277767149
+s1063
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small-50.png
+c000000004C292DED00000000000003E0
+t1277767149
+s992
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small.png
+c000000004C292DED0000000000000396
+t1277767149
+s918
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small@2x.png
+c000000004C292DED00000000000003F2
+t1277767149
+s1010
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon.png
+c000000004C292DED00000000000003EF
+t1277767149
+s1007
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon@2x.png
+c000000004C292DED00000000000004E4
+t1277767149
+s1252
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Purple.png
+c0000000048B6555F0000000000000468
+t1219908959
+s1128
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Red.png
+c0000000048B6555F0000000000000470
+t1219908959
+s1136
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Yellow.png
+c0000000048B6555F000000000000047E
+t1219908959
+s1150
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/iTunesArtwork
+c000000004C292DED0000000000001444
+t1277767149
+s5188
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/MainWindow.xib
+c000000004AB940DE0000000000004826
+t1253654750
+s18470
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Particle.png
+c000000004C55CE04000000000000130D
+t1280691716
+s4877
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Prefix.pch
+c0000000048B6555F0000000000000051
+t1219908959
+s81
+i<TargetConditionals.h>
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Recording.data
+c0000000048B6555F0000000000000C84
+t1219908959
+s3204
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Select.caf
+c0000000048B6555F000000000000152C
+t1219908959
+s5420
+
+N/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/main.m
+c000000004C599DF90000000000000A58
+t1280941561
+s2648
+
+NGLPaint-Info.plist
+c000000004C4F375600000000000004A6
+t1280259926
+s1190
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies80ba65419451b741^d2fd8c419451b741^---0#1#0#--18"Check dependencies36"58954CE4-40F5-4CC5-B49B-E74B8849F19B-
+
+CCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/AppController.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222338.700051
+e391222338.856572
+r1
+xCompileC
+xBuild/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/AppController.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m:49:
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.h:65:56: warning: property type 'PaintingWindow *' is incompatible with type 'UIWindow *' inherited from 'UIApplicationDelegate'
+o@property (nonatomic, retain) IBOutlet PaintingWindow *window;
+o                                                       ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:286:41: note: property declared here
+o@property (nonatomic, retain) UIWindow *window __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_5_0);
+o                                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m925bb3429451b741^3546db429451b741^-865"In file included from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m:49:/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.h:65:56: warning: property type 'PaintingWindow *' is incompatible with type 'UIWindow *' inherited from 'UIApplicationDelegate'@property (nonatomic, retain) IBOutlet PaintingWindow *window;                                                       ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:286:41: note: property declared here@property (nonatomic, retain) UIWindow *window __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_5_0);                                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@110"Property type 'PaintingWindow *' is incompatible with type 'UIWindow *' inherited from 'UIApplicationDelegate'-391222338#18446744073709551615#0#2(2@139"In file included from /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m:49:-391222338#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@129"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m0000000000000000^48#8#48#8#2528#0#30"Apple LLVM compiler 3.1 Notice--2@22"Property declared here-391222338#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@183"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h0000000000000000^285#40#285#40#15048#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@129"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.h0000000000000000^64#55#64#55#2868#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@129"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m0000000000000000^3887"CompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/AppController.o Classes/AppController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources -Wall -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/AppController.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/AppController.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/AppController.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/AppController.o36"E05DA1D9-5C67-48C6-934B-DA5DEEB3A235-
+
+CCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingView.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222338.700085
+e391222338.884588
+r1
+xCompileC
+xBuild/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingView.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:330:31: warning: unused parameter 'touches' [-Wunused-parameter]
+o- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+o                              ^
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:341:31: warning: unused parameter 'touches' [-Wunused-parameter]
+o- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+o                              ^
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:364:31: warning: unused parameter 'touches' [-Wunused-parameter]
+o- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+o                              ^
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:377:35: warning: unused parameter 'touches' [-Wunused-parameter]
+o- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+o                                  ^
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:377:64: warning: unused parameter 'event' [-Wunused-parameter]
+o- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+o                                                               ^
+o5 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.mb054b3429451b741^fc72e2429451b741^-1440"/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:330:31: warning: unused parameter 'touches' [-Wunused-parameter]- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event                              ^/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:341:31: warning: unused parameter 'touches' [-Wunused-parameter]- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event                              ^/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:364:31: warning: unused parameter 'touches' [-Wunused-parameter]- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event                              ^/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:377:35: warning: unused parameter 'touches' [-Wunused-parameter]- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event                                  ^/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m:377:64: warning: unused parameter 'event' [-Wunused-parameter]- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event                                                               ^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@26"Unused parameter 'touches'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@128"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m0000000000000000^329#30#329#30#12490#0#14"Semantic Issue--2@26"Unused parameter 'touches'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@128"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m0000000000000000^340#30#340#30#12885#0#14"Semantic Issue--2@26"Unused parameter 'touches'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@128"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m0000000000000000^363#30#363#30#13681#0#14"Semantic Issue--2@26"Unused parameter 'touches'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@128"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m0000000000000000^376#34#376#34#14116#0#14"Semantic Issue--2@24"Unused parameter 'event'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@128"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m0000000000000000^376#63#376#63#14145#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@128"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m0000000000000000^3881"CompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingView.o Classes/PaintingView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources -Wall -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingView.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingView.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingView.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingView.o36"01D1385D-1092-4C86-A6A8-9ACA0838CE96-
+
+CCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingWindow.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222338.817593
+e391222338.882695
+r1
+xCompileC
+xBuild/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingWindow.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:52:37: warning: unused parameter 'motion' [-Wunused-parameter]
+o- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
+o                                    ^
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:52:65: warning: unused parameter 'event' [-Wunused-parameter]
+o- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
+o                                                                ^
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:56:65: warning: unused parameter 'event' [-Wunused-parameter]
+o- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+o                                                                ^
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:65:41: warning: unused parameter 'motion' [-Wunused-parameter]
+o- (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event
+o                                        ^
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:65:69: warning: unused parameter 'event' [-Wunused-parameter]
+o- (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event
+o                                                                    ^
+o5 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.mc079d1429451b741^88f6e1429451b741^-1549"/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:52:37: warning: unused parameter 'motion' [-Wunused-parameter]- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event                                    ^/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:52:65: warning: unused parameter 'event' [-Wunused-parameter]- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event                                                                ^/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:56:65: warning: unused parameter 'event' [-Wunused-parameter]- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event                                                                ^/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:65:41: warning: unused parameter 'motion' [-Wunused-parameter]- (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event                                        ^/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m:65:69: warning: unused parameter 'event' [-Wunused-parameter]- (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event                                                                    ^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@25"Unused parameter 'motion'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m0000000000000000^51#36#51#36#2594#0#14"Semantic Issue--2@24"Unused parameter 'event'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m0000000000000000^51#64#51#64#2622#0#14"Semantic Issue--2@24"Unused parameter 'event'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m0000000000000000^55#64#55#64#2697#0#14"Semantic Issue--2@25"Unused parameter 'motion'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m0000000000000000^64#40#64#40#2950#0#14"Semantic Issue--2@24"Unused parameter 'event'-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m0000000000000000^64#68#64#68#2978#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m0000000000000000^3893"CompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingWindow.o Classes/PaintingWindow.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources -Wall -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingWindow.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingWindow.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/PaintingWindow.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/PaintingWindow.o36"440A7E59-2C2D-4A2C-892A-E10C3728A182-
+
+CCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/SoundEffect.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222338.700077
+e391222338.816880
+r1
+xCompileC
+xBuild/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/SoundEffect.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m:76:32: warning: conversion specifies type 'int' but the argument has type 'OSStatus' (aka 'long') [-Wformat]
+o                NSLog(@"Error %d loading sound at path: %@", error, path);
+o                              ~^                             ~~~~~
+o                              %ld
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.mdd5db3429451b741^c91ed1429451b741^-418"/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m:76:32: warning: conversion specifies type 'int' but the argument has type 'OSStatus' (aka 'long') [-Wformat]                NSLog(@"Error %d loading sound at path: %@", error, path);                              ~^                             ~~~~~                              %ld1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@81"Conversion specifies type 'int' but the argument has type 'OSStatus' (aka 'long')-391222338#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@127"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m0000000000000000^75#31#75#31#3493#0#19"Format String Issue3(3@127"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m0000000000000000^75#61#75#66#3523#0#3@127"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m0000000000000000^75#30#75#32#3492#2#3@127"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m0000000000000000^75#30#75#32#3492#2#-0#0#0#-19%DVTDocumentLocation4@127"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m0000000000000000^3875"CompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/SoundEffect.o Classes/SoundEffect.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources -Wall -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/SoundEffect.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/SoundEffect.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Classes/SoundEffect.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/SoundEffect.o36"8AC1AAF7-9B6E-4904-9ECF-1F5582DB34F5-
+
+CCompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/main.o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222338.699510
+e391222338.816347
+r1
+xCompileC
+xBuild/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/main.o
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/main.mdf32b3429451b741^5dfdd0429451b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/main.m0000000000000000^3817"CompileC Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources -Wall -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/main.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/main.m -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/main.o36"86C217E4-70A3-4B1E-A879-444E8D99FD30-
+
+CCompileXIB /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/MainWindow.xib
+s391222337.676224
+e391222338.441048
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compiling /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/MainWindow.xib4930ad419451b741^d9e870429451b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/MainWindow.xib0000000000000000^948"CompileXIB MainWindow.xib    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/MainWindow.nib /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"402B1FA8-7FC6-4F5F-A874-FEE84C5AD87E-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Blue.png Images/Blue.png
+s391222337.570326
+e391222337.674671
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Blue.png
+xImages/Blue.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Blue.png Images/Blue.png011592419451b741^bec0ac419451b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Blue.png0000000000000000^806"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Blue.png Images/Blue.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Blue.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Blue.png36"7C345AF4-165E-43A6-82C7-34A0B77F4164-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Default.png Default.png
+s391222337.675916
+e391222337.761298
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Default.png
+xDefault.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Default.png Default.png5d18ad419451b741^e6ebc2419451b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Default.png0000000000000000^804"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Default.png Default.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Default.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Default.png36"EBBEA615-5DE3-48ED-844A-982739F4B0F2-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Green.png Images/Green.png
+s391222337.572350
+e391222337.674905
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Green.png
+xImages/Green.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Green.png Images/Green.png649592419451b741^d5ceac419451b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Green.png0000000000000000^810"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Green.png Images/Green.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Green.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Green.png36"772CAC33-9821-4A7E-83A9-68C8E333664F-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-72.png Images/Icon-72.png
+s391222337.744684
+e391222337.788414
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-72.png
+xImages/Icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon-72.png Images/Icon-72.pngd8bcbe419451b741^95d8c9419451b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-72.png0000000000000000^818"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon-72.png Images/Icon-72.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-72.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-72.png36"4292FB8A-E570-428A-9A90-80B0C582F1BD-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small-50.png Images/Icon-Small-50.png
+s391222337.749085
+e391222337.788206
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small-50.png
+xImages/Icon-Small-50.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small-50.png Images/Icon-Small-50.pngace0bf419451b741^abcbc9419451b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small-50.png0000000000000000^842"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small-50.png Images/Icon-Small-50.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small-50.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small-50.png36"7A3BD22E-EB28-42EF-809E-52BB55C4A3BF-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small.png Images/Icon-Small.png
+s391222337.762658
+e391222337.802434
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small.png
+xImages/Icon-Small.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small.png Images/Icon-Small.pngf757c3419451b741^787acd419451b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small.png0000000000000000^830"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small.png Images/Icon-Small.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small.png36"8B5471EE-EEDD-4548-B1E1-27CCDFA3835D-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small@2x.png Images/Icon-Small@2x.png
+s391222337.789509
+e391222337.850735
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small@2x.png
+xImages/Icon-Small@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small@2x.png Images/Icon-Small@2x.pngdf37ca419451b741^35cfd9419451b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small@2x.png0000000000000000^850"CopyPNGFile "Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small@2x.png" "Images/Icon-Small@2x.png"    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon-Small@2x.png" "/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon-Small@2x.png"36"A5DF62E5-3CA3-4D76-B20B-CBBAA47D339E-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon.png Images/Icon.png
+s391222337.789731
+e391222337.851001
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon.png
+xImages/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon.png Images/Icon.pngc840ca419451b741^00e3d9419451b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon.png0000000000000000^806"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon.png Images/Icon.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon.png36"D327DEBC-6A44-4404-8525-8CC588C19775-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon@2x.png Images/Icon@2x.png
+s391222337.803773
+e391222337.851033
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon@2x.png
+xImages/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Icon@2x.png Images/Icon@2x.pngb9dfcd419451b741^d5e8d9419451b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon@2x.png0000000000000000^826"CopyPNGFile "Build/Products/Debug-iphoneos/GLPaint.app/Icon@2x.png" "Images/Icon@2x.png"    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Icon@2x.png" "/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Icon@2x.png"36"222530D1-05B0-45B6-B045-7253B615AAFA-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Particle.png Particle.png
+s391222337.676210
+e391222337.747807
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Particle.png
+xParticle.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Particle.png Particle.pngc32bad419451b741^5f7abf419451b741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Particle.png0000000000000000^808"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Particle.png Particle.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Particle.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Particle.png36"1EBB04DF-A6AC-4810-81FC-35CEE7D7F5FC-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Purple.png Images/Purple.png
+s391222337.572341
+e391222337.674833
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Purple.png
+xImages/Purple.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Purple.png Images/Purple.png369492419451b741^dec8ac419451b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Purple.png0000000000000000^814"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Purple.png Images/Purple.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Purple.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Purple.png36"AD6984EB-0E39-4E02-9AD0-E9866DBCF122-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Red.png Images/Red.png
+s391222337.574232
+e391222337.674592
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Red.png
+xImages/Red.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Red.png Images/Red.png661093419451b741^fab6ac419451b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Red.png0000000000000000^802"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Red.png Images/Red.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Red.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Red.png36"BE198CD1-D49B-44B4-97EA-C6A6558F38EB-
+
+CCopyPNGFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Yellow.png Images/Yellow.png
+s391222337.675898
+e391222337.743379
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Yellow.png
+xImages/Yellow.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Yellow.png Images/Yellow.png2b18ad419451b741^594ebe419451b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Yellow.png0000000000000000^814"CopyPNGFile Build/Products/Debug-iphoneos/GLPaint.app/Yellow.png Images/Yellow.png    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/Yellow.png /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Yellow.png36"4633E8A8-7666-4C5F-B717-A2808558BD82-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/GLPaint.app/ResourceRules.plist
+r0
+
+CCpResource Erase.caf Build/Products/Debug-iphoneos/GLPaint.app/Erase.caf
+s391222337.569233
+e391222337.573098
+r1
+xCpResource
+xErase.caf
+xBuild/Products/Debug-iphoneos/GLPaint.app/Erase.caf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy Build/Products/Debug-iphoneos/GLPaint.app/Erase.caf87c491419451b741^24b792419451b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Erase.caf000000000080d041^807"CpResource Erase.caf Build/Products/Debug-iphoneos/GLPaint.app/Erase.caf    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Erase.caf /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app36"57E15037-7772-4DD2-A000-BFDAF5CC9ACE-
+
+CCpResource Images/iTunesArtwork Build/Products/Debug-iphoneos/GLPaint.app/iTunesArtwork
+s391222337.851983
+e391222337.854796
+r1
+xCpResource
+xImages/iTunesArtwork
+xBuild/Products/Debug-iphoneos/GLPaint.app/iTunesArtwork
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Products/Debug-iphoneos/GLPaint.app/iTunesArtworkfd30da419451b741^4ed4da419451b741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/iTunesArtwork000000000080d041^833"CpResource Images/iTunesArtwork Build/Products/Debug-iphoneos/GLPaint.app/iTunesArtwork    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Images/iTunesArtwork /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app36"0D4425DF-7149-4DE7-8052-E8E5CFBFE108-
+
+CCpResource Recording.data Build/Products/Debug-iphoneos/GLPaint.app/Recording.data
+s391222337.568780
+e391222337.572132
+r1
+xCpResource
+xRecording.data
+xBuild/Products/Debug-iphoneos/GLPaint.app/Recording.data
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Build/Products/Debug-iphoneos/GLPaint.app/Recording.data2eae91419451b741^e67792419451b741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Recording.data000000000080d041^822"CpResource Recording.data Build/Products/Debug-iphoneos/GLPaint.app/Recording.data    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Recording.data /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app36"A26F00C7-A2EF-4C07-B47C-75D102BA338B-
+
+CCpResource Select.caf Build/Products/Debug-iphoneos/GLPaint.app/Select.caf
+s391222337.568781
+e391222337.571181
+r1
+xCpResource
+xSelect.caf
+xBuild/Products/Debug-iphoneos/GLPaint.app/Select.caf
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Build/Products/Debug-iphoneos/GLPaint.app/Select.caf43ad91419451b741^e73992419451b741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Select.caf000000000080d041^810"CpResource Select.caf Build/Products/Debug-iphoneos/GLPaint.app/Select.caf    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Select.caf /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app36"1AF42D62-5BB5-4698-99BE-F4AA7AEA2444-
+
+CGenerateDSYMFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app.dSYM /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint
+s391222339.200091
+e391222339.218606
+r1
+xGenerateDSYMFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app.dSYM
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Generating /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app.dSYMcb4a33439451b741^1bf637439451b741^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app.dSYM000000000080d041^743"GenerateDSYMFile Build/Products/Debug-iphoneos/GLPaint.app.dSYM Build/Products/Debug-iphoneos/GLPaint.app/GLPaint    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app.dSYM36"ED867BF8-2829-4CC3-B67D-C29D55F2B85B-
+
+CLd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint normal armv7
+s391222338.890944
+e391222339.192818
+r1
+xLd
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint952be4429451b741^526031439451b741^---0#0#0#--1374"Ld Build/Products/Debug-iphoneos/GLPaint.app/GLPaint normal armv7    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos -filelist /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/Objects-normal/armv7/GLPaint.LinkFileList -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/GLPaint36"2DBF43F7-1C61-47DF-940C-67D398E55E44-
+
+CProcessInfoPlistFile /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Info.plist GLPaint-Info.plist
+s391222337.556884
+e391222337.560522
+r1
+xProcessInfoPlistFile
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Info.plist
+xGLPaint-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Process GLPaint-Info.plist499f8e419451b741^807e8f419451b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/GLPaint-Info.plist0000000000000000^779"ProcessInfoPlistFile Build/Products/Debug-iphoneos/GLPaint.app/Info.plist GLPaint-Info.plist    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility GLPaint-Info.plist -genpkginfo /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app/Info.plist36"E3E4BDD9-5F11-45E6-B59C-D798462570F1-
+
+CProcessPCH /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch.pth Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391222338.449243
+e391222338.692476
+r1
+xProcessPCH
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch.pth
+xPrefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Precompile Prefix.pch212073429451b741^9d47b1429451b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Prefix.pch0000000000000000^3641"ProcessPCH Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch.pth Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.2 -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-generated-files.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/GLPaint-project-headers.hmap -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/include -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/GLPaint.build/Debug-iphoneos/GLPaint.build/DerivedSources -Wall -F/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch.dia -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Prefix.pch -o /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch.pth -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Intermediates/PrecompiledHeaders/Prefix-dgyhsdayzlnjoqegfnltwapficnw/Prefix.pch.d36"F9107F19-9D02-416A-8AE6-B50634F1FACF-
+
+CProcessPCH /Users/smartkit/Library/Developer/Xcode/DerivedData/GLPaint-fbltbbvlkrmcxdbokrwzrdrirdhw/Index/PrecompiledHeaders/Prefix-aqgyjliqqydrlqgvbanvisfkguiq_ast/Prefix.pch.pth Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app
+s391222339.227881
+e391222339.332306
+r1
+xTouch
+x/Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Touch /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.appf1653a439451b741^ae1155439451b741^---0#0#0#--487"Touch Build/Products/Debug-iphoneos/GLPaint.app    cd /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/Github/ChatBotsMessager/ChatBotsMessager/ChatBotsMessager/GLPaint/Build/Products/Debug-iphoneos/GLPaint.app36"5A8B8F4F-F2F0-4240-A723-930C18399A33-
+
