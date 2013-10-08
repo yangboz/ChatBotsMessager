@@ -501,6 +501,11 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = GODPAPER;
+				TargetAttributes = {
+					A4AE8FB516F616780047B6A3 = {
+						DevelopmentTeam = 63X9SGW3ZX;
+					};
+				};
 			};
 			buildConfigurationList = A4AE8FB016F616780047B6A3 /* Build configuration list for PBXProject "ChatBotsMessager" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -685,10 +690,13 @@
 		A4AE8FDB16F616780047B6A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatBotsMessager/ChatBotsMessager-Prefix.pch";
 				INFOPLIST_FILE = "ChatBotsMessager/ChatBotsMessager-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -696,10 +704,13 @@
 		A4AE8FDC16F616780047B6A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatBotsMessager/ChatBotsMessager-Prefix.pch";
 				INFOPLIST_FILE = "ChatBotsMessager/ChatBotsMessager-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

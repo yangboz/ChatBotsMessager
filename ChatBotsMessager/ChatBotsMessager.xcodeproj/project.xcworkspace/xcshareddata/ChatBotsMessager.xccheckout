@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A2F7DD9-503A-4045-B30B-7C6F693ED0F1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChatBotsMessager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B08E82E5-A784-4365-ABEE-9A42D5F2E44D</key>
+		<string>https://github.com/yangboz/ChatBotsMessager.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChatBotsMessager/ChatBotsMessager.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B08E82E5-A784-4365-ABEE-9A42D5F2E44D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yangboz/ChatBotsMessager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B08E82E5-A784-4365-ABEE-9A42D5F2E44D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B08E82E5-A784-4365-ABEE-9A42D5F2E44D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChatBotsMessager</string>
+		</dict>
+	</array>
+</dict>
+</plist>
