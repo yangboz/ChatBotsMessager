@@ -205,7 +205,7 @@
 
 -(NSArray *)getChatBots
 {
-    return [[ChatBotsModel getAllChatBots] chatbots];
+    return [[[ChatBotsModel getAllChatBots] chatbots] retain];
 }
 -(NSMutableArray *)getGroupedChatBots
 {
