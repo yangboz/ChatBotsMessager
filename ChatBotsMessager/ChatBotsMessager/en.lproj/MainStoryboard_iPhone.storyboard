@@ -20,12 +20,101 @@
             </objects>
             <point key="canvasLocation" x="-1" y="64"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="8DV-VV-GJN">
+            <objects>
+                <tableViewController id="khb-Mi-boY" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9G7-wW-dQR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <textView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="twL-83-OmA">
+                            <rect key="frame" x="0.0" y="64" width="320" height="735"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <mutableString key="text">About The Personality Forge 
+
+Welcome to the Personality Forge, one of the most advanced artificial intelligence platforms in the world. Here people create and work on AI Personalities called chat bots who, once created, have an independent existence, chatting with both real people and other chat bots. While you're away, they're having conversations, making friends, and making memories that you can look in on.
+
+The Personality Forge's AI Engine integrates memories, emotions, knowledge of hundreds of thousands of words, sentence structure, unmatched pattern-matching capabilities, and a scripting language called AIScript. It's the heart and mind of all the bots here, and it's easy enough to work with that you need no programming experience to get started. Read more about the AI Engine's features.
+
+You can chat with bots, post messages on different topics in the forums, and become a part of the first-ever AI &amp; Human online community. For information on how to post messages, chat, and other general information, keep reading. You can find information on how to create AI Personalities in The Book of AI.
+
+Getting Started:
+You may want to start by chatting with some of our chat bots. You can find them by doing a search for any kind of personality, by selecting from the most advanced, checking the contest winners at our Hall of Fame, or by browsing the other chat bot lists under "Chat With Bots". 
+
+You can talk about the chat bots, AI, and the site in the forums. Then, when you're ready, create your own AI Personality by creating an account and then going to your personal Bot Workshop and reading The Book of AI. 
+
+
+
+Interacting With Users
+
+Forums: 
+You can find out more about the Personality Forge forums here.
+
+Chat Messages: 
+If another user is online at the same time as you, you can send then a realtime chat message that pops up on their screen as soon as they change pages. Simply hover over "Botmasters On" to see who is logged in to their account, and if they have an open-mouthed smile icon, you can send them a chat message by clicking on it.
+
+
+
+Logging Out
+
+Logging Out &amp; Session Timeouts: 
+There are several advantages to logging out when you are done. Simply closing the window or quitting your browser will not log you out, as such an action can not be detected by the system. In such cases, and cases in which you leave the window open while you are doing something else, there is a 40-minute timeout. If there is no activity (such as posting or changing pages) for 40 minutes, you will get a message and then if you dont respond, you will be logged out. Logging out marks you as gone and so people wont be trying to send you messages when you are not there.</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <sections>
+                            <tableViewSection id="Ajq-TU-Wgb">
+                                <cells/>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="khb-Mi-boY" id="jj4-ez-8j7"/>
+                            <outlet property="delegate" destination="khb-Mi-boY" id="oR1-uM-cdN"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="88c-Ea-Z0f"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6QV-zq-d9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="-616"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="0xO-xi-WQr">
+            <objects>
+                <tableViewController id="8JM-Fl-BjD" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Uxy-zE-A31">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="mTK-BY-Ev8">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mTK-BY-Ev8" id="AcJ-sI-5pg">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8JM-Fl-BjD" id="hFn-7V-3cc"/>
+                            <outlet property="delegate" destination="8JM-Fl-BjD" id="3lR-73-P31"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="fDl-Uj-r5o"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6u-D0-RUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="-602"/>
+        </scene>
         <!--Master View Controller - Master-->
         <scene sceneID="18">
             <objects>
                 <tableViewController title="Master" id="12" customClass="MasterViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="13">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -64,7 +153,7 @@
                             <outlet property="delegate" destination="12" id="15"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ChatBots" id="36">
+                    <navigationItem key="navigationItem" title="Bots" id="36">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="bNe-9m-Y1m">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="pY4-kg-Ukc">
                                 <rect key="frame" x="282" y="11" width="22" height="22"/>
@@ -78,7 +167,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="u3a-yV-3a5" kind="push" id="ijs-S5-eGY"/>
+                                    <segue destination="khb-Mi-boY" kind="push" id="hzK-ur-QVa"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -86,52 +175,18 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="459" y="64"/>
-        </scene>
-        <!--About Rating View Controller-->
-        <scene sceneID="5me-Gg-ypk">
-            <objects>
-                <viewController id="u3a-yV-3a5" customClass="AboutRatingViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VFE-yj-h0I">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="mvO-Ke-DEP">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
-                            </webView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cPX-cD-8Kt">
-                                <rect key="frame" x="126" y="424" width="69" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                <state key="normal" title="CLOSE">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="_closeButton" destination="cPX-cD-8Kt" id="Z2y-nv-4f1"/>
-                        <outlet property="_webView" destination="mvO-Ke-DEP" id="x3e-t9-8pN"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v4D-m6-HUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="850" y="-546"/>
+            <point key="canvasLocation" x="457" y="64"/>
         </scene>
         <!--Detail View Controller - Detail-->
         <scene sceneID="24">
             <objects>
                 <viewController title="Detail" id="21" customClass="DetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="22">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" tag="300" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jMJ-PR-5j0">
-                                <rect key="frame" x="0.0" y="-44" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="-44" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.87198394950000002" green="0.88577875299999997" blue="0.89673913039999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -140,7 +195,7 @@
                                 </connections>
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" tag="200" contentMode="scaleToFill" id="g82-ST-pVM">
-                                <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem style="plain" id="z5l-kc-9hX">
@@ -173,7 +228,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="iMessager" id="26">
+                    <navigationItem key="navigationItem" title="Chat" id="26">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="8ei-Ou-P1y">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Iv2-bK-7ZW">
                                 <rect key="frame" x="282" y="11" width="22" height="22"/>
@@ -186,6 +241,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8JM-Fl-BjD" kind="push" id="Zh2-ba-ly6"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -205,6 +263,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
 </document>
