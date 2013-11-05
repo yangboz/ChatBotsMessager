@@ -26,12 +26,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    NSLog(@"VC_Segue_AppInfo view did load!");
+    //Update the UITextView with border.
+    self.appInfoTxtView.layer.borderWidth = 1.0f;
+    self.appInfoTxtView.layer.borderColor = [[UIColor grayColor] CGColor];
+    self.appInfoTxtView.layer.cornerRadius = 4.0f;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+- (void)dealloc
+{
+    [self.appInfoTxtView release];
+    [super dealloc];
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,14 +54,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return 0;
 }

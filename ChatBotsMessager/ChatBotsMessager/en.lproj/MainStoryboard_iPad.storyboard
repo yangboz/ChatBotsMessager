@@ -103,25 +103,42 @@
             </objects>
             <point key="canvasLocation" x="448" y="248"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Segue Chat Bot Info-->
         <scene sceneID="vW2-ON-Mcs">
             <objects>
-                <tableViewController id="Dv7-R0-YgO" sceneMemberID="viewController">
+                <tableViewController id="Dv7-R0-YgO" customClass="VC_Segue_ChatBotInfo" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Xgu-uL-0gz">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Gpm-vO-j20">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="pQR-b2-95Y" detailTextLabel="Uyk-4B-bI3" style="IBUITableViewCellStyleSubtitle" id="Gpm-vO-j20">
                                 <rect key="frame" x="0.0" y="22" width="1024" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gpm-vO-j20" id="gZz-N6-noZ">
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pQR-b2-95Y">
+                                            <rect key="frame" x="15" y="3" width="34" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uyk-4B-bI3">
+                                            <rect key="frame" x="15" y="25" width="43" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="Dv7-R0-YgO" id="Gy8-Ia-5DL"/>
                             <outlet property="delegate" destination="Dv7-R0-YgO" id="TcN-k1-tMF"/>
@@ -216,10 +233,10 @@
             </objects>
             <point key="canvasLocation" x="859" y="-631"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Segue App Info-->
         <scene sceneID="1fb-Zi-PIp">
             <objects>
-                <tableViewController id="AHq-EU-Vy7" sceneMemberID="viewController">
+                <tableViewController id="AHq-EU-Vy7" customClass="VC_Segue_AppInfo" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wra-rS-gFC">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,6 +297,9 @@ There are several advantages to logging out when you are done. Simply closing th
                             <outlet property="delegate" destination="AHq-EU-Vy7" id="Fy4-EL-P5L"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="appInfoTxtView" destination="1IJ-jG-6FW" id="HDw-sY-w8o"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cL6-0d-q5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

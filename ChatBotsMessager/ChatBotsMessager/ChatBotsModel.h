@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AllChatBotsVO.h"
+#import "ChatBotVo.h"
 
 @interface ChatBotsModel : NSObject
 {}
@@ -17,5 +18,7 @@
 //AllChatBotsVo
 +(AllChatBotsVO *)getAllChatBots;
 +(void)setAllChatBots:(AllChatBotsVO *)value;
-
+//Current selected chat bot
++(ChatBotVo *)getSelectedChatBot;
++(void)setSelectedChatBot:(ChatBotVo *)value;
 @end

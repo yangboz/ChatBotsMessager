@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChatBotsModel.h"
 
 @class DetailViewController;
 

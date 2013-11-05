@@ -13,6 +13,8 @@
 @end
 
 @implementation VC_Segue_ChatBotInfo
+ChatBotVo *curChatBot;
+NSMutableDictionary *curChatBotProfile;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -26,7 +28,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    NSLog(@"VC_Segue_ChatBotInfo view did load!");
+    curChatBot = [ChatBotsModel getSelectedChatBot];
+    NSLog(@"Current selected chat bot Basis:%@",curChatBot.description);
+    //JSONObject to NSMutableArray.
+    curChatBotProfile = [[NSMutableDictionary alloc] init];
+    [curChatBotProfile setObject:curChatBot.AI forKey:@"AI"];
+    [curChatBotProfile setObject:curChatBot.Basis forKey:@"Basis"];
+    [curChatBotProfile setObject:curChatBot.Bio forKey:@"Bio"];
+    [curChatBotProfile setObject:curChatBot.Country forKey:@"Country"];
+    [curChatBotProfile setObject:curChatBot.Created forKey:@"Created"];
+    [curChatBotProfile setObject:curChatBot.Development forKey:@"Development"];
+    [curChatBotProfile setObject:curChatBot.Entity forKey:@"Entity"];
+    [curChatBotProfile setObject:curChatBot.From forKey:@"From"];
+    [curChatBotProfile setObject:curChatBot.Gender forKey:@"Gender"];
+    [curChatBotProfile setObject:curChatBot.Id forKey:@"Id"];
+    [curChatBotProfile setObject:curChatBot.Image forKey:@"Image"];
+    [curChatBotProfile setObject:curChatBot.Interests forKey:@"Interests"];
+    [curChatBotProfile setObject:curChatBot.Name forKey:@"Name"];
+    [curChatBotProfile setObject:curChatBot.Personality forKey:@"Personality"];
+    [curChatBotProfile setObject:curChatBot.Rating forKey:@"Rating"];
+    [curChatBotProfile setObject:curChatBot.Temperament forKey:@"Temperament"];
+    [curChatBotProfile setObject:curChatBot.Updated forKey:@"Updated"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -44,25 +67,28 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return [[curChatBotProfile allKeys] count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+    }
     // Configure the cell...
-    
+    NSArray *allKeys = [curChatBotProfile allKeys];
+    NSArray *allValues = [curChatBotProfile allValues];
+    cell.textLabel.text = [allKeys objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text = [allValues objectAtIndex:indexPath.row];
     return cell;
 }
 

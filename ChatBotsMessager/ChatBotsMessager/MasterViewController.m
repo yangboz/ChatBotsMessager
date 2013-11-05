@@ -129,7 +129,7 @@
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
-    return YES;
+    return NO;
 }
 
 - (NSString *) tableView:(UITableView *) tableView titleForHeaderInSection:(NSInteger)section {
@@ -198,6 +198,8 @@
         NSDictionary *dictionary = [_listOfRatings objectAtIndex:indexPath.section];
         NSArray *array = [dictionary objectForKey:RATINGS];
         ChatBotVo *object = [array objectAtIndex:indexPath.row];
+        //Update current selecte chat bot
+        [ChatBotsModel setSelectedChatBot:object];
         //
         [[segue destinationViewController] setDetailItem:object];
     }

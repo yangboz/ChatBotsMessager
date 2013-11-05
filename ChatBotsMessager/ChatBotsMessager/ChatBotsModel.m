@@ -15,7 +15,7 @@
 static ChatBotsModel *sharedInstance = nil;
 
 static AllChatBotsVO *allChatBots = nil;
-
+static ChatBotVo *selectedChatBot = nil;
 
 //In your class factory method for the class (named something like “sharedInstance” or “sharedManager”), it generates an instance of the class but only if the static instance is nil.
 +(ChatBotsModel *)sharedInstance
@@ -60,6 +60,15 @@ static AllChatBotsVO *allChatBots = nil;
 +(void)setAllChatBots:(AllChatBotsVO *)value
 {
 	allChatBots = value;
+}
+//
++(ChatBotVo *)getSelectedChatBot
+{
+    return selectedChatBot;
+}
++(void)setSelectedChatBot:(ChatBotVo *)value
+{
+    selectedChatBot = value;
 }
 
 @end

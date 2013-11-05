@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChatBotsModel.h"
+#import "ChatBotVo.h"
 
 @interface VC_Segue_ChatBotInfo : UITableViewController
-
+{}
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface VC_Segue_AppInfo : UITableViewController
-
+{}
+@property(nonatomic,strong) IBOutlet UITextView *appInfoTxtView;
 @end
