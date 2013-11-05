@@ -38,12 +38,12 @@ NSMutableDictionary *curChatBotProfile;
     [curChatBotProfile setObject:curChatBot.Bio forKey:@"Bio"];
     [curChatBotProfile setObject:curChatBot.Country forKey:@"Country"];
     [curChatBotProfile setObject:curChatBot.Created forKey:@"Created"];
-    [curChatBotProfile setObject:curChatBot.Development forKey:@"Development"];
+    //[curChatBotProfile setObject:curChatBot.Development forKey:@"Development"];
     [curChatBotProfile setObject:curChatBot.Entity forKey:@"Entity"];
     [curChatBotProfile setObject:curChatBot.From forKey:@"From"];
     [curChatBotProfile setObject:curChatBot.Gender forKey:@"Gender"];
-    [curChatBotProfile setObject:curChatBot.Id forKey:@"Id"];
-    [curChatBotProfile setObject:curChatBot.Image forKey:@"Image"];
+    //[curChatBotProfile setObject:curChatBot.Id forKey:@"Id"];
+    //[curChatBotProfile setObject:curChatBot.Image forKey:@"Image"];
     [curChatBotProfile setObject:curChatBot.Interests forKey:@"Interests"];
     [curChatBotProfile setObject:curChatBot.Name forKey:@"Name"];
     [curChatBotProfile setObject:curChatBot.Personality forKey:@"Personality"];
@@ -68,13 +68,13 @@ NSMutableDictionary *curChatBotProfile;
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return [[curChatBotProfile allKeys] count];
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 1;
+    return [[curChatBotProfile allKeys] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -87,8 +87,11 @@ NSMutableDictionary *curChatBotProfile;
     // Configure the cell...
     NSArray *allKeys = [curChatBotProfile allKeys];
     NSArray *allValues = [curChatBotProfile allValues];
-    cell.textLabel.text = [allKeys objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = [allValues objectAtIndex:indexPath.row];
+    NSString *key = [allKeys objectAtIndex:indexPath.row];
+    cell.textLabel.text = key;
+    NSString *value = [allValues objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text = value;
+    NSLog(@"index:%d,key-value:%@-%@",indexPath.row,key,value);
     return cell;
 }
 

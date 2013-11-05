@@ -22,6 +22,9 @@
             <PersistentString
                value = "cell.detailTextLabel.text">
             </PersistentString>
+            <PersistentString
+               value = "allKeys">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
    </ContextStates>
