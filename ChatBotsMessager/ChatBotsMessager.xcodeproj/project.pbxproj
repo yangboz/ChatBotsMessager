@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65816E50182FBC56003206C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E42182FBC56003206C3 /* Default-568h@2x.png */; };
+		65816E51182FBC56003206C3 /* Default-568h@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E43182FBC56003206C3 /* Default-568h@2x.psd */; };
+		65816E52182FBC56003206C3 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E44182FBC56003206C3 /* Default-Landscape.png */; };
+		65816E53182FBC56003206C3 /* Default-Landscape.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E45182FBC56003206C3 /* Default-Landscape.psd */; };
+		65816E54182FBC56003206C3 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E46182FBC56003206C3 /* Default-Landscape@2x.png */; };
+		65816E55182FBC56003206C3 /* Default-Landscape@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E47182FBC56003206C3 /* Default-Landscape@2x.psd */; };
+		65816E56182FBC56003206C3 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E48182FBC56003206C3 /* Default-Portrait.png */; };
+		65816E57182FBC56003206C3 /* Default-Portrait.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E49182FBC56003206C3 /* Default-Portrait.psd */; };
+		65816E58182FBC56003206C3 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E4A182FBC56003206C3 /* Default-Portrait@2x.png */; };
+		65816E59182FBC56003206C3 /* Default-Portrait@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E4B182FBC56003206C3 /* Default-Portrait@2x.psd */; };
+		65816E5A182FBC56003206C3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E4C182FBC56003206C3 /* Default.png */; };
+		65816E5B182FBC56003206C3 /* Default.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E4D182FBC56003206C3 /* Default.psd */; };
+		65816E5C182FBC56003206C3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E4E182FBC56003206C3 /* Default@2x.png */; };
+		65816E5D182FBC56003206C3 /* Default@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E4F182FBC56003206C3 /* Default@2x.psd */; };
+		65816E63182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E61182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd */; };
+		65816E64182FBCBD003206C3 /* ember.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65816E62182FBCBD003206C3 /* ember.gif */; };
 		65DFC2981828AE51005A7F91 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DFC28E1828AE51005A7F91 /* AppIcon29x29.png */; };
 		65DFC2991828AE51005A7F91 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DFC28F1828AE51005A7F91 /* AppIcon29x29@2x.png */; };
 		65DFC29A1828AE51005A7F91 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DFC2901828AE51005A7F91 /* AppIcon40x40.png */; };
@@ -93,6 +109,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65816E42182FBC56003206C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		65816E43182FBC56003206C3 /* Default-568h@2x.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default-568h@2x.psd"; sourceTree = "<group>"; };
+		65816E44182FBC56003206C3 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		65816E45182FBC56003206C3 /* Default-Landscape.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default-Landscape.psd"; sourceTree = "<group>"; };
+		65816E46182FBC56003206C3 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		65816E47182FBC56003206C3 /* Default-Landscape@2x.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default-Landscape@2x.psd"; sourceTree = "<group>"; };
+		65816E48182FBC56003206C3 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		65816E49182FBC56003206C3 /* Default-Portrait.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default-Portrait.psd"; sourceTree = "<group>"; };
+		65816E4A182FBC56003206C3 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		65816E4B182FBC56003206C3 /* Default-Portrait@2x.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default-Portrait@2x.psd"; sourceTree = "<group>"; };
+		65816E4C182FBC56003206C3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		65816E4D182FBC56003206C3 /* Default.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Default.psd; sourceTree = "<group>"; };
+		65816E4E182FBC56003206C3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		65816E4F182FBC56003206C3 /* Default@2x.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default@2x.psd"; sourceTree = "<group>"; };
+		65816E61182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = "App Icon Template [3.2]_ChatBotMessager.psd"; path = "Assets/App Icon Template [3.2]_ChatBotMessager.psd"; sourceTree = "<group>"; };
+		65816E62182FBCBD003206C3 /* ember.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ember.gif; path = Assets/ember.gif; sourceTree = "<group>"; };
 		65DFC28E1828AE51005A7F91 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon29x29.png; path = "Assets/App Icon [Squared]/AppIcon29x29.png"; sourceTree = "<group>"; };
 		65DFC28F1828AE51005A7F91 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon29x29@2x.png"; path = "Assets/App Icon [Squared]/AppIcon29x29@2x.png"; sourceTree = "<group>"; };
 		65DFC2901828AE51005A7F91 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon40x40.png; path = "Assets/App Icon [Squared]/AppIcon40x40.png"; sourceTree = "<group>"; };
@@ -233,6 +265,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65816E5F182FBC67003206C3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				65816E62182FBCBD003206C3 /* ember.gif */,
+				65816E42182FBC56003206C3 /* Default-568h@2x.png */,
+				65816E44182FBC56003206C3 /* Default-Landscape.png */,
+				65816E46182FBC56003206C3 /* Default-Landscape@2x.png */,
+				65816E48182FBC56003206C3 /* Default-Portrait.png */,
+				65816E4A182FBC56003206C3 /* Default-Portrait@2x.png */,
+				65816E4C182FBC56003206C3 /* Default.png */,
+				65816E4E182FBC56003206C3 /* Default@2x.png */,
+				65DFC28E1828AE51005A7F91 /* AppIcon29x29.png */,
+				65DFC28F1828AE51005A7F91 /* AppIcon29x29@2x.png */,
+				65DFC2901828AE51005A7F91 /* AppIcon40x40.png */,
+				65DFC2911828AE51005A7F91 /* AppIcon40x40@2x.png */,
+				65DFC2921828AE51005A7F91 /* AppIcon60x60.png */,
+				65DFC2931828AE51005A7F91 /* AppIcon60x60@2x.png */,
+				65DFC2941828AE51005A7F91 /* AppIcon76x76.png */,
+				65DFC2951828AE51005A7F91 /* AppIcon76x76@2x.png */,
+				65DFC2971828AE51005A7F91 /* iTunesArtwork@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		65816E60182FBC78003206C3 /* psd */ = {
+			isa = PBXGroup;
+			children = (
+				65816E47182FBC56003206C3 /* Default-Landscape@2x.psd */,
+				65816E49182FBC56003206C3 /* Default-Portrait.psd */,
+				65816E4D182FBC56003206C3 /* Default.psd */,
+				65816E4F182FBC56003206C3 /* Default@2x.psd */,
+				65816E4B182FBC56003206C3 /* Default-Portrait@2x.psd */,
+				65816E45182FBC56003206C3 /* Default-Landscape.psd */,
+				65816E43182FBC56003206C3 /* Default-568h@2x.psd */,
+				65816E61182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd */,
+			);
+			name = psd;
+			sourceTree = "<group>";
+		};
 		A404B04E16F89C09005C553F /* vo */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,15 +355,6 @@
 		A4AE8FC016F616780047B6A3 /* ChatBotsMessager */ = {
 			isa = PBXGroup;
 			children = (
-				65DFC28E1828AE51005A7F91 /* AppIcon29x29.png */,
-				65DFC28F1828AE51005A7F91 /* AppIcon29x29@2x.png */,
-				65DFC2901828AE51005A7F91 /* AppIcon40x40.png */,
-				65DFC2911828AE51005A7F91 /* AppIcon40x40@2x.png */,
-				65DFC2921828AE51005A7F91 /* AppIcon60x60.png */,
-				65DFC2931828AE51005A7F91 /* AppIcon60x60@2x.png */,
-				65DFC2941828AE51005A7F91 /* AppIcon76x76.png */,
-				65DFC2951828AE51005A7F91 /* AppIcon76x76@2x.png */,
-				65DFC2971828AE51005A7F91 /* iTunesArtwork@2x.png */,
 				A4AE900716F61E1F0047B6A3 /* utils */,
 				A4AE8FE216F61AD60047B6A3 /* resources */,
 				A4AE8FDF16F619720047B6A3 /* controller */,
@@ -358,6 +420,8 @@
 		A4AE8FE216F61AD60047B6A3 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				65816E60182FBC78003206C3 /* psd */,
+				65816E5F182FBC67003206C3 /* images */,
 				A4FDF65416F9FE73003C8403 /* ChatBots */,
 				A4FDF65316F9FE69003C8403 /* Emoticons */,
 				A4FF21A0170FCB98007C2570 /* Settings.bundle */,
@@ -568,14 +632,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AE8FC516F616780047B6A3 /* InfoPlist.strings in Resources */,
+				65816E64182FBCBD003206C3 /* ember.gif in Resources */,
 				A4AE8FCE16F616780047B6A3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A4AE8FD116F616780047B6A3 /* MainStoryboard_iPad.storyboard in Resources */,
 				A4AE8FE116F6198F0047B6A3 /* chatbots.json in Resources */,
+				65816E63182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd in Resources */,
 				65DFC2991828AE51005A7F91 /* AppIcon29x29@2x.png in Resources */,
+				65816E52182FBC56003206C3 /* Default-Landscape.png in Resources */,
 				65DFC2A01828AE51005A7F91 /* iTunesArtwork.png in Resources */,
 				A4AE8FE716F61C0D0047B6A3 /* AutoResponder_86889.gif in Resources */,
 				A4AE8FE816F61C0D0047B6A3 /* Azureon_23969.gif in Resources */,
 				A4AE8FE916F61C0D0047B6A3 /* Desti_6.jpeg in Resources */,
+				65816E57182FBC56003206C3 /* Default-Portrait.psd in Resources */,
+				65816E5A182FBC56003206C3 /* Default.png in Resources */,
 				A4AE8FEA16F61C0D0047B6A3 /* Dogh'd_722.jpeg in Resources */,
 				A4AE8FF716F61C190047B6A3 /* Gir_3673.gif in Resources */,
 				A4AE8FF916F61C190047B6A3 /* InvaderZim_3672.gif in Resources */,
@@ -584,10 +653,13 @@
 				A4AE8FFC16F61C190047B6A3 /* Liddora_754.gif in Resources */,
 				A4AE8FFD16F61C190047B6A3 /* MidnightBlue_2.gif in Resources */,
 				A4AE8FFE16F61C190047B6A3 /* prob_23958.gif in Resources */,
+				65816E50182FBC56003206C3 /* Default-568h@2x.png in Resources */,
 				A4AE8FFF16F61C190047B6A3 /* RockGawd_10906.gif in Resources */,
+				65816E5B182FBC56003206C3 /* Default.psd in Resources */,
 				A4AE900116F61C190047B6A3 /* ValleyTeen_64022.gif in Resources */,
 				65DFC29E1828AE51005A7F91 /* AppIcon76x76.png in Resources */,
 				A4AE900216F61C190047B6A3 /* ZombieKing_86176.gif in Resources */,
+				65816E5C182FBC56003206C3 /* Default@2x.png in Resources */,
 				A4FDF65B16F9FF3E003C8403 /* Y_emoticons_blushing.gif in Resources */,
 				A4FDF65C16F9FF3E003C8403 /* Y_emoticons_confused.gif in Resources */,
 				A4FDF65D16F9FF3E003C8403 /* Y_emoticons_happy.gif in Resources */,
@@ -595,22 +667,30 @@
 				A4FDF65F16F9FF3E003C8403 /* Y_emoticons_tongue.gif in Resources */,
 				A4FDF66016F9FF3E003C8403 /* Y_emoticons_winking.gif in Resources */,
 				65DFC29F1828AE51005A7F91 /* AppIcon76x76@2x.png in Resources */,
+				65816E55182FBC56003206C3 /* Default-Landscape@2x.psd in Resources */,
 				A4FDF66A16FA0062003C8403 /* bubble.png in Resources */,
+				65816E5D182FBC56003206C3 /* Default@2x.psd in Resources */,
 				65DFC29A1828AE51005A7F91 /* AppIcon40x40.png in Resources */,
 				A4FDF66B16FA0062003C8403 /* bubbleSelf.png in Resources */,
+				65816E59182FBC56003206C3 /* Default-Portrait@2x.psd in Resources */,
 				A4FDF66D16FA0062003C8403 /* ChatCustomCell.xib in Resources */,
 				A4FDF66F16FA0062003C8403 /* ChatViewController.xib in Resources */,
+				65816E51182FBC56003206C3 /* Default-568h@2x.psd in Resources */,
 				65DFC29D1828AE51005A7F91 /* AppIcon60x60@2x.png in Resources */,
+				65816E58182FBC56003206C3 /* Default-Portrait@2x.png in Resources */,
+				65816E56182FBC56003206C3 /* Default-Portrait.png in Resources */,
 				A4FDF67416FA01AC003C8403 /* FaceViewController.xib in Resources */,
 				65DFC2A11828AE51005A7F91 /* iTunesArtwork@2x.png in Resources */,
 				65DFC2A31828AE7C005A7F91 /* Images.xcassets in Resources */,
 				A4FDF67616FA06D1003C8403 /* Y_emoticons_big_grin.gif in Resources */,
 				A4FDF67816FA0BED003C8403 /* anonymous_user_32.png in Resources */,
 				A4FDF67A16FA0D28003C8403 /* anonymous_talk_32.png in Resources */,
+				65816E53182FBC56003206C3 /* Default-Landscape.psd in Resources */,
 				65DFC29B1828AE51005A7F91 /* AppIcon40x40@2x.png in Resources */,
 				65DFC2981828AE51005A7F91 /* AppIcon29x29.png in Resources */,
 				A4FDF67C16FA0F35003C8403 /* senditem.png in Resources */,
 				65DFC29C1828AE51005A7F91 /* AppIcon60x60.png in Resources */,
+				65816E54182FBC56003206C3 /* Default-Landscape@2x.png in Resources */,
 				A4FF21A1170FCB98007C2570 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
