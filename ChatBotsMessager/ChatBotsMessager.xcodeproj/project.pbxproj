@@ -23,6 +23,7 @@
 		65816E5D182FBC56003206C3 /* Default@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E4F182FBC56003206C3 /* Default@2x.psd */; };
 		65816E63182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E61182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd */; };
 		65816E64182FBCBD003206C3 /* ember.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65816E62182FBCBD003206C3 /* ember.gif */; };
+		65816E6618320801003206C3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65816E6518320801003206C3 /* iAd.framework */; };
 		65DFC2981828AE51005A7F91 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DFC28E1828AE51005A7F91 /* AppIcon29x29.png */; };
 		65DFC2991828AE51005A7F91 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DFC28F1828AE51005A7F91 /* AppIcon29x29@2x.png */; };
 		65DFC29A1828AE51005A7F91 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 65DFC2901828AE51005A7F91 /* AppIcon40x40.png */; };
@@ -125,6 +126,7 @@
 		65816E4F182FBC56003206C3 /* Default@2x.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default@2x.psd"; sourceTree = "<group>"; };
 		65816E61182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = "App Icon Template [3.2]_ChatBotMessager.psd"; path = "Assets/App Icon Template [3.2]_ChatBotMessager.psd"; sourceTree = "<group>"; };
 		65816E62182FBCBD003206C3 /* ember.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ember.gif; path = Assets/ember.gif; sourceTree = "<group>"; };
+		65816E6518320801003206C3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		65DFC28E1828AE51005A7F91 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon29x29.png; path = "Assets/App Icon [Squared]/AppIcon29x29.png"; sourceTree = "<group>"; };
 		65DFC28F1828AE51005A7F91 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon29x29@2x.png"; path = "Assets/App Icon [Squared]/AppIcon29x29@2x.png"; sourceTree = "<group>"; };
 		65DFC2901828AE51005A7F91 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon40x40.png; path = "Assets/App Icon [Squared]/AppIcon40x40.png"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65816E6618320801003206C3 /* iAd.framework in Frameworks */,
 				A404B06316F8A5AF005C553F /* libz.dylib in Frameworks */,
 				A404B06116F8A59A005C553F /* SystemConfiguration.framework in Frameworks */,
 				A4AE8FBF16F616780047B6A3 /* CoreGraphics.framework in Frameworks */,
@@ -341,6 +344,7 @@
 		A4AE8FB916F616780047B6A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65816E6518320801003206C3 /* iAd.framework */,
 				A404B06216F8A5AF005C553F /* libz.dylib */,
 				A404B06016F8A59A005C553F /* SystemConfiguration.framework */,
 				A404B05E16F8A563005C553F /* MobileCoreServices.framework */,
