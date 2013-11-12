@@ -57,7 +57,6 @@ MBProgressHUD *hud;
 	[_chatArray release];
 	[_titleString release];
 	[_chatTableView release];
-    [_banner release];
     [super dealloc];
 }
 
@@ -116,13 +115,10 @@ MBProgressHUD *hud;
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillChangeFrameNotification object:nil];
     }
 #endif
-    //iAD
-    self.banner.delegate = self;
 }
 
 - (void)viewDidUnload
 {
-    [self setBanner:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     
@@ -634,21 +630,4 @@ MBProgressHUD *hud;
     NSLog(@"%.1f %.1f", X, Y);
     return returnView;
 }
-
-#pragma mark - iAD
--(BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave
-{
-    return YES;
-}
-
--(void)bannerViewDidLoadAd:(ADBannerView *)banner
-{
-    //TODO:implementation here.
-}
-
--(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
-{
-    //TODO:implementation here.
-}
-
 @end

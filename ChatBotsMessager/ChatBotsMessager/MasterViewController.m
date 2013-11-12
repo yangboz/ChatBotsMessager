@@ -25,8 +25,6 @@
 @synthesize detailViewController = _detailViewController;
 @synthesize chatbots = _chatbots;
 
-
-
 - (void)awakeFromNib
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
@@ -52,6 +50,7 @@
     [_detailViewController release];
     [_chatbots release];
     [_listOfRatings release];
+    [bannerView release];
     [super dealloc];
 }
 
@@ -67,19 +66,28 @@
     //Test code
     _groupedChatbots = [self getGroupedChatBots];
     NSLog(@"_groupedChatbots:%@",_groupedChatbots);
+    //
+    bannerView = [[ADBannerView alloc] initWithFrame:CGRectZero];
+    bannerView.requiredContentSizeIdentifiers = [NSSet setWithObjects:ADBannerContentSizeIdentifierPortrait,ADBannerContentSizeIdentifierLandscape, nil];
+    bannerView.delegate = self;
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    self.tableView = nil;
+    bannerView = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        //iAD
+        bannerView.currentContentSizeIdentifier =  ADBannerContentSizeIdentifierLandscape;
         return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
     } else {
+        bannerView.currentContentSizeIdentifier = ADBannerContentSizeIdentifierPortrait;
         return YES;
     }
 }
@@ -250,6 +258,27 @@
     [_listOfRatings addObject:adultRatingDict];
     //
     return _listOfRatings;
+}
+
+#pragma mark iAD
+-(void)bannerViewDidLoadAd:(ADBannerView *)banner
+{
+    self.tableView.tableHeaderView = bannerView;
+}
+
+-(BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave
+{
+    return YES;
+}
+
+-(void)bannerViewActionDidFinish:(ADBannerView *)banner
+{
+    
+}
+
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
+{
+    
 }
 
 @end

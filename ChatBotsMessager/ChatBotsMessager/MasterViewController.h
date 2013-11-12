@@ -8,18 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "ChatBotsModel.h"
+#import <iAd/iAd.h>
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController <ADBannerViewDelegate>
 {
     NSMutableArray *_chatbots;
+    ADBannerView *bannerView;
 }
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
 @property (nonatomic, retain) NSMutableArray *chatbots;
-
-
 
 @end

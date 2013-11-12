@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "ChatBotVo.h"
 #import "FaceViewController.h"
-#import <iAd/iAd.h>
 
-@interface DetailViewController : UIViewController <UISplitViewControllerDelegate,UITableViewDataSource,UITableViewDelegate,
-    ADBannerViewDelegate>
+@interface DetailViewController : UIViewController <UISplitViewControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 {
     NSString                   *_titleString;
 	NSMutableString            *_messageString;
@@ -41,5 +39,4 @@
 -(IBAction)sendMessage_Click:(id)sender;
 -(IBAction)showPhraseInfo:(id)sender;
 
-@property (retain, nonatomic) IBOutlet ADBannerView *banner;
 @end
