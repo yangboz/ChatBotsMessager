@@ -57,7 +57,7 @@ TODO List
 
 2.Emotional presentation;
 
-3.Icon assets file;
+3.Icon assets file; (Done!including app lanuch images);
 
 4.Testing and bug-issues fixing;
 
