@@ -192,9 +192,11 @@
 //        NSDate *object = [[self getChatBots] objectAtIndex:indexPath.row];
         NSDictionary *dictionary = [_listOfRatings objectAtIndex:indexPath.section];
         NSArray *array = [dictionary objectForKey:RATINGS];
-        ChatBotVo *object = [array objectAtIndex:indexPath.row];
+        ChatBotVo *chatBotVo = (ChatBotVo *)[array objectAtIndex:indexPath.row];
         //
-        self.detailViewController.detailItem = (ChatBotVo *)object;
+        self.detailViewController.detailItem = chatBotVo;
+        //
+        [ChatBotsModel setSelectedChatBot:chatBotVo];
     }
 }
 

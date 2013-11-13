@@ -31,6 +31,9 @@ NSMutableDictionary *curChatBotProfile;
     NSLog(@"VC_Segue_ChatBotInfo view did load!");
     curChatBot = [ChatBotsModel getSelectedChatBot];
     NSLog(@"Current selected chat bot Basis:%@",curChatBot.description);
+    if (curChatBot==nil) {
+        return;//Empty handler.
+    }
     //JSONObject to NSMutableArray.
     curChatBotProfile = [[NSMutableDictionary alloc] init];
     [curChatBotProfile setObject:curChatBot.AI forKey:@"AI"];
