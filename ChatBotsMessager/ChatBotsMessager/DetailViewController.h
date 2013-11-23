@@ -28,6 +28,7 @@
 @property (nonatomic, retain) IBOutlet FaceViewController   *phraseViewController;
 @property (nonatomic, retain) IBOutlet UITableView            *chatTableView;
 @property (nonatomic, retain) IBOutlet UITextField            *messageTextField;
+@property (nonatomic, retain) IBOutlet UIButton            *phraseButton;
 //
 @property (nonatomic, retain) NSString               *phraseString;
 @property (nonatomic, retain) NSString               *titleString;

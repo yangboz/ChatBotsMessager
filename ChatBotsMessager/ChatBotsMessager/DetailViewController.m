@@ -115,6 +115,9 @@ MBProgressHUD *hud;
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillChangeFrameNotification object:nil];
     }
 #endif
+    //PhraseButton setting here.
+    //Disabled style
+    self.phraseButton.alpha = 0.5;
 }
 
 - (void)viewDidUnload

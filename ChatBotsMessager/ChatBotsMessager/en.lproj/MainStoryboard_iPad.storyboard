@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="5">
     <dependencies>
         <deployment defaultVersion="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -41,9 +41,18 @@
                                 <rect key="frame" x="0.0" y="724" width="703" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
+                                    <barButtonItem style="plain" id="Jqe-0M-AOu">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WJT-Hg-XWc">
+                                            <rect key="frame" x="16" y="6" width="32" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="anonymous_user_32.png">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" id="ovx-EM-zqr">
-                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input text...." minimumFontSize="17" id="Neb-mB-jW5">
-                                            <rect key="frame" x="16" y="7" width="595" height="31"/>
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Text Message" minimumFontSize="17" id="Neb-mB-jW5">
+                                            <rect key="frame" x="58" y="7" width="557" height="31"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <textInputTraits key="textInputTraits"/>
@@ -51,7 +60,7 @@
                                     </barButtonItem>
                                     <barButtonItem style="done" id="9vA-PM-e1E">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Enx-9S-zho">
-                                            <rect key="frame" x="621" y="6" width="72" height="33"/>
+                                            <rect key="frame" x="625" y="6" width="72" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <state key="normal" title="Send" backgroundImage="senditem.png">
@@ -97,6 +106,7 @@
                     <connections>
                         <outlet property="chatTableView" destination="lrb-jQ-bcR" id="xyp-EG-esT"/>
                         <outlet property="messageTextField" destination="Neb-mB-jW5" id="BWh-7q-SSE"/>
+                        <outlet property="phraseButton" destination="WJT-Hg-XWc" id="WrM-Pq-oXU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="15" sceneMemberID="firstResponder"/>
@@ -322,6 +332,7 @@ There are several advantages to logging out when you are done. Simply closing th
         </scene>
     </scenes>
     <resources>
+        <image name="anonymous_user_32.png" width="32" height="32"/>
         <image name="senditem.png" width="70" height="33"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3">
     <dependencies>
         <deployment defaultVersion="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -218,9 +218,18 @@ There are several advantages to logging out when you are done. Simply closing th
                                 <rect key="frame" x="0.0" y="524.00000009102314" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
+                                    <barButtonItem style="plain" id="nLD-8n-Zf5">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="t0A-XS-XEI">
+                                            <rect key="frame" x="16" y="2" width="31" height="40"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="anonymous_user_32.png">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" id="z5l-kc-9hX">
-                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input text...." minimumFontSize="17" id="iHG-Jk-dql">
-                                            <rect key="frame" x="16" y="7" width="219" height="31"/>
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Text Message" minimumFontSize="17" id="iHG-Jk-dql">
+                                            <rect key="frame" x="57" y="7" width="179" height="31"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <textInputTraits key="textInputTraits"/>
@@ -228,7 +237,7 @@ There are several advantages to logging out when you are done. Simply closing th
                                     </barButtonItem>
                                     <barButtonItem style="done" id="WMX-v1-t0S">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LdV-7O-fzI">
-                                            <rect key="frame" x="245" y="6" width="72" height="33"/>
+                                            <rect key="frame" x="246" y="6" width="72" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <state key="normal" title="Send" backgroundImage="senditem.png">
@@ -270,6 +279,7 @@ There are several advantages to logging out when you are done. Simply closing th
                     <connections>
                         <outlet property="chatTableView" destination="jMJ-PR-5j0" id="yuG-2R-vwW"/>
                         <outlet property="messageTextField" destination="iHG-Jk-dql" id="YR5-rx-89t"/>
+                        <outlet property="phraseButton" destination="t0A-XS-XEI" id="QLD-G0-SAr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
@@ -278,6 +288,7 @@ There are several advantages to logging out when you are done. Simply closing th
         </scene>
     </scenes>
     <resources>
+        <image name="anonymous_user_32.png" width="32" height="32"/>
         <image name="senditem.png" width="70" height="33"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
