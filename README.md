@@ -61,4 +61,6 @@ TODO List
 
 4.Testing and bug-issues fixing;
 
+5.Submit to Apple AppStore and inform Benji;
+
 ....
