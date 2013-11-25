@@ -27,5 +27,13 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController HMACWithSecret:andData:]:DetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sizeof(hexmacData)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>
