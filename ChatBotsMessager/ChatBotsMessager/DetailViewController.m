@@ -273,7 +273,7 @@ MBProgressHUD *hud;
 -(IBAction)showPhraseInfo:(id)sender
 {
     NSLog(@"showPhraseInfo!");
-    //
+    //TODO:display phrase info view;
 }
 
 - (void)requestFinished:(ASIHTTPRequest *)request 
@@ -382,6 +382,7 @@ MBProgressHUD *hud;
 
 - (NSString*) HMACWithSecret:(NSString*)secret andData:(NSString *)data
 {
+    NSLog(@"HMAC with Secret: %@,andData:%@",secret,data);
     CCHmacContext    ctx;
     const char       *key = [secret UTF8String];
     const char       *str = [data UTF8String];
@@ -394,10 +395,17 @@ MBProgressHUD *hud;
     CCHmacFinal( &ctx, mac );
     
     p = hexmac;
-    for (int i = 0; i < CC_SHA256_DIGEST_LENGTH; i++ ) {
-        snprintf( p, 3, "%02x", mac[ i ] );
-        p += 2;
+    if(0!=hexmac[0])
+    {
+        for (int i = 0; i < CC_SHA256_DIGEST_LENGTH; i++ ) {
+            snprintf( p, 3, "%02x", mac[ i ] );
+            p += 2;
+        }
+    }else
+    {
+        NSLog(@"HEXMAC zero exception!!!");
     }
+    
     NSLog(@"hexmac sizeof = %lu",sizeof(hexmac));
     NSData *hexmacData = [NSData dataWithBytes:hexmac length:sizeof(hexmac)];
     NSLog(@"hexmacData = %@",hexmacData);

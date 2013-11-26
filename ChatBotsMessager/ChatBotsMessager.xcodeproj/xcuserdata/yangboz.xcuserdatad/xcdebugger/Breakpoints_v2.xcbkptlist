@@ -10,11 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatBotsMessager/DetailViewController.m"
-            timestampString = "407091387.434549"
+            timestampString = "407149258.549915"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "404"
-            endingLineNumber = "404"
+            startingLineNumber = "412"
+            endingLineNumber = "412"
+            landmarkName = "-HMACWithSecret:andData:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBotsMessager/DetailViewController.m"
+            timestampString = "407149249.052641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "406"
+            endingLineNumber = "406"
             landmarkName = "-HMACWithSecret:andData:"
             landmarkType = "5">
          </BreakpointContent>
