@@ -206,7 +206,7 @@ There are several advantages to logging out when you are done. Simply closing th
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" tag="300" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jMJ-PR-5j0">
-                                <rect key="frame" x="0.0" y="63" width="320" height="461.0000001896895"/>
+                                <rect key="frame" x="0.0" y="63.000000189689494" width="320" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.87198394950000002" green="0.88577875299999997" blue="0.89673913039999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>

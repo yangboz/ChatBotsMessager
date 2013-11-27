@@ -415,16 +415,16 @@ MBProgressHUD *hud;
     CCHmacFinal( &ctx, mac );
     
     p = hexmac;
-    if(0!=hexmac[0])
-    {
+    //if(0!=hexmac[0])
+    //{
         for (int i = 0; i < CC_SHA256_DIGEST_LENGTH; i++ ) {
             snprintf( p, 3, "%02x", mac[ i ] );
             p += 2;
         }
-    }else
-    {
-        NSLog(@"HEXMAC zero exception!!!");
-    }
+    //}else
+    //{
+        //NSLog(@"HEXMAC zero exception!!!");
+    //}
     
     NSLog(@"hexmac sizeof = %lu",sizeof(hexmac));
     NSData *hexmacData = [NSData dataWithBytes:hexmac length:sizeof(hexmac)];
