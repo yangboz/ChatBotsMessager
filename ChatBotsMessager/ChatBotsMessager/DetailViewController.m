@@ -118,6 +118,26 @@ MBProgressHUD *hud;
     //PhraseButton setting here.
     //Disabled style
     self.phraseButton.alpha = 0.5;
+    // Allocate a reachability object
+    Reachability* reach = [Reachability reachabilityWithHostname:@"www.google.com"];
+    
+    // Set the blocks
+    reach.reachableBlock = ^(Reachability*reach)
+    {
+        NSLog(@"Reachability->REACHABLE!");
+    };
+    
+    reach.unreachableBlock = ^(Reachability*reach)
+    {
+        NSLog(@"Reachability->UNREACHABLE!");
+        //Update UI with disabled feature.
+        //
+        [self.view setUserInteractionEnabled:NO];
+        
+    };
+    
+    // Start the notifier, which will cause the reachability object to retain itself!
+    [reach startNotifier];
 }
 
 - (void)viewDidUnload
