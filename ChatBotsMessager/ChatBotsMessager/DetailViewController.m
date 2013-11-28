@@ -68,9 +68,6 @@ MBProgressHUD *hud;
     if (_detailItem != newDetailItem) {
         [_detailItem release];
         _detailItem = [newDetailItem retain];
-
-        // Update the view.
-        [self configureView];
     }
 
     if (self.masterPopoverController != nil) {
@@ -83,7 +80,8 @@ MBProgressHUD *hud;
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        //TODO:configureView
+        //configureView
+        self.title = self.detailItem.Name;
     }
 }
 

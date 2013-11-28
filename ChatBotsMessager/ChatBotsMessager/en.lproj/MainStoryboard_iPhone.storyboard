@@ -215,7 +215,7 @@ There are several advantages to logging out when you are done. Simply closing th
                                 </connections>
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" tag="200" contentMode="scaleToFill" id="g82-ST-pVM">
-                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="524.00000018968944" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem style="plain" id="nLD-8n-Zf5">
@@ -248,7 +248,7 @@ There are several advantages to logging out when you are done. Simply closing th
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
-                                                <action selector="sendMessage_Click:" destination="21" eventType="touchUpInside" id="EUb-Od-ARZ"/>
+                                                <action selector="sendMessage_Click:" destination="21" eventType="touchUpInside" id="AM6-DJ-I5m"/>
                                             </connections>
                                         </button>
                                     </barButtonItem>
