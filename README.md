@@ -1,7 +1,7 @@
 ChatBotsMessager
 ================
 
-Emotional Artificial Intelligence Chat Bots
+With Emotional Artificial Intelligence Chat Bots Chatting!
 
 ![Screenshot of master view](https://raw.github.com/yangboz/ChatBotsMessager/master/ChatBotsMessager/ChatBotsMessager/Snapshots/ChatBotsMessagerMaster.jpg)
 ![Screenshot of detail view](https://raw.github.com/yangboz/ChatBotsMessager/master/ChatBotsMessager/ChatBotsMessager/Snapshots/ChatBotsMessagerDetail.jpg)
