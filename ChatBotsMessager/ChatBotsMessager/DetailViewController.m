@@ -427,7 +427,8 @@ MBProgressHUD *hud;
     NSLog(@"hexmac sizeof = %lu",sizeof(hexmac));
     NSData *hexmacData = [NSData dataWithBytes:hexmac length:sizeof(hexmac)];
     NSLog(@"hexmacData = %@",hexmacData);
-    return [NSString stringWithUTF8String:hexmac];
+    NSString *resultStr = [NSString stringWithUTF8String:hexmac];
+    return resultStr;
 }
 
 /*
