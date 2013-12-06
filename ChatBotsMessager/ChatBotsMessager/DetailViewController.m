@@ -42,6 +42,8 @@
 @synthesize messageString = _messageString;
 @synthesize phraseString = _phraseString;
 @synthesize lastTime = _lastTime;
+@synthesize phraseButton = _phraseButton;
+@synthesize sendButton = _sendButton;
 
 MBProgressHUD *hud;
 
@@ -57,6 +59,8 @@ MBProgressHUD *hud;
 	[_chatArray release];
 	[_titleString release];
 	[_chatTableView release];
+    [_phraseButton release];
+    [_sendButton release];
     [super dealloc];
 }
 
@@ -259,6 +263,7 @@ MBProgressHUD *hud;
 #pragma mark Responding to API request
 -(IBAction)sendMessage_Click:(id)sender
 {
+    NSLog(@"Button pressed: %@", [sender currentTitle]);
     if (!self.messageTextField.text.length) {
         return;//Empty message.
     }
@@ -400,6 +405,7 @@ MBProgressHUD *hud;
 
 - (NSString*) HMACWithSecret:(NSString*)secret andData:(NSString *)data
 {
+    //
     NSLog(@"HMAC with Secret: %@,andData:%@",secret,data);
     CCHmacContext    ctx;
     const char       *key = [secret UTF8String];

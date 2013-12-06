@@ -30,6 +30,7 @@
 @property (nonatomic, retain) IBOutlet UITableView            *chatTableView;
 @property (nonatomic, retain) IBOutlet UITextField            *messageTextField;
 @property (nonatomic, retain) IBOutlet UIButton            *phraseButton;
+@property (nonatomic, retain) IBOutlet UIButton            *sendButton;
 //
 @property (nonatomic, retain) NSString               *phraseString;
 @property (nonatomic, retain) NSString               *titleString;

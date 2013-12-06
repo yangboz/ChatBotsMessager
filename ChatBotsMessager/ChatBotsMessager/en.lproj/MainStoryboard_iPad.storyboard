@@ -107,6 +107,7 @@
                         <outlet property="chatTableView" destination="lrb-jQ-bcR" id="xyp-EG-esT"/>
                         <outlet property="messageTextField" destination="Neb-mB-jW5" id="BWh-7q-SSE"/>
                         <outlet property="phraseButton" destination="WJT-Hg-XWc" id="WrM-Pq-oXU"/>
+                        <outlet property="sendButton" destination="Enx-9S-zho" id="CaU-Yc-QrX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="15" sceneMemberID="firstResponder"/>
