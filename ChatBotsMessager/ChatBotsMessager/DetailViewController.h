@@ -25,7 +25,7 @@
 	NSDate                     *_lastTime;
 }
 @property (strong, nonatomic) ChatBotVo *detailItem;
-
+//
 @property (nonatomic, retain) IBOutlet FaceViewController   *phraseViewController;
 @property (nonatomic, retain) IBOutlet UITableView            *chatTableView;
 @property (nonatomic, retain) IBOutlet UITextField            *messageTextField;

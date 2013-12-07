@@ -23,6 +23,9 @@
 #define BEGIN_FLAG @"[/"
 #define END_FLAG @"]"
 
+#define TOOLBAR_MARGIN 50.0
+#define TOOLBAR_HEIGHT 44.0f
+
 @interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 - (void)configureView;
@@ -30,7 +33,7 @@
 
 @implementation DetailViewController
 
-@synthesize detailItem = _detailItem;
+//@synthesize detailItem = _detailItem;
 @synthesize masterPopoverController = _masterPopoverController;
 
 //
@@ -47,6 +50,7 @@
 
 MBProgressHUD *hud;
 
+//
 - (void)dealloc
 {
     [_detailItem release];
@@ -72,6 +76,8 @@ MBProgressHUD *hud;
     if (_detailItem != newDetailItem) {
         [_detailItem release];
         _detailItem = [newDetailItem retain];
+        //
+        [self configureView];
     }
 
     if (self.masterPopoverController != nil) {
@@ -93,7 +99,7 @@ MBProgressHUD *hud;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+    //[self configureView];
     //Variables initi
     NSMutableArray *tempArray = [[NSMutableArray alloc] init];
 	self.chatArray = tempArray;
@@ -184,7 +190,7 @@ MBProgressHUD *hud;
 {
 	if(textField == self.messageTextField)
 	{
-        //		[self moveViewUp];
+        //TODO:		[self moveViewUp];
 	}
 }
 
@@ -202,11 +208,11 @@ MBProgressHUD *hud;
         width = screenRect.size.height;
         height = screenRect.size.width;
         //
-        toolbar.frame = CGRectMake(0.0f, (float)(height-h-108.0), width, 44.0f);
-        tableView.frame = CGRectMake(0.0f, 0.0f, width,(float)(height-h-108.0));
+        toolbar.frame = CGRectMake(0.0f, (float)(height-h-TOOLBAR_MARGIN), width, TOOLBAR_HEIGHT);
+        tableView.frame = CGRectMake(0.0f, 0.0f, width,(float)(height-h-TOOLBAR_MARGIN));
     }else {
-        toolbar.frame = CGRectMake(0.0f, (float)(height-h-108.0), width, 44.0f);
-        tableView.frame = CGRectMake(0.0f, 0.0f, width,(float)(height-h-108.0));
+        toolbar.frame = CGRectMake(0.0f, (float)(height-h-TOOLBAR_MARGIN), width, TOOLBAR_HEIGHT);
+        tableView.frame = CGRectMake(0.0f, 0.0f, width,(float)(height-h-TOOLBAR_MARGIN));
     }
     
 //    NSLog(@"width: %u", width);
@@ -434,6 +440,7 @@ MBProgressHUD *hud;
     NSData *hexmacData = [NSData dataWithBytes:hexmac length:sizeof(hexmac)];
     NSLog(@"hexmacData = %@",hexmacData);
     NSString *resultStr = [NSString stringWithUTF8String:hexmac];
+    //NSString *resultStr = [[NSString alloc] initWithBytes:[hexmacData bytes] length:sizeof(hexmacData) encoding:NSUTF8StringEncoding];
     return resultStr;
 }
 
