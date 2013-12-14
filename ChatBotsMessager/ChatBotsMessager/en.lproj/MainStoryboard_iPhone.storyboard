@@ -206,7 +206,7 @@ There are several advantages to logging out when you are done. Simply closing th
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" tag="300" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jMJ-PR-5j0">
-                                <rect key="frame" x="0.0" y="63.000000091023175" width="320" height="461"/>
+                                <rect key="frame" x="0.0" y="63.000000189689494" width="320" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.87198394950000002" green="0.88577875299999997" blue="0.89673913039999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -215,7 +215,7 @@ There are several advantages to logging out when you are done. Simply closing th
                                 </connections>
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" tag="200" contentMode="scaleToFill" id="g82-ST-pVM">
-                                <rect key="frame" x="0.0" y="524.00000009102314" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="524.00000018968944" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem style="plain" id="nLD-8n-Zf5">
@@ -248,7 +248,7 @@ There are several advantages to logging out when you are done. Simply closing th
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
-                                                <action selector="sendMessage_Click:" destination="21" eventType="touchUpInside" id="h1p-JL-769"/>
+                                                <action selector="sendMessage_Click:" destination="21" eventType="touchUpInside" id="Oxz-KL-xXB"/>
                                             </connections>
                                         </button>
                                     </barButtonItem>

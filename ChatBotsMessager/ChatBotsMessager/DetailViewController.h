@@ -41,5 +41,4 @@
 //
 -(IBAction)sendMessage_Click:(id)sender;
 -(IBAction)showPhraseInfo:(id)sender;
-
 @end

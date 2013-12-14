@@ -3,14 +3,6 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[VC_Segue_ChatBotInfo viewDidLoad]:VC_Segue_ChatBotInfo.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "curChatBot.AI">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "-[VC_Segue_ChatBotInfo tableView:cellForRowAtIndexPath:]:VC_Segue_ChatBotInfo.m">
          <PersistentStrings>
             <PersistentString
@@ -32,6 +24,20 @@
          <PersistentStrings>
             <PersistentString
                value = "sizeof(hexmacData)">
+            </PersistentString>
+            <PersistentString
+               value = "resultStr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController sendMessage_Click:]:DetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[VC_Segue_ChatBotInfo viewDidLoad]:VC_Segue_ChatBotInfo.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "curChatBot.AI">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

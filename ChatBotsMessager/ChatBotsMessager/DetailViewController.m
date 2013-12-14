@@ -146,6 +146,8 @@ MBProgressHUD *hud;
     
     // Start the notifier, which will cause the reachability object to retain itself!
     [reach startNotifier];
+    //
+//    [self.sendButton addTarget:self action:@selector(sendMessage_Click:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)viewDidUnload
@@ -277,8 +279,10 @@ MBProgressHUD *hud;
     //Simple API example
 //    NSString *url = [NSString stringWithFormat:@"%@%@%@%@%@",API_DOMAIN,API_KEY,@"&chatBotId=6&message=",self.messageTextField.text,@"&externalID=abc-639184572&firstName=Tugger&lastName=Sufani&gender=m"];
     NSString *msgJsonStr = [self getMessageJsonString];
+    NSLog(@"msgJsonStr:%@",msgJsonStr);
     //
     NSString *hashStr = [self HMACWithSecret:API_SECERT andData:msgJsonStr];
+    if(nil == hashStr) return;
     NSString *urlEncodeStr = [self getUrlEncodeString:msgJsonStr];
     NSLog(@"msgJsonStr: %@",msgJsonStr);
     NSLog(@"hashStr: %@",hashStr);
@@ -297,6 +301,7 @@ MBProgressHUD *hud;
     //Text filed responder resign
     self.messageTextField.text = @"";
 	[_messageTextField resignFirstResponder];
+
 }
 
 -(IBAction)showPhraseInfo:(id)sender
@@ -306,7 +311,7 @@ MBProgressHUD *hud;
 }
 
 - (void)requestFinished:(ASIHTTPRequest *)request 
-{ 
+{
     // Use when fetching text data 
     NSString *responseString = [request responseString]; 
     NSLog(@"API request response str:%@",responseString);
@@ -411,6 +416,7 @@ MBProgressHUD *hud;
 
 - (NSString*) HMACWithSecret:(NSString*)secret andData:(NSString *)data
 {
+    //return @"NSString";
     //
     NSLog(@"HMAC with Secret: %@,andData:%@",secret,data);
     CCHmacContext    ctx;
@@ -425,21 +431,24 @@ MBProgressHUD *hud;
     CCHmacFinal( &ctx, mac );
     
     p = hexmac;
-    //if(0!=hexmac[0])
-    //{
+//    if(0!=hexmac[0])
+//    {
         for (int i = 0; i < CC_SHA256_DIGEST_LENGTH; i++ ) {
             snprintf( p, 3, "%02x", mac[ i ] );
             p += 2;
         }
-    //}else
-    //{
-        //NSLog(@"HEXMAC zero exception!!!");
-    //}
+//    }else
+//    {
+//        NSLog(@"HEXMAC zero exception!!!");
+//        return nil;
+//    }
     
     NSLog(@"hexmac sizeof = %lu",sizeof(hexmac));
-    NSData *hexmacData = [NSData dataWithBytes:hexmac length:sizeof(hexmac)];
-    NSLog(@"hexmacData = %@",hexmacData);
-    NSString *resultStr = [NSString stringWithUTF8String:hexmac];
+    //NSData *hexmacData = [NSData dataWithBytes:hexmac length:sizeof(hexmac)];
+    //NSLog(@"hexmacData = %@",hexmacData);
+    NSString *resultStr = @"";
+//    resultStr = [NSString stringWithUTF8String:hexmac];
+    resultStr = [resultStr stringByAppendingString:[NSString stringWithUTF8String:hexmac]];
     //NSString *resultStr = [[NSString alloc] initWithBytes:[hexmacData bytes] length:sizeof(hexmacData) encoding:NSUTF8StringEncoding];
     return resultStr;
 }
