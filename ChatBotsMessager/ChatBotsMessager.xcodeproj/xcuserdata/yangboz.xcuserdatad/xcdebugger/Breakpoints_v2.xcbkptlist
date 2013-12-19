@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatBotsMessager/DetailViewController.m"
-            timestampString = "408672906.339861"
+            timestampString = "408675483.856052"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "453"
-            endingLineNumber = "453"
+            startingLineNumber = "461"
+            endingLineNumber = "461"
             landmarkName = "-HMACWithSecret:andData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatBotsMessager/DetailViewController.m"
-            timestampString = "408672906.339861"
+            timestampString = "408675483.2054"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "286"
             endingLineNumber = "286"
-            landmarkName = "-sendMessage_Click:"
+            landmarkName = "-onSendMessageClick:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ChatBotsMessager/DetailViewController.m"
-            timestampString = "408672906.339861"
+            timestampString = "409133810.082595"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "443"
-            endingLineNumber = "443"
-            landmarkName = "-HMACWithSecret:andData:"
+            startingLineNumber = "490"
+            endingLineNumber = "490"
+            landmarkName = "+HMACSHA1withKey:forString:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChatBotsMessager/DetailViewController.m"
+            timestampString = "409133792.545485"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "468"
+            endingLineNumber = "468"
+            landmarkName = "+HMACSHA1withKey:forString:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

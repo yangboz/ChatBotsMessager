@@ -39,6 +39,6 @@
 @property (nonatomic, retain) NSDate                 *lastTime;
 
 //
--(IBAction)sendMessage_Click:(id)sender;
+-(IBAction)onSendMessageClick:(id)sender;
 -(IBAction)showPhraseInfo:(id)sender;
 @end

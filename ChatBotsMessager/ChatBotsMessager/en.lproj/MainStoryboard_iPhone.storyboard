@@ -248,7 +248,7 @@ There are several advantages to logging out when you are done. Simply closing th
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
-                                                <action selector="sendMessage_Click:" destination="21" eventType="touchUpInside" id="Oxz-KL-xXB"/>
+                                                <action selector="onSendMessageClick:" destination="21" eventType="touchUpInside" id="ILH-VR-k1e"/>
                                             </connections>
                                         </button>
                                     </barButtonItem>
