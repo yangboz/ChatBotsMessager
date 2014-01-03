@@ -64,3 +64,9 @@ TODO List
 5.Submit to Apple AppStore and inform Benji;
 
 ....
+
+
+Backlog
+================
+
+http://www.codeproject.com/Articles/689451/Developing-Android-Applications-with-Voice-Recogni
