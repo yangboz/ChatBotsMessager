@@ -10,6 +10,7 @@
 #import "ChatBotVo.h"
 #import "FaceViewController.h"
 #import "Reachability.h"
+#import "StringUtil.h"
 
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 {
