@@ -55,7 +55,7 @@
                                             <rect key="frame" x="58" y="7" width="557" height="31"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
                                         </textField>
                                     </barButtonItem>
                                     <barButtonItem style="done" id="9vA-PM-e1E">
