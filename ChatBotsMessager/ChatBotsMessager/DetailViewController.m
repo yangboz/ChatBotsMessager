@@ -542,6 +542,10 @@ MBProgressHUD *hud;
 		UIView *chatView = [chatInfo objectForKey:@"view"];
 		[cell.contentView addSubview:chatView];
 	}
+    // Fix for iOS 7 to clear backgroundColor
+    cell.backgroundColor = [UIColor clearColor];
+    cell.backgroundView = [[UIView new] autorelease];
+    cell.selectedBackgroundView = [[UIView new] autorelease];
     return cell;
 }
 #pragma mark -
