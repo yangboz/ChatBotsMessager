@@ -11,6 +11,7 @@
 #import "FaceViewController.h"
 #import "Reachability.h"
 #import "StringUtil.h"
+#import "CMPopTipView.h"
 
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate,UITableViewDataSource,UITableViewDelegate>
 {
@@ -24,6 +25,7 @@
 	BOOL                       _isFromNewSMS;
 	FaceViewController      *_phraseViewController;
 	NSDate                     *_lastTime;
+    CMPopTipView *_phraseInfoView;
 }
 @property (strong, nonatomic) ChatBotVo *detailItem;
 //

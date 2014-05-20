@@ -225,10 +225,13 @@ There are several advantages to logging out when you are done. Simply closing th
                                             <state key="normal" image="anonymous_user_32.png">
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="showPhraseInfo:" destination="21" eventType="touchUpInside" id="s7s-yk-qTS"/>
+                                            </connections>
                                         </button>
                                     </barButtonItem>
                                     <barButtonItem style="plain" id="z5l-kc-9hX">
-                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Text Message" minimumFontSize="17" id="iHG-Jk-dql">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Say something..." minimumFontSize="17" id="iHG-Jk-dql">
                                             <rect key="frame" x="57" y="7" width="179" height="31"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>

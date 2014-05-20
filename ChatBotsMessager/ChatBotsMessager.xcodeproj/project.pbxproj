@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		65792EF91928D05900E20C60 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 65792EF81928D05900E20C60 /* StringUtil.m */; };
+		65792EFD192B265A00E20C60 /* CMPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65792EFC192B265A00E20C60 /* CMPopTipView.m */; };
 		65816E50182FBC56003206C3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E42182FBC56003206C3 /* Default-568h@2x.png */; };
 		65816E51182FBC56003206C3 /* Default-568h@2x.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E43182FBC56003206C3 /* Default-568h@2x.psd */; };
 		65816E52182FBC56003206C3 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 65816E44182FBC56003206C3 /* Default-Landscape.png */; };
@@ -112,6 +113,8 @@
 /* Begin PBXFileReference section */
 		65792EF71928D05900E20C60 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
 		65792EF81928D05900E20C60 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		65792EFB192B265A00E20C60 /* CMPopTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPopTipView.h; sourceTree = "<group>"; };
+		65792EFC192B265A00E20C60 /* CMPopTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPopTipView.m; sourceTree = "<group>"; };
 		65816E42182FBC56003206C3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		65816E43182FBC56003206C3 /* Default-568h@2x.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Default-568h@2x.psd"; sourceTree = "<group>"; };
 		65816E44182FBC56003206C3 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
@@ -269,6 +272,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65792EFA192B263A00E20C60 /* CMPopTipView */ = {
+			isa = PBXGroup;
+			children = (
+				65792EFB192B265A00E20C60 /* CMPopTipView.h */,
+				65792EFC192B265A00E20C60 /* CMPopTipView.m */,
+			);
+			name = CMPopTipView;
+			sourceTree = "<group>";
+		};
 		65816E5F182FBC67003206C3 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,6 +448,7 @@
 		A4AE900716F61E1F0047B6A3 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				65792EFA192B263A00E20C60 /* CMPopTipView */,
 				A4F9FB4516FDE33B0090EF71 /* base64 */,
 				A4FE388316FB63B800D6B925 /* ASIHTTP */,
 				A4FE387F16FB62F900D6B925 /* Reachability */,
@@ -732,6 +745,7 @@
 				65DFC2A91828C066005A7F91 /* VC_Segue_ChatBotInfo.m in Sources */,
 				65792EF91928D05900E20C60 /* StringUtil.m in Sources */,
 				A4FE38DC16FB63B800D6B925 /* ASIInputStream.m in Sources */,
+				65792EFD192B265A00E20C60 /* CMPopTipView.m in Sources */,
 				A4FE38DD16FB63B800D6B925 /* ASINetworkQueue.m in Sources */,
 				A4F9FB4816FDE33B0090EF71 /* Base64.m in Sources */,
 			);

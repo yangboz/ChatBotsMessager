@@ -307,8 +307,22 @@ MBProgressHUD *hud;
 
 -(IBAction)showPhraseInfo:(id)sender
 {
-    NSLog(@"showPhraseInfo!");
-    //TODO:display phrase info view;
+    //Display phrase info view;
+    if (nil == _phraseInfoView) {
+        _phraseInfoView = [[[CMPopTipView alloc] initWithMessage:@"Me:Male,Tugger Sufani,Earth..."] autorelease];
+        //_phraseInfoView.delegate = self;
+        _phraseInfoView.backgroundColor = [UIColor whiteColor];
+        _phraseInfoView.textColor = [UIColor grayColor];
+        _phraseInfoView.borderColor = [UIColor grayColor];
+        
+        UIButton *button = (UIButton *)sender;
+        [_phraseInfoView presentPointingAtView:button inView:self.view animated:YES];
+
+    }else{
+        // Dismiss
+        [_phraseInfoView dismissAnimated:YES];
+        _phraseInfoView = nil;
+    }
 }
 
 - (void)requestFinished:(ASIHTTPRequest *)request 
@@ -436,13 +450,17 @@ MBProgressHUD *hud;
     self.lastTime = nowTime;
     [self.chatArray addObject:nowTime];
     //Role name display.
-    NSString *roleName = @"me";
+    NSString *roleName = @"";
     if(!fromSelf)
     {
         roleName = self.detailItem.Name;
     }
     //
-    UIView *chatView = [self bubbleView:[NSString stringWithFormat:@"%@:%@", NSLocalizedString(roleName,nil), message] 
+    /*
+    UIView *chatView = [self bubbleView:[NSString stringWithFormat:@"%@:%@", NSLocalizedString(roleName,nil), message]
+								   from:fromSelf];
+     */
+    UIView *chatView = [self bubbleView:[NSString stringWithFormat:@"%@",message]
 								   from:fromSelf];
 	[self.chatArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:message, @"text", @"self", @"speaker", chatView, @"view", nil]];
     //
