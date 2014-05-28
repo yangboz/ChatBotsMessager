@@ -127,7 +127,7 @@ MBProgressHUD *hud;
     //Disabled style
     self.phraseButton.alpha = 0.5;
     // Allocate a reachability object
-    Reachability* reach = [Reachability reachabilityWithHostname:@"www.google.com"];
+    Reachability* reach = [Reachability reachabilityWithHostname:@"www.yahoo.com"];
     
     // Set the blocks
     reach.reachableBlock = ^(Reachability*reach)
@@ -314,6 +314,7 @@ MBProgressHUD *hud;
         _phraseInfoView.backgroundColor = [UIColor whiteColor];
         _phraseInfoView.textColor = [UIColor grayColor];
         _phraseInfoView.borderColor = [UIColor grayColor];
+        _phraseInfoView.has3DStyle = NO;
         
         UIButton *button = (UIButton *)sender;
         [_phraseInfoView presentPointingAtView:button inView:self.view animated:YES];
