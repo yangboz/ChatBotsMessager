@@ -26,6 +26,10 @@
 		65816E63182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd in Resources */ = {isa = PBXBuildFile; fileRef = 65816E61182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd */; };
 		65816E64182FBCBD003206C3 /* ember.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65816E62182FBCBD003206C3 /* ember.gif */; };
 		65816E6618320801003206C3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65816E6518320801003206C3 /* iAd.framework */; };
+		6594046B193E2B9A00B2726A /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 65940469193E2B9A00B2726A /* AppIcon57x57.png */; };
+		6594046F193E2C1200B2726A /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6594046D193E2C1200B2726A /* AppIcon57x57@2x.png */; };
+		65940470193E2C1200B2726A /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6594046E193E2C1200B2726A /* AppIcon72x72@2x.png */; };
+		65940472193E2E1400B2726A /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 65940471193E2E1400B2726A /* AppIcon72x72.png */; };
 		65BF44BD18648E820006CFE3 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BF44B518648E820006CFE3 /* AppIcon29x29.png */; };
 		65BF44BE18648E820006CFE3 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BF44B618648E820006CFE3 /* AppIcon29x29@2x.png */; };
 		65BF44BF18648E820006CFE3 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BF44B718648E820006CFE3 /* AppIcon40x40.png */; };
@@ -132,6 +136,10 @@
 		65816E61182FBCBD003206C3 /* App Icon Template [3.2]_ChatBotMessager.psd */ = {isa = PBXFileReference; lastKnownFileType = file; name = "App Icon Template [3.2]_ChatBotMessager.psd"; path = "Assets/App Icon Template [3.2]_ChatBotMessager.psd"; sourceTree = "<group>"; };
 		65816E62182FBCBD003206C3 /* ember.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ember.gif; path = Assets/ember.gif; sourceTree = "<group>"; };
 		65816E6518320801003206C3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		65940469193E2B9A00B2726A /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		6594046D193E2C1200B2726A /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		6594046E193E2C1200B2726A /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x.png"; sourceTree = "<group>"; };
+		65940471193E2E1400B2726A /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72x72.png; sourceTree = "<group>"; };
 		65BF44B518648E820006CFE3 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
 		65BF44B618648E820006CFE3 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
 		65BF44B718648E820006CFE3 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
@@ -284,6 +292,10 @@
 		65816E5F182FBC67003206C3 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				65940471193E2E1400B2726A /* AppIcon72x72.png */,
+				6594046D193E2C1200B2726A /* AppIcon57x57@2x.png */,
+				65940469193E2B9A00B2726A /* AppIcon57x57.png */,
+				6594046E193E2C1200B2726A /* AppIcon72x72@2x.png */,
 				65BF44B518648E820006CFE3 /* AppIcon29x29.png */,
 				65BF44B618648E820006CFE3 /* AppIcon29x29@2x.png */,
 				65BF44B718648E820006CFE3 /* AppIcon40x40.png */,
@@ -679,7 +691,9 @@
 				A4FDF65B16F9FF3E003C8403 /* Y_emoticons_blushing.gif in Resources */,
 				65BF44C418648E820006CFE3 /* AppIcon76x76@2x.png in Resources */,
 				A4FDF65C16F9FF3E003C8403 /* Y_emoticons_confused.gif in Resources */,
+				6594046B193E2B9A00B2726A /* AppIcon57x57.png in Resources */,
 				A4FDF65D16F9FF3E003C8403 /* Y_emoticons_happy.gif in Resources */,
+				65940470193E2C1200B2726A /* AppIcon72x72@2x.png in Resources */,
 				A4FDF65E16F9FF3E003C8403 /* Y_emoticons_sad.gif in Resources */,
 				A4FDF65F16F9FF3E003C8403 /* Y_emoticons_tongue.gif in Resources */,
 				A4FDF66016F9FF3E003C8403 /* Y_emoticons_winking.gif in Resources */,
@@ -689,6 +703,7 @@
 				65BF44BF18648E820006CFE3 /* AppIcon40x40.png in Resources */,
 				A4FDF66B16FA0062003C8403 /* bubbleSelf.png in Resources */,
 				65816E59182FBC56003206C3 /* Default-Portrait@2x.psd in Resources */,
+				6594046F193E2C1200B2726A /* AppIcon57x57@2x.png in Resources */,
 				A4FDF66D16FA0062003C8403 /* ChatCustomCell.xib in Resources */,
 				65BF44BE18648E820006CFE3 /* AppIcon29x29@2x.png in Resources */,
 				A4FDF66F16FA0062003C8403 /* ChatViewController.xib in Resources */,
@@ -697,6 +712,7 @@
 				65816E56182FBC56003206C3 /* Default-Portrait.png in Resources */,
 				A4FDF67416FA01AC003C8403 /* FaceViewController.xib in Resources */,
 				65DFC2A31828AE7C005A7F91 /* Images.xcassets in Resources */,
+				65940472193E2E1400B2726A /* AppIcon72x72.png in Resources */,
 				A4FDF67616FA06D1003C8403 /* Y_emoticons_big_grin.gif in Resources */,
 				A4FDF67816FA0BED003C8403 /* anonymous_user_32.png in Resources */,
 				A4FDF67A16FA0D28003C8403 /* anonymous_talk_32.png in Resources */,
