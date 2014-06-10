@@ -74,7 +74,7 @@
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
-                                                <action selector="sendMessage_Click:" destination="4" eventType="touchUpInside" id="qLK-Qa-pap"/>
+                                                <action selector="onSendMessageClick:" destination="4" eventType="touchUpInside" id="DHp-yS-J4N"/>
                                             </connections>
                                         </button>
                                     </barButtonItem>

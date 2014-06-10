@@ -140,6 +140,7 @@
 		6594046D193E2C1200B2726A /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
 		6594046E193E2C1200B2726A /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x.png"; sourceTree = "<group>"; };
 		65940471193E2E1400B2726A /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72x72.png; sourceTree = "<group>"; };
+		65940473193F508700B2726A /* ChatBotsMessager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ChatBotsMessager.entitlements; sourceTree = "<group>"; };
 		65BF44B518648E820006CFE3 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
 		65BF44B618648E820006CFE3 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
 		65BF44B718648E820006CFE3 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
@@ -383,6 +384,7 @@
 		A4AE8FC016F616780047B6A3 /* ChatBotsMessager */ = {
 			isa = PBXGroup;
 			children = (
+				65940473193F508700B2726A /* ChatBotsMessager.entitlements */,
 				A4AE900716F61E1F0047B6A3 /* utils */,
 				A4AE8FE216F61AD60047B6A3 /* resources */,
 				A4AE8FDF16F619720047B6A3 /* controller */,
@@ -634,6 +636,16 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = GODPAPER;
+				TargetAttributes = {
+					A4AE8FB516F616780047B6A3 = {
+						DevelopmentTeam = 63X9SGW3ZX;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = A4AE8FB016F616780047B6A3 /* Build configuration list for PBXProject "ChatBotsMessager" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -871,7 +883,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatBotsMessager/ChatBotsMessager-Prefix.pch";

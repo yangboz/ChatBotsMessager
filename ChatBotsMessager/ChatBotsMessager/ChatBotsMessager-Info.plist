@@ -13,7 +13,7 @@
 	<key>CFBundleIcons~ipad</key>
 	<dict/>
 	<key>CFBundleIdentifier</key>
-	<string>63X9SGW3ZX.com.godpaper.app.ios.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>63X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
