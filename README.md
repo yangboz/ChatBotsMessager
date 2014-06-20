@@ -3,6 +3,10 @@ ChatBotsMessager
 
 With Emotional Artificial Intelligence Chat Bots Chatting!
 
+AppStore
+================
+https://itunes.apple.com/us/app/aichatbot/id879922550?l=zh&ls=1&mt=8
+
 ![Screenshot of master view](https://raw.github.com/yangboz/ChatBotsMessager/master/ChatBotsMessager/ChatBotsMessager/Snapshots/ChatBotsMessagerMaster.jpg)
 ![Screenshot of detail view](https://raw.github.com/yangboz/ChatBotsMessager/master/ChatBotsMessager/ChatBotsMessager/Snapshots/ChatBotsMessagerDetail.jpg)
 
