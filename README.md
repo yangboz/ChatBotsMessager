@@ -57,15 +57,15 @@ Raw response string
 TODO List
 ================
 
-1.Preference implementation;
+1.Preference implementation;(TBC)
 
-2.Emotional presentation;
+2.Emotional presentation;(normal, happy, angry, averse, sad, evil, fuming, hurt, surprised, insulted, confused, amused, asking)
 
 3.Icon assets file; (Done!including app lanuch images);
 
-4.Testing and bug-issues fixing;
+4.Testing and bug-issues fixing; (More on chat view)
 
-5.Submit to Apple AppStore and inform Benji;
+5.Submit to Apple AppStore and inform Benji; (Done)
 
 ....
 
