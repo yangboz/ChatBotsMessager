@@ -85,7 +85,7 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="iMessager" id="53">
+                    <navigationItem key="navigationItem" title="Chat" id="53">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Chr-XD-aIf">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="A9q-3A-o6K">
                                 <rect key="frame" x="665" y="11" width="22" height="22"/>
@@ -221,7 +221,7 @@
                             <outlet property="delegate" destination="19" id="21"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="ChatBots" id="40">
+                    <navigationItem key="navigationItem" title="Bots" id="40">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="2D7-zd-Ax2">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="6Zx-vU-DEu">
                                 <rect key="frame" x="282" y="11" width="22" height="22"/>
