@@ -24,6 +24,12 @@ http://messenger.yahoo.com/features/emoticons/
 Hash-based message authentication code
 ================
 
+TODO:
+
+#1.Crash fix up by using tableview chat components;
+
+#2.API key/secret prereference provider solution;
+
 http://en.wikipedia.org/wiki/HMAC
 
 
