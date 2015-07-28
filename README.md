@@ -26,7 +26,7 @@ Hash-based message authentication code
 
 TODO:
 
-#1.Crash fix up by using tableview chat components;
+~~#1.Crash fix up by using tableview chat components;~~ Root cause: The api key's amount from "personalityforge.com" out of range.
 
 #2.API key/secret prereference provider solution;
 
