@@ -73,6 +73,7 @@ TODO List
 
 5.Submit to Apple AppStore and inform Benji; (Done)
 
+6.Vivid virtual chat character;(By Joanna)
 ....
 
 
@@ -80,3 +81,5 @@ Backlog
 ================
 
 http://www.codeproject.com/Articles/689451/Developing-Android-Applications-with-Voice-Recogni
+
+(!!!Talk to dophi!!!)https://www.goodreads.com/book/show/17803169-are-dolphins-really-smart
