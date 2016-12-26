@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+# For latest release in cocoapods
+pod 'JSQMessagesViewController'
+
+target 'AIChatBots' do
+	
+end
