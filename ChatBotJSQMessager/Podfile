@@ -2,6 +2,11 @@ platform :ios, '8.0'
 
 # For latest release in cocoapods
 pod 'JSQMessagesViewController'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'ASIHTTPRequest'
+pod 'Reachability', '~> 3.2'
+pod 'NSData+Base64'
+pod 'JSONModel'
 
 target 'AIChatBots' do
 	

@@ -12,6 +12,35 @@
 		A409A0991E10E1C80083A3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A409A0971E10E1C80083A3CA /* LaunchScreen.storyboard */; };
 		A409A0A41E10E1C80083A3CA /* AIChatBotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A0A31E10E1C80083A3CA /* AIChatBotsTests.m */; };
 		A409A0AF1E10E1C90083A3CA /* AIChatBotsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A0AE1E10E1C90083A3CA /* AIChatBotsUITests.m */; };
+		A409A19C1E1153800083A3CA /* AllChatBotsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A18E1E1153800083A3CA /* AllChatBotsModel.m */; };
+		A409A19D1E1153800083A3CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A1901E1153800083A3CA /* AppDelegate.m */; };
+		A409A19E1E1153800083A3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A409A1911E1153800083A3CA /* Assets.xcassets */; };
+		A409A19F1E1153800083A3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A409A1931E1153800083A3CA /* LaunchScreen.storyboard */; };
+		A409A1A01E1153800083A3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A409A1951E1153800083A3CA /* Main.storyboard */; };
+		A409A1A11E1153800083A3CA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A1981E1153800083A3CA /* DetailViewController.m */; };
+		A409A1A21E1153800083A3CA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A409A1991E1153800083A3CA /* Info.plist */; };
+		A409A1A31E1153800083A3CA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A19B1E1153800083A3CA /* MasterViewController.m */; };
+		A409A1A51E1156D40083A3CA /* chatbots.json in Resources */ = {isa = PBXBuildFile; fileRef = A409A1A41E1156D30083A3CA /* chatbots.json */; };
+		A409A1A81E11580C0083A3CA /* ChatBotVoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A1A71E11580C0083A3CA /* ChatBotVoModel.m */; };
+		A4A314D91E120480009EDA74 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A314D81E120480009EDA74 /* DataModel.m */; };
+		A4A314DB1E1206D4009EDA74 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A314DA1E1206D4009EDA74 /* iAd.framework */; };
+		A4A314ED1E120B76009EDA74 /* AutoResponder_86889.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314DE1E120B76009EDA74 /* AutoResponder_86889.gif */; };
+		A4A314EE1E120B76009EDA74 /* Azureon_23969.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314DF1E120B76009EDA74 /* Azureon_23969.gif */; };
+		A4A314EF1E120B76009EDA74 /* Desti_6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E01E120B76009EDA74 /* Desti_6.jpeg */; };
+		A4A314F01E120B76009EDA74 /* Dogh'd_722.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E11E120B76009EDA74 /* Dogh'd_722.jpeg */; };
+		A4A314F11E120B76009EDA74 /* Gir_3673.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E21E120B76009EDA74 /* Gir_3673.gif */; };
+		A4A314F21E120B76009EDA74 /* InvaderZim_3672.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E31E120B76009EDA74 /* InvaderZim_3672.gif */; };
+		A4A314F31E120B76009EDA74 /* Kiyana.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E41E120B76009EDA74 /* Kiyana.gif */; };
+		A4A314F41E120B76009EDA74 /* Kobal_56061.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E51E120B76009EDA74 /* Kobal_56061.gif */; };
+		A4A314F51E120B76009EDA74 /* LaurelSweet_71367.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E61E120B76009EDA74 /* LaurelSweet_71367.gif */; };
+		A4A314F61E120B76009EDA74 /* Liddora_754.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E71E120B76009EDA74 /* Liddora_754.gif */; };
+		A4A314F71E120B76009EDA74 /* MidnightBlue_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E81E120B76009EDA74 /* MidnightBlue_2.gif */; };
+		A4A314F81E120B76009EDA74 /* prob_23958.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314E91E120B76009EDA74 /* prob_23958.gif */; };
+		A4A314F91E120B76009EDA74 /* RockGawd_10906.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314EA1E120B76009EDA74 /* RockGawd_10906.gif */; };
+		A4A314FA1E120B76009EDA74 /* ValleyTeen_64022.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314EB1E120B76009EDA74 /* ValleyTeen_64022.gif */; };
+		A4A314FB1E120B76009EDA74 /* ZombieKing_86176.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314EC1E120B76009EDA74 /* ZombieKing_86176.gif */; };
+		A4A315001E120D62009EDA74 /* VC_Segue_AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A314FC1E120D62009EDA74 /* VC_Segue_AppInfo.m */; };
+		A4A315011E120D62009EDA74 /* VC_Segue_ChatBotInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A314FD1E120D62009EDA74 /* VC_Segue_ChatBotInfo.m */; };
 		E9E4B58B8A3B64734327C3B1 /* libPods-AIChatBots.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F71192C8D008CF28C5F234B0 /* libPods-AIChatBots.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +73,43 @@
 		A409A0AA1E10E1C90083A3CA /* AIChatBotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIChatBotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A409A0AE1E10E1C90083A3CA /* AIChatBotsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIChatBotsUITests.m; sourceTree = "<group>"; };
 		A409A0B01E10E1C90083A3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A409A18D1E1153800083A3CA /* AllChatBotsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllChatBotsModel.h; sourceTree = "<group>"; };
+		A409A18E1E1153800083A3CA /* AllChatBotsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllChatBotsModel.m; sourceTree = "<group>"; };
+		A409A18F1E1153800083A3CA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A409A1901E1153800083A3CA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A409A1911E1153800083A3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A409A1941E1153800083A3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A409A1961E1153800083A3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		A409A1971E1153800083A3CA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A409A1981E1153800083A3CA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A409A1991E1153800083A3CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A409A19A1E1153800083A3CA /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A409A19B1E1153800083A3CA /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A409A1A41E1156D30083A3CA /* chatbots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chatbots.json; sourceTree = "<group>"; };
+		A409A1A61E11580C0083A3CA /* ChatBotVoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBotVoModel.h; sourceTree = "<group>"; };
+		A409A1A71E11580C0083A3CA /* ChatBotVoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBotVoModel.m; sourceTree = "<group>"; };
+		A4A314D71E120480009EDA74 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		A4A314D81E120480009EDA74 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		A4A314DA1E1206D4009EDA74 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A4A314DE1E120B76009EDA74 /* AutoResponder_86889.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = AutoResponder_86889.gif; path = ../../ChatBotsMessager/ChatBotsMessager/AutoResponder_86889.gif; sourceTree = "<group>"; };
+		A4A314DF1E120B76009EDA74 /* Azureon_23969.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Azureon_23969.gif; path = ../../ChatBotsMessager/ChatBotsMessager/Azureon_23969.gif; sourceTree = "<group>"; };
+		A4A314E01E120B76009EDA74 /* Desti_6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Desti_6.jpeg; path = ../../ChatBotsMessager/ChatBotsMessager/Desti_6.jpeg; sourceTree = "<group>"; };
+		A4A314E11E120B76009EDA74 /* Dogh'd_722.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Dogh'd_722.jpeg"; path = "../../ChatBotsMessager/ChatBotsMessager/Dogh'd_722.jpeg"; sourceTree = "<group>"; };
+		A4A314E21E120B76009EDA74 /* Gir_3673.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Gir_3673.gif; path = ../../ChatBotsMessager/ChatBotsMessager/Gir_3673.gif; sourceTree = "<group>"; };
+		A4A314E31E120B76009EDA74 /* InvaderZim_3672.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = InvaderZim_3672.gif; path = ../../ChatBotsMessager/ChatBotsMessager/InvaderZim_3672.gif; sourceTree = "<group>"; };
+		A4A314E41E120B76009EDA74 /* Kiyana.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Kiyana.gif; path = ../../ChatBotsMessager/ChatBotsMessager/Kiyana.gif; sourceTree = "<group>"; };
+		A4A314E51E120B76009EDA74 /* Kobal_56061.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Kobal_56061.gif; path = ../../ChatBotsMessager/ChatBotsMessager/Kobal_56061.gif; sourceTree = "<group>"; };
+		A4A314E61E120B76009EDA74 /* LaurelSweet_71367.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = LaurelSweet_71367.gif; path = ../../ChatBotsMessager/ChatBotsMessager/LaurelSweet_71367.gif; sourceTree = "<group>"; };
+		A4A314E71E120B76009EDA74 /* Liddora_754.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Liddora_754.gif; path = ../../ChatBotsMessager/ChatBotsMessager/Liddora_754.gif; sourceTree = "<group>"; };
+		A4A314E81E120B76009EDA74 /* MidnightBlue_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = MidnightBlue_2.gif; path = ../../ChatBotsMessager/ChatBotsMessager/MidnightBlue_2.gif; sourceTree = "<group>"; };
+		A4A314E91E120B76009EDA74 /* prob_23958.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = prob_23958.gif; path = ../../ChatBotsMessager/ChatBotsMessager/prob_23958.gif; sourceTree = "<group>"; };
+		A4A314EA1E120B76009EDA74 /* RockGawd_10906.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = RockGawd_10906.gif; path = ../../ChatBotsMessager/ChatBotsMessager/RockGawd_10906.gif; sourceTree = "<group>"; };
+		A4A314EB1E120B76009EDA74 /* ValleyTeen_64022.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ValleyTeen_64022.gif; path = ../../ChatBotsMessager/ChatBotsMessager/ValleyTeen_64022.gif; sourceTree = "<group>"; };
+		A4A314EC1E120B76009EDA74 /* ZombieKing_86176.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ZombieKing_86176.gif; path = ../../ChatBotsMessager/ChatBotsMessager/ZombieKing_86176.gif; sourceTree = "<group>"; };
+		A4A314FC1E120D62009EDA74 /* VC_Segue_AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Segue_AppInfo.m; sourceTree = "<group>"; };
+		A4A314FD1E120D62009EDA74 /* VC_Segue_ChatBotInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Segue_ChatBotInfo.m; sourceTree = "<group>"; };
+		A4A314FE1E120D62009EDA74 /* VC_Segue_AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Segue_AppInfo.h; sourceTree = "<group>"; };
+		A4A314FF1E120D62009EDA74 /* VC_Segue_ChatBotInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Segue_ChatBotInfo.h; sourceTree = "<group>"; };
 		E9C850EDD9FB6C9CB50B45BD /* Pods-AIChatBots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIChatBots.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIChatBots/Pods-AIChatBots.release.xcconfig"; sourceTree = "<group>"; };
 		F71192C8D008CF28C5F234B0 /* libPods-AIChatBots.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIChatBots.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -53,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A314DB1E1206D4009EDA74 /* iAd.framework in Frameworks */,
 				E9E4B58B8A3B64734327C3B1 /* libPods-AIChatBots.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +175,27 @@
 		A409A0851E10E1C80083A3CA /* AIChatBots */ = {
 			isa = PBXGroup;
 			children = (
+				A4A314FC1E120D62009EDA74 /* VC_Segue_AppInfo.m */,
+				A4A314FD1E120D62009EDA74 /* VC_Segue_ChatBotInfo.m */,
+				A4A314FE1E120D62009EDA74 /* VC_Segue_AppInfo.h */,
+				A4A314FF1E120D62009EDA74 /* VC_Segue_ChatBotInfo.h */,
+				A4A314DD1E120B28009EDA74 /* avaters */,
+				A4A314D71E120480009EDA74 /* DataModel.h */,
+				A4A314D81E120480009EDA74 /* DataModel.m */,
+				A409A1A61E11580C0083A3CA /* ChatBotVoModel.h */,
+				A409A1A71E11580C0083A3CA /* ChatBotVoModel.m */,
+				A409A1A41E1156D30083A3CA /* chatbots.json */,
+				A409A18D1E1153800083A3CA /* AllChatBotsModel.h */,
+				A409A18E1E1153800083A3CA /* AllChatBotsModel.m */,
+				A409A18F1E1153800083A3CA /* AppDelegate.h */,
+				A409A1901E1153800083A3CA /* AppDelegate.m */,
+				A409A1911E1153800083A3CA /* Assets.xcassets */,
+				A409A1921E1153800083A3CA /* Base.lproj */,
+				A409A1971E1153800083A3CA /* DetailViewController.h */,
+				A409A1981E1153800083A3CA /* DetailViewController.m */,
+				A409A1991E1153800083A3CA /* Info.plist */,
+				A409A19A1E1153800083A3CA /* MasterViewController.h */,
+				A409A19B1E1153800083A3CA /* MasterViewController.m */,
 				A409A0921E10E1C80083A3CA /* Main.storyboard */,
 				A409A0971E10E1C80083A3CA /* LaunchScreen.storyboard */,
 				A409A0861E10E1C80083A3CA /* Supporting Files */,
@@ -141,9 +229,41 @@
 			path = AIChatBotsUITests;
 			sourceTree = "<group>";
 		};
+		A409A1921E1153800083A3CA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A409A1931E1153800083A3CA /* LaunchScreen.storyboard */,
+				A409A1951E1153800083A3CA /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		A4A314DD1E120B28009EDA74 /* avaters */ = {
+			isa = PBXGroup;
+			children = (
+				A4A314DE1E120B76009EDA74 /* AutoResponder_86889.gif */,
+				A4A314DF1E120B76009EDA74 /* Azureon_23969.gif */,
+				A4A314E01E120B76009EDA74 /* Desti_6.jpeg */,
+				A4A314E11E120B76009EDA74 /* Dogh'd_722.jpeg */,
+				A4A314E21E120B76009EDA74 /* Gir_3673.gif */,
+				A4A314E31E120B76009EDA74 /* InvaderZim_3672.gif */,
+				A4A314E41E120B76009EDA74 /* Kiyana.gif */,
+				A4A314E51E120B76009EDA74 /* Kobal_56061.gif */,
+				A4A314E61E120B76009EDA74 /* LaurelSweet_71367.gif */,
+				A4A314E71E120B76009EDA74 /* Liddora_754.gif */,
+				A4A314E81E120B76009EDA74 /* MidnightBlue_2.gif */,
+				A4A314E91E120B76009EDA74 /* prob_23958.gif */,
+				A4A314EA1E120B76009EDA74 /* RockGawd_10906.gif */,
+				A4A314EB1E120B76009EDA74 /* ValleyTeen_64022.gif */,
+				A4A314EC1E120B76009EDA74 /* ZombieKing_86176.gif */,
+			);
+			name = avaters;
+			sourceTree = "<group>";
+		};
 		AC7BAD511C658464F307BA1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4A314DA1E1206D4009EDA74 /* iAd.framework */,
 				F71192C8D008CF28C5F234B0 /* libPods-AIChatBots.a */,
 			);
 			name = Frameworks;
@@ -259,8 +379,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A314EF1E120B76009EDA74 /* Desti_6.jpeg in Resources */,
 				A409A0991E10E1C80083A3CA /* LaunchScreen.storyboard in Resources */,
+				A4A314FA1E120B76009EDA74 /* ValleyTeen_64022.gif in Resources */,
+				A409A1A01E1153800083A3CA /* Main.storyboard in Resources */,
+				A4A314F41E120B76009EDA74 /* Kobal_56061.gif in Resources */,
+				A409A1A51E1156D40083A3CA /* chatbots.json in Resources */,
+				A4A314F11E120B76009EDA74 /* Gir_3673.gif in Resources */,
+				A4A314F31E120B76009EDA74 /* Kiyana.gif in Resources */,
+				A4A314F61E120B76009EDA74 /* Liddora_754.gif in Resources */,
+				A409A1A21E1153800083A3CA /* Info.plist in Resources */,
+				A4A314F21E120B76009EDA74 /* InvaderZim_3672.gif in Resources */,
+				A4A314ED1E120B76009EDA74 /* AutoResponder_86889.gif in Resources */,
+				A4A314F01E120B76009EDA74 /* Dogh'd_722.jpeg in Resources */,
+				A409A19F1E1153800083A3CA /* LaunchScreen.storyboard in Resources */,
+				A409A19E1E1153800083A3CA /* Assets.xcassets in Resources */,
+				A4A314F51E120B76009EDA74 /* LaurelSweet_71367.gif in Resources */,
+				A4A314F81E120B76009EDA74 /* prob_23958.gif in Resources */,
+				A4A314F71E120B76009EDA74 /* MidnightBlue_2.gif in Resources */,
+				A4A314EE1E120B76009EDA74 /* Azureon_23969.gif in Resources */,
 				A409A0941E10E1C80083A3CA /* Main.storyboard in Resources */,
+				A4A314FB1E120B76009EDA74 /* ZombieKing_86176.gif in Resources */,
+				A4A314F91E120B76009EDA74 /* RockGawd_10906.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +473,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A409A1A81E11580C0083A3CA /* ChatBotVoModel.m in Sources */,
 				A409A0881E10E1C80083A3CA /* main.m in Sources */,
+				A4A315001E120D62009EDA74 /* VC_Segue_AppInfo.m in Sources */,
+				A409A19C1E1153800083A3CA /* AllChatBotsModel.m in Sources */,
+				A409A1A31E1153800083A3CA /* MasterViewController.m in Sources */,
+				A4A314D91E120480009EDA74 /* DataModel.m in Sources */,
+				A409A19D1E1153800083A3CA /* AppDelegate.m in Sources */,
+				A4A315011E120D62009EDA74 /* VC_Segue_ChatBotInfo.m in Sources */,
+				A409A1A11E1153800083A3CA /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +531,22 @@
 				A409A0981E10E1C80083A3CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A409A1931E1153800083A3CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A409A1941E1153800083A3CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A409A1951E1153800083A3CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A409A1961E1153800083A3CA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -481,7 +645,6 @@
 			baseConfigurationReference = 4A6E1A207F8F22B66498B1C6 /* Pods-AIChatBots.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 63X9SGW3ZX;
 				INFOPLIST_FILE = AIChatBots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -495,7 +658,6 @@
 			baseConfigurationReference = E9C850EDD9FB6C9CB50B45BD /* Pods-AIChatBots.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 63X9SGW3ZX;
 				INFOPLIST_FILE = AIChatBots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
