@@ -76,34 +76,6 @@
             </objects>
             <point key="canvasLocation" x="-856" y="-330"/>
         </scene>
-        <!--Segue App Info-->
-        <scene sceneID="R4e-nM-IOP">
-            <objects>
-                <tableViewController id="PSt-UC-uZ8" customClass="VC_Segue_AppInfo" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="fWd-w8-rEQ" customClass="VC_">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="JvK-ML-fSn">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JvK-ML-fSn" id="fNn-8z-3WV">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="PSt-UC-uZ8" id="5ub-j5-XSn"/>
-                            <outlet property="delegate" destination="PSt-UC-uZ8" id="xct-ah-udC"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8pX-12-5r0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="457" y="-1370"/>
-        </scene>
         <!--Bots-->
         <scene sceneID="smW-Zh-WAh">
             <objects>
@@ -146,16 +118,88 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="uvw-xT-PBg">
                                 <rect key="frame" x="337" y="11" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="tOp-j9-VTF" kind="showDetail" id="xw0-SI-j8Z"/>
+                                </connections>
                             </button>
-                            <connections>
-                                <segue destination="PSt-UC-uZ8" kind="showDetail" id="BrV-Zb-DBe"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="709" y="-630"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="JAh-Wp-sQc">
+            <objects>
+                <tableViewController id="0EU-Rv-dYO" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="enC-Pl-unM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <textView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="IpB-qb-Nye">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="735"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <mutableString key="text">About The Personality Forge 
+
+Welcome to the Personality Forge, one of the most advanced artificial intelligence platforms in the world. Here people create and work on AI Personalities called chat bots who, once created, have an independent existence, chatting with both real people and other chat bots. While you're away, they're having conversations, making friends, and making memories that you can look in on.
+
+The Personality Forge's AI Engine integrates memories, emotions, knowledge of hundreds of thousands of words, sentence structure, unmatched pattern-matching capabilities, and a scripting language called AIScript. It's the heart and mind of all the bots here, and it's easy enough to work with that you need no programming experience to get started. Read more about the AI Engine's features.
+
+You can chat with bots, post messages on different topics in the forums, and become a part of the first-ever AI &amp; Human online community. For information on how to post messages, chat, and other general information, keep reading. You can find information on how to create AI Personalities in The Book of AI.
+
+Getting Started:
+You may want to start by chatting with some of our chat bots. You can find them by doing a search for any kind of personality, by selecting from the most advanced, checking the contest winners at our Hall of Fame, or by browsing the other chat bot lists under "Chat With Bots". 
+
+You can talk about the chat bots, AI, and the site in the forums. Then, when you're ready, create your own AI Personality by creating an account and then going to your personal Bot Workshop and reading The Book of AI. 
+
+
+
+Interacting With Users
+
+Forums: 
+You can find out more about the Personality Forge forums here.
+
+Chat Messages: 
+If another user is online at the same time as you, you can send then a realtime chat message that pops up on their screen as soon as they change pages. Simply hover over "Botmasters On" to see who is logged in to their account, and if they have an open-mouthed smile icon, you can send them a chat message by clicking on it.
+
+
+
+Logging Out
+
+Logging Out &amp; Session Timeouts: 
+There are several advantages to logging out when you are done. Simply closing the window or quitting your browser will not log you out, as such an action can not be detected by the system. In such cases, and cases in which you leave the window open while you are doing something else, there is a 40-minute timeout. If there is no activity (such as posting or changing pages) for 40 minutes, you will get a message and then if you dont respond, you will be logged out. Logging out marks you as gone and so people wont be trying to send you messages when you are not there.</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="0EU-Rv-dYO" id="U0u-B7-S5y"/>
+                            <outlet property="delegate" destination="0EU-Rv-dYO" id="bkm-Xd-YWe"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="About" id="gRu-9R-NNc"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zA6-3L-156" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2073" y="-630"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lLJ-yF-GfR">
+            <objects>
+                <navigationController id="tOp-j9-VTF" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wAX-bC-2fe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0EU-Rv-dYO" kind="relationship" relationship="rootViewController" id="iZG-HR-ko6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dzn-Zu-MMT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1391" y="-630"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="r7l-gg-dq7">
