@@ -33,13 +33,13 @@
 {
     self = [super init];
     if (self) {
-        
-        if ([NSUserDefaults emptyMessagesSetting]) {
-            self.messages = [NSMutableArray new];
-        }
-        else {
-            [self loadFakeMessages];
-        }
+        self.messages = [NSMutableArray new];
+//        if ([NSUserDefaults emptyMessagesSetting]) {
+//            self.messages = [NSMutableArray new];
+//        }
+//        else {
+//            [self loadFakeMessages];
+//        }
         
         
         /**
@@ -54,7 +54,7 @@
     
         JSQMessagesAvatarImage *jsqImage = [JSQMessagesAvatarImageFactory avatarImageWithUserInitials:@"JSQ" backgroundColor:[UIColor colorWithWhite:0.85f alpha:1.0f] textColor:[UIColor colorWithWhite:0.60f alpha:1.0f] font:[UIFont fontWithName:@"Arial-BoldMT" size:12] diameter:kJSQMessagesCollectionViewAvatarSizeDefault];
         
-        JSQMessagesAvatarImage *cookImage = [JSQMessagesAvatarImageFactory avatarImageWithImage:[UIImage imageNamed:@"demo_avatar_cook"] diameter:kJSQMessagesCollectionViewAvatarSizeDefault];
+        JSQMessagesAvatarImage *cookImage = [JSQMessagesAvatarImageFactory avatarImageWithImage:[UIImage imageNamed:@"AutoResponder_86889.gif"] diameter:kJSQMessagesCollectionViewAvatarSizeDefault];
         
         JSQMessagesAvatarImage *jobsImage = [JSQMessagesAvatarImageFactory avatarImageWithImage:[UIImage imageNamed:@"demo_avatar_jobs"] diameter:kJSQMessagesCollectionViewAvatarSizeDefault];
         

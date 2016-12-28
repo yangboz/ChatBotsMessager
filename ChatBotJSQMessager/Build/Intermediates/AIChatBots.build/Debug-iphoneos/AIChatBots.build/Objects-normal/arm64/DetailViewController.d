@@ -13,4 +13,7 @@ dependencies: \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesInputToolbar.h \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.h \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesComposerTextView.h \
-  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/ChatBotVoModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/DataModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/AllChatBotsModel.h

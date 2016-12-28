@@ -18,6 +18,7 @@
 
 @implementation MasterViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -29,10 +30,6 @@
     //Test code
     _groupedChatbots = [self getGroupedChatBots];
     NSLog(@"_groupedChatbots:%@",_groupedChatbots);
-    //
-    bannerView = [[ADBannerView alloc] initWithFrame:CGRectZero];
-    bannerView.requiredContentSizeIdentifiers = [NSSet setWithObjects:ADBannerContentSizeIdentifierPortrait,ADBannerContentSizeIdentifierLandscape, nil];
-    bannerView.delegate = self;
 
 }
 
@@ -208,25 +205,13 @@
     return _listOfRatings;
 }
 
-#pragma mark iAD
--(void)bannerViewDidLoadAd:(ADBannerView *)banner
-{
-    self.tableView.tableHeaderView = bannerView;
-}
-
--(BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave
-{
-    return YES;
-}
-
--(void)bannerViewActionDidFinish:(ADBannerView *)banner
-{
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
+    //Update current selecte chat bot
+    NSDictionary *dictionary = [_listOfRatings objectAtIndex:indexPath.section];
+    NSArray *array = [dictionary objectForKey:RATINGS];
+    ChatBotVoModel *selected = [array objectAtIndex:indexPath.row];
+    //
+    [[DataModel sharedInstance] setSelectedChatBot:selected];
 }
-
--(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
-{
-    
-}
-
 @end

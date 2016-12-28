@@ -12,10 +12,9 @@
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController <ADBannerViewDelegate>
+@interface MasterViewController : UITableViewController
 {
     NSMutableArray *_chatbots;
-    ADBannerView *bannerView;
 }
 
 @property (strong, nonatomic) DetailViewController *detailViewController;

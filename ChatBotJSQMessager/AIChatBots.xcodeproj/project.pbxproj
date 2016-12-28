@@ -22,6 +22,8 @@
 		A409A1A31E1153800083A3CA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A19B1E1153800083A3CA /* MasterViewController.m */; };
 		A409A1A51E1156D40083A3CA /* chatbots.json in Resources */ = {isa = PBXBuildFile; fileRef = A409A1A41E1156D30083A3CA /* chatbots.json */; };
 		A409A1A81E11580C0083A3CA /* ChatBotVoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A1A71E11580C0083A3CA /* ChatBotVoModel.m */; };
+		A41288C11E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A41288C01E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m */; };
+		A41288C51E13E14A002CFAAC /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41288C41E13E14A002CFAAC /* Default-Portrait@2x.png */; };
 		A4A314D91E120480009EDA74 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A314D81E120480009EDA74 /* DataModel.m */; };
 		A4A314DB1E1206D4009EDA74 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A314DA1E1206D4009EDA74 /* iAd.framework */; };
 		A4A314ED1E120B76009EDA74 /* AutoResponder_86889.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314DE1E120B76009EDA74 /* AutoResponder_86889.gif */; };
@@ -39,8 +41,6 @@
 		A4A314F91E120B76009EDA74 /* RockGawd_10906.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314EA1E120B76009EDA74 /* RockGawd_10906.gif */; };
 		A4A314FA1E120B76009EDA74 /* ValleyTeen_64022.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314EB1E120B76009EDA74 /* ValleyTeen_64022.gif */; };
 		A4A314FB1E120B76009EDA74 /* ZombieKing_86176.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314EC1E120B76009EDA74 /* ZombieKing_86176.gif */; };
-		A4A315001E120D62009EDA74 /* VC_Segue_AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A314FC1E120D62009EDA74 /* VC_Segue_AppInfo.m */; };
-		A4A315011E120D62009EDA74 /* VC_Segue_ChatBotInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A314FD1E120D62009EDA74 /* VC_Segue_ChatBotInfo.m */; };
 		A4A315181E124E84009EDA74 /* DemoModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A315171E124E84009EDA74 /* DemoModelData.m */; };
 		A4A3151B1E124EA9009EDA74 /* NSUserDefaults+DemoSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3151A1E124EA9009EDA74 /* NSUserDefaults+DemoSettings.m */; };
 		A4A3151E1E125E8A009EDA74 /* DemoMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3151D1E125E89009EDA74 /* DemoMessagesViewController.m */; };
@@ -97,13 +97,6 @@
 		A4A846DA1E13605D00BA07BF /* APIMessageVoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A846D91E13605D00BA07BF /* APIMessageVoModel.m */; };
 		A4A846DD1E13607900BA07BF /* APIUserVoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A846DC1E13607900BA07BF /* APIUserVoModel.m */; };
 		A4A846E01E13609800BA07BF /* APIFullMessageVoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A846DF1E13609800BA07BF /* APIFullMessageVoModel.m */; };
-		A4A846E91E13883E00BA07BF /* Y_emoticons_big_grin.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A846E21E13883E00BA07BF /* Y_emoticons_big_grin.gif */; };
-		A4A846EA1E13883E00BA07BF /* Y_emoticons_blushing.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A846E31E13883E00BA07BF /* Y_emoticons_blushing.gif */; };
-		A4A846EB1E13883E00BA07BF /* Y_emoticons_confused.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A846E41E13883E00BA07BF /* Y_emoticons_confused.gif */; };
-		A4A846EC1E13883E00BA07BF /* Y_emoticons_happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A846E51E13883E00BA07BF /* Y_emoticons_happy.gif */; };
-		A4A846ED1E13883E00BA07BF /* Y_emoticons_sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A846E61E13883E00BA07BF /* Y_emoticons_sad.gif */; };
-		A4A846EE1E13883E00BA07BF /* Y_emoticons_tongue.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A846E71E13883E00BA07BF /* Y_emoticons_tongue.gif */; };
-		A4A846EF1E13883E00BA07BF /* Y_emoticons_winking.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A846E81E13883E00BA07BF /* Y_emoticons_winking.gif */; };
 		E9E4B58B8A3B64734327C3B1 /* libPods-AIChatBots.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F71192C8D008CF28C5F234B0 /* libPods-AIChatBots.a */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +144,9 @@
 		A409A1A41E1156D30083A3CA /* chatbots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chatbots.json; sourceTree = "<group>"; };
 		A409A1A61E11580C0083A3CA /* ChatBotVoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBotVoModel.h; sourceTree = "<group>"; };
 		A409A1A71E11580C0083A3CA /* ChatBotVoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBotVoModel.m; sourceTree = "<group>"; };
+		A41288BF1E13BA43002CFAAC /* VC_Segue_ChatBotInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Segue_ChatBotInfo.h; sourceTree = "<group>"; };
+		A41288C01E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Segue_ChatBotInfo.m; sourceTree = "<group>"; };
+		A41288C41E13E14A002CFAAC /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
 		A4A314D71E120480009EDA74 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		A4A314D81E120480009EDA74 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 		A4A314DA1E1206D4009EDA74 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -169,10 +165,6 @@
 		A4A314EA1E120B76009EDA74 /* RockGawd_10906.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = RockGawd_10906.gif; path = ../../ChatBotsMessager/ChatBotsMessager/RockGawd_10906.gif; sourceTree = "<group>"; };
 		A4A314EB1E120B76009EDA74 /* ValleyTeen_64022.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ValleyTeen_64022.gif; path = ../../ChatBotsMessager/ChatBotsMessager/ValleyTeen_64022.gif; sourceTree = "<group>"; };
 		A4A314EC1E120B76009EDA74 /* ZombieKing_86176.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ZombieKing_86176.gif; path = ../../ChatBotsMessager/ChatBotsMessager/ZombieKing_86176.gif; sourceTree = "<group>"; };
-		A4A314FC1E120D62009EDA74 /* VC_Segue_AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Segue_AppInfo.m; sourceTree = "<group>"; };
-		A4A314FD1E120D62009EDA74 /* VC_Segue_ChatBotInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Segue_ChatBotInfo.m; sourceTree = "<group>"; };
-		A4A314FE1E120D62009EDA74 /* VC_Segue_AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Segue_AppInfo.h; sourceTree = "<group>"; };
-		A4A314FF1E120D62009EDA74 /* VC_Segue_ChatBotInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Segue_ChatBotInfo.h; sourceTree = "<group>"; };
 		A4A315161E124E84009EDA74 /* DemoModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModelData.h; sourceTree = "<group>"; };
 		A4A315171E124E84009EDA74 /* DemoModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModelData.m; sourceTree = "<group>"; };
 		A4A315191E124EA9009EDA74 /* NSUserDefaults+DemoSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+DemoSettings.h"; sourceTree = "<group>"; };
@@ -287,13 +279,6 @@
 		A4A846DC1E13607900BA07BF /* APIUserVoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIUserVoModel.m; sourceTree = "<group>"; };
 		A4A846DE1E13609800BA07BF /* APIFullMessageVoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIFullMessageVoModel.h; sourceTree = "<group>"; };
 		A4A846DF1E13609800BA07BF /* APIFullMessageVoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIFullMessageVoModel.m; sourceTree = "<group>"; };
-		A4A846E21E13883E00BA07BF /* Y_emoticons_big_grin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Y_emoticons_big_grin.gif; sourceTree = "<group>"; };
-		A4A846E31E13883E00BA07BF /* Y_emoticons_blushing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Y_emoticons_blushing.gif; sourceTree = "<group>"; };
-		A4A846E41E13883E00BA07BF /* Y_emoticons_confused.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Y_emoticons_confused.gif; sourceTree = "<group>"; };
-		A4A846E51E13883E00BA07BF /* Y_emoticons_happy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Y_emoticons_happy.gif; sourceTree = "<group>"; };
-		A4A846E61E13883E00BA07BF /* Y_emoticons_sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Y_emoticons_sad.gif; sourceTree = "<group>"; };
-		A4A846E71E13883E00BA07BF /* Y_emoticons_tongue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Y_emoticons_tongue.gif; sourceTree = "<group>"; };
-		A4A846E81E13883E00BA07BF /* Y_emoticons_winking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Y_emoticons_winking.gif; sourceTree = "<group>"; };
 		E9C850EDD9FB6C9CB50B45BD /* Pods-AIChatBots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIChatBots.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIChatBots/Pods-AIChatBots.release.xcconfig"; sourceTree = "<group>"; };
 		F71192C8D008CF28C5F234B0 /* libPods-AIChatBots.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIChatBots.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -359,7 +344,9 @@
 		A409A0851E10E1C80083A3CA /* AIChatBots */ = {
 			isa = PBXGroup;
 			children = (
-				A4A846E11E13882700BA07BF /* emotions */,
+				A41288C41E13E14A002CFAAC /* Default-Portrait@2x.png */,
+				A41288BF1E13BA43002CFAAC /* VC_Segue_ChatBotInfo.h */,
+				A41288C01E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m */,
 				A4A846D71E135CB300BA07BF /* models */,
 				A4A3164A1E12AE65009EDA74 /* Constants.h */,
 				A4A3164B1E12AE65009EDA74 /* Constants.m */,
@@ -372,10 +359,6 @@
 				A4A3151A1E124EA9009EDA74 /* NSUserDefaults+DemoSettings.m */,
 				A4A315161E124E84009EDA74 /* DemoModelData.h */,
 				A4A315171E124E84009EDA74 /* DemoModelData.m */,
-				A4A314FC1E120D62009EDA74 /* VC_Segue_AppInfo.m */,
-				A4A314FD1E120D62009EDA74 /* VC_Segue_ChatBotInfo.m */,
-				A4A314FE1E120D62009EDA74 /* VC_Segue_AppInfo.h */,
-				A4A314FF1E120D62009EDA74 /* VC_Segue_ChatBotInfo.h */,
 				A4A314DD1E120B28009EDA74 /* avaters */,
 				A409A18F1E1153800083A3CA /* AppDelegate.h */,
 				A409A1901E1153800083A3CA /* AppDelegate.m */,
@@ -631,20 +614,6 @@
 			name = models;
 			sourceTree = "<group>";
 		};
-		A4A846E11E13882700BA07BF /* emotions */ = {
-			isa = PBXGroup;
-			children = (
-				A4A846E21E13883E00BA07BF /* Y_emoticons_big_grin.gif */,
-				A4A846E31E13883E00BA07BF /* Y_emoticons_blushing.gif */,
-				A4A846E41E13883E00BA07BF /* Y_emoticons_confused.gif */,
-				A4A846E51E13883E00BA07BF /* Y_emoticons_happy.gif */,
-				A4A846E61E13883E00BA07BF /* Y_emoticons_sad.gif */,
-				A4A846E71E13883E00BA07BF /* Y_emoticons_tongue.gif */,
-				A4A846E81E13883E00BA07BF /* Y_emoticons_winking.gif */,
-			);
-			name = emotions;
-			sourceTree = "<group>";
-		};
 		AC7BAD511C658464F307BA1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -765,16 +734,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4A314EF1E120B76009EDA74 /* Desti_6.jpeg in Resources */,
-				A4A846E91E13883E00BA07BF /* Y_emoticons_big_grin.gif in Resources */,
 				A409A0991E10E1C80083A3CA /* LaunchScreen.storyboard in Resources */,
 				A4A314FA1E120B76009EDA74 /* ValleyTeen_64022.gif in Resources */,
 				A409A1A01E1153800083A3CA /* Main.storyboard in Resources */,
-				A4A846EA1E13883E00BA07BF /* Y_emoticons_blushing.gif in Resources */,
 				A4A314F41E120B76009EDA74 /* Kobal_56061.gif in Resources */,
 				A409A1A51E1156D40083A3CA /* chatbots.json in Resources */,
 				A4A314F11E120B76009EDA74 /* Gir_3673.gif in Resources */,
-				A4A846EE1E13883E00BA07BF /* Y_emoticons_tongue.gif in Resources */,
-				A4A846EC1E13883E00BA07BF /* Y_emoticons_happy.gif in Resources */,
 				A4A314F31E120B76009EDA74 /* Kiyana.gif in Resources */,
 				A4A3163D1E1263CC009EDA74 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 				A4A314F61E120B76009EDA74 /* Liddora_754.gif in Resources */,
@@ -786,7 +751,6 @@
 				A409A19F1E1153800083A3CA /* LaunchScreen.storyboard in Resources */,
 				A4A316151E1263CC009EDA74 /* JSQMessagesAssets.bundle in Resources */,
 				A409A19E1E1153800083A3CA /* Assets.xcassets in Resources */,
-				A4A846ED1E13883E00BA07BF /* Y_emoticons_sad.gif in Resources */,
 				A4A314F51E120B76009EDA74 /* LaurelSweet_71367.gif in Resources */,
 				A4A314F81E120B76009EDA74 /* prob_23958.gif in Resources */,
 				A4A314F71E120B76009EDA74 /* MidnightBlue_2.gif in Resources */,
@@ -794,10 +758,9 @@
 				A4A314EE1E120B76009EDA74 /* Azureon_23969.gif in Resources */,
 				A409A0941E10E1C80083A3CA /* Main.storyboard in Resources */,
 				A4A316361E1263CC009EDA74 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
-				A4A846EF1E13883E00BA07BF /* Y_emoticons_winking.gif in Resources */,
-				A4A846EB1E13883E00BA07BF /* Y_emoticons_confused.gif in Resources */,
 				A4A316381E1263CC009EDA74 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */,
 				A4A314FB1E120B76009EDA74 /* ZombieKing_86176.gif in Resources */,
+				A41288C51E13E14A002CFAAC /* Default-Portrait@2x.png in Resources */,
 				A4A314F91E120B76009EDA74 /* RockGawd_10906.gif in Resources */,
 				A4A316401E1263CC009EDA74 /* JSQMessagesToolbarContentView.xib in Resources */,
 			);
@@ -888,7 +851,6 @@
 				A409A1A81E11580C0083A3CA /* ChatBotVoModel.m in Sources */,
 				A409A0881E10E1C80083A3CA /* main.m in Sources */,
 				A4A316341E1263CC009EDA74 /* JSQMessagesCollectionViewCell.m in Sources */,
-				A4A315001E120D62009EDA74 /* VC_Segue_AppInfo.m in Sources */,
 				A4A316301E1263CC009EDA74 /* JSQPhotoMediaItem.m in Sources */,
 				A4A316491E12ADCA009EDA74 /* StringUtil.m in Sources */,
 				A4A316411E1263CC009EDA74 /* JSQMessagesTypingIndicatorFooterView.m in Sources */,
@@ -907,7 +869,6 @@
 				A4A3163F1E1263CC009EDA74 /* JSQMessagesToolbarContentView.m in Sources */,
 				A409A19D1E1153800083A3CA /* AppDelegate.m in Sources */,
 				A4A846E01E13609800BA07BF /* APIFullMessageVoModel.m in Sources */,
-				A4A315011E120D62009EDA74 /* VC_Segue_ChatBotInfo.m in Sources */,
 				A4A316221E1263CC009EDA74 /* JSQMessagesMediaViewBubbleImageMasker.m in Sources */,
 				A4A316351E1263CC009EDA74 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
 				A4A316181E1263CC009EDA74 /* NSString+JSQMessages.m in Sources */,
@@ -920,6 +881,7 @@
 				A4A316211E1263CC009EDA74 /* JSQMessagesBubbleImageFactory.m in Sources */,
 				A4A846D61E135C0200BA07BF /* ResponseVoModel.m in Sources */,
 				A4A3151B1E124EA9009EDA74 /* NSUserDefaults+DemoSettings.m in Sources */,
+				A41288C11E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m in Sources */,
 				A4A3164C1E12AE65009EDA74 /* Constants.m in Sources */,
 				A4A3163C1E1263CC009EDA74 /* JSQMessagesLoadEarlierHeaderView.m in Sources */,
 				A409A1A11E1153800083A3CA /* DetailViewController.m in Sources */,

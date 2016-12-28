@@ -21,6 +21,7 @@ NSMutableDictionary *curChatBotProfile;
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        self.title = curChatBot.Name;
     }
     return self;
 }
@@ -58,6 +59,7 @@ NSMutableDictionary *curChatBotProfile;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.title = curChatBot.Name;
 }
 
 - (void)didReceiveMemoryWarning
@@ -84,6 +86,9 @@ NSMutableDictionary *curChatBotProfile;
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+    }
     // Configure the cell...
     NSArray *allKeys = [curChatBotProfile allKeys];
     NSArray *allValues = [curChatBotProfile allValues];
@@ -91,7 +96,7 @@ NSMutableDictionary *curChatBotProfile;
     cell.textLabel.text = key;
     NSString *value = [allValues objectAtIndex:indexPath.row];
     cell.detailTextLabel.text = value;
-    NSLog(@"index:%ld,key-value:%@-%@",(long)indexPath.row,key,value);
+    NSLog(@"index:%d,key-value:%@-%@",indexPath.row,key,value);
     return cell;
 }
 

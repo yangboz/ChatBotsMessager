@@ -48,4 +48,14 @@ dependencies: \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Categories/NSBundle+JSQMessages.h \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/DemoModelData.h \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/NSUserDefaults+DemoSettings.h \
-  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/JSQMessagesViewAccessoryButtonDelegate.h
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/ChatBotVoModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/JSQMessagesViewAccessoryButtonDelegate.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/StringUtil.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/Constants.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/ResponseVoModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/MessageVoModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/APIMessageVoModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/APIUserVoModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/APIFullMessageVoModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/DataModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/AllChatBotsModel.h

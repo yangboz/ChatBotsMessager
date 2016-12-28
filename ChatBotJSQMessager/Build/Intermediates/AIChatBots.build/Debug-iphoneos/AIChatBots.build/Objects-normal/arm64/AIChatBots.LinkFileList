@@ -1,3 +1,4 @@
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/APIUserVoModel.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/UIImage+JSQMessages.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesToolbarButtonFactory.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesCellTextView.o
@@ -9,11 +10,12 @@
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesBubblesSizeCalculator.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/UIDevice+JSQMessages.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesAvatarImage.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/APIMessageVoModel.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/ChatBotVoModel.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/main.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesCollectionViewCell.o
-/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/VC_Segue_AppInfo.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQPhotoMediaItem.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/StringUtil.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesTypingIndicatorFooterView.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQVideoMediaItem.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesCollectionViewCellOutgoing.o
@@ -25,10 +27,11 @@
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/MasterViewController.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/DataModel.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesLabel.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/MessageVoModel.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessage.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesToolbarContentView.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/AppDelegate.o
-/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/VC_Segue_ChatBotInfo.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/APIFullMessageVoModel.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesMediaViewBubbleImageMasker.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesCollectionViewCellIncoming.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/NSString+JSQMessages.o
@@ -39,7 +42,10 @@
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesCollectionView.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesTimestampFormatter.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesBubbleImageFactory.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/ResponseVoModel.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/NSUserDefaults+DemoSettings.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/VC_Segue_ChatBotInfo.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/Constants.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMessagesLoadEarlierHeaderView.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/DetailViewController.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphoneos/AIChatBots.build/Objects-normal/arm64/JSQMediaItem.o

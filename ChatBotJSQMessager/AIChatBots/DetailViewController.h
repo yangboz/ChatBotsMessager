@@ -8,14 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "JSQMessagesViewController.h"
-
+#import "ChatBotVoModel.h"
 
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) NSDate *detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
-
+@property (strong, nonatomic) ChatBotVoModel *detailItem;
 
 @end
 
