@@ -109,7 +109,7 @@ MBProgressHUD *hud;
     // Pretend like you've called a REST service here and it returns a string.
     // We'll just create a string from the sample json constant at the top
     // of this file.
-    NSLog(@"string from JSONKit: \n%@", text);
+//    NSLog(@"string from JSONKit: \n%@", text);
     // 1) Create a dictionary, from the result string,
     // using JSONKit's NSString category; objectFromJSONString.
 //    NSDictionary* dict = [text objectFromJSONString];
@@ -118,7 +118,7 @@ MBProgressHUD *hud;
 //    NSLog(@"Dictionary => %@\n", dict);
     
     // 3) Now, let's create a Person object from the dictionary.
-    NSError *error;
+    NSError *error=nil;
     ResponseVoModel *responseVO = [[ResponseVoModel alloc] initWithString:text error:&error];
     // 4) Dump the contents of the person object
     // to the debug console.
@@ -131,7 +131,11 @@ MBProgressHUD *hud;
     //
     [hud hideAnimated:YES];
     //go to receive message
-    [self receiveMessageFromAPI:responseVO];
+    if(error==nil){
+        [self receiveMessageFromAPI:responseVO];
+    }else{
+        NSLog(@"API parse error:%@",error.description);
+    }
 
 }
 

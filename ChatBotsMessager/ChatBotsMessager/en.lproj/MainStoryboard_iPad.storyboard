@@ -60,7 +60,7 @@
                                     </barButtonItem>
                                     <barButtonItem style="plain" id="ovx-EM-zqr">
                                         <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Say something..." minimumFontSize="17" id="Neb-mB-jW5">
-                                            <rect key="frame" x="62" y="7" width="557" height="31"/>
+                                            <rect key="frame" x="62" y="6.5" width="557" height="31"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
@@ -68,7 +68,7 @@
                                     </barButtonItem>
                                     <barButtonItem style="done" id="9vA-PM-e1E">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Enx-9S-zho">
-                                            <rect key="frame" x="629" y="6" width="72" height="33"/>
+                                            <rect key="frame" x="629" y="5.5" width="72" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                             <state key="normal" title="Send" backgroundImage="senditem.png">
