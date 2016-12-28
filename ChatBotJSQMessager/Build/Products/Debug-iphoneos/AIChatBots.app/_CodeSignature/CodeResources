@@ -32,33 +32,33 @@
 		<data>
 		4AwD5T4xYFNewQxEmkB65xike0I=
 		</data>
-		<key>Base.lproj/Main.storyboardc/0EU-Rv-dYO-view-enC-Pl-unM.nib</key>
-		<data>
-		Tzs4OdYnO+qRGP0kotm7cFlIM5U=
-		</data>
 		<key>Base.lproj/Main.storyboardc/7bK-jq-Zjz-view-r7i-6Z-zg0.nib</key>
 		<data>
-		eXLOBDFy+dlKRUZS8iq+9jdG1FM=
+		9XrEM7vgHet/eWISymnJnb48YJw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		SHGIYYtr2nYvYY5Yt7QzaJMauyk=
+		6AhUOSEP8T1P+6Lhealia2kfjRY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/JEX-9P-axG-view-svH-Pt-448.nib</key>
 		<data>
-		G2VeEZPYMWJ8yDPxu9l5DQheW7o=
+		nbG/2ba3osRL/0K21BLO43oZUlc=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UINavigationController-tOp-j9-VTF.nib</key>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-f9q-yp-8Uw.nib</key>
 		<data>
-		8TO4VmTPH2nzUhVKKsu/UkTBb0s=
+		WbNQxltqLPvoFT5AN98/URJiNdI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-vC3-pB-5Vb.nib</key>
 		<data>
-		PwQcIWFKwG2X0Gl/unkEBjsJqiw=
+		kuUwgZE7Tdm0X4yzzp6nD+lMZ5E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UISplitViewController-H1p-Uh-vWS.nib</key>
 		<data>
-		qHeiGIW7bzfIlS0y8HUbte+d1j8=
+		JUmA4npW6WRBMQfD8WbrCs+ByB0=
+		</data>
+		<key>Base.lproj/Main.storyboardc/tKu-Pn-6oY-view-2Pm-mJ-ZYk.nib</key>
+		<data>
+		aWJiYYM88ZDKQFLzwzxs7L3iZwE=
 		</data>
 		<key>Default-Landscape@2x.png</key>
 		<data>
@@ -430,27 +430,27 @@
 		</dict>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
-		Fot0AKXmOPPS4qPD0BZHR0wSBnU=
+		6bqfZvToAfhti9rSzlLW/ihiuFA=
 		</data>
 		<key>JSQMessagesCollectionViewCellOutgoing.nib</key>
 		<data>
-		ELzDNsIth7UhXLxDqArdmY0S3jM=
+		bxdzFgjLZuOMJDO2Sdq5bWgLM7U=
 		</data>
 		<key>JSQMessagesLoadEarlierHeaderView.nib</key>
 		<data>
-		iovjKeFZ5TmIJ6SPcPHVpdF1u7c=
+		lK9VEsI61aqFWiplm0Pi5S87kZw=
 		</data>
 		<key>JSQMessagesToolbarContentView.nib</key>
 		<data>
-		qARa6CaPnGTSLXegdFfbFFbXuog=
+		4wH8CQJi4fg8lW42MYRHD+9uoR8=
 		</data>
 		<key>JSQMessagesTypingIndicatorFooterView.nib</key>
 		<data>
-		8brz7FgzIf/p2jp2+8kqSPUvRfk=
+		4RN+7AJM/i3MIA9Yt+GzPxvQgd0=
 		</data>
 		<key>JSQMessagesViewController.nib</key>
 		<data>
-		TbKjQm6vW/koKBVjgAMNAA5znaE=
+		5SCA8x4UJG0DfpnglhZ2vOrv6NY=
 		</data>
 		<key>Kiyana.gif</key>
 		<data>
@@ -706,81 +706,81 @@
 			bnfYZVJQf0l8EsR1xk+WTjj+EgRwki7OpJ2bbW0+T1k=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/0EU-Rv-dYO-view-enC-Pl-unM.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Tzs4OdYnO+qRGP0kotm7cFlIM5U=
-			</data>
-			<key>hash2</key>
-			<data>
-			BP3PNnzEz6eYJv/o3aNqKXOurRnRzLVt5XlRLAQROsQ=
-			</data>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/7bK-jq-Zjz-view-r7i-6Z-zg0.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eXLOBDFy+dlKRUZS8iq+9jdG1FM=
+			9XrEM7vgHet/eWISymnJnb48YJw=
 			</data>
 			<key>hash2</key>
 			<data>
-			B0iHcf7X+L/2zxQSzVhPfKwjcT3Fck/nIYtolbaTGQg=
+			djh2G2zIt9fZajiIwRlG6OIicPOYVjrTmd1JMkuY/gI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SHGIYYtr2nYvYY5Yt7QzaJMauyk=
+			6AhUOSEP8T1P+6Lhealia2kfjRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2b6Bn3nFJCZtAsD2oWvrliwUDAFCp9TGkXj0UqHmGFQ=
+			UEOrrwP0NQMUzhZ4GNiZmcn1mmKoEPtEKXRy8IXA4ds=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/JEX-9P-axG-view-svH-Pt-448.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G2VeEZPYMWJ8yDPxu9l5DQheW7o=
+			nbG/2ba3osRL/0K21BLO43oZUlc=
 			</data>
 			<key>hash2</key>
 			<data>
-			gstzjKjpCaNgrk2tlx2srqe7KsR8Fc8Pzh7fnZrTWJA=
+			Kr71OmJfwEAVEDLEaXxovX4phc2aBEiSRX9pbNyG0YQ=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UINavigationController-tOp-j9-VTF.nib</key>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-f9q-yp-8Uw.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8TO4VmTPH2nzUhVKKsu/UkTBb0s=
+			WbNQxltqLPvoFT5AN98/URJiNdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XWSQHp1XHDQPYip5u190L4YOcIv+l+t2KhmmYwk0hb8=
+			rtTDh5PX+O5snqYOCkoC964CbhaiOP8+IoeO2xDpgBY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-vC3-pB-5Vb.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PwQcIWFKwG2X0Gl/unkEBjsJqiw=
+			kuUwgZE7Tdm0X4yzzp6nD+lMZ5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y0s2bp8z6HVVZEaOVuaQhUa3e2a8RV7Dxh1i64Zatr8=
+			S19LdK/6m/JZwnCgN8d4byi8wXDX3/j2+XjaCNgvIhE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UISplitViewController-H1p-Uh-vWS.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qHeiGIW7bzfIlS0y8HUbte+d1j8=
+			JUmA4npW6WRBMQfD8WbrCs+ByB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JttuxWAScuBqZ9Yq3J4nBwY3XAokkmZfIY7SwIXY6dg=
+			RHRwrzi1cUDuhutQZ9v3O6Lt5vxhGBDii04jmVtxsKQ=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/tKu-Pn-6oY-view-2Pm-mJ-ZYk.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aWJiYYM88ZDKQFLzwzxs7L3iZwE=
+			</data>
+			<key>hash2</key>
+			<data>
+			KX07/JlGD0qelvu44KoWtsF89FOPxAIM61m4mfbjM98=
 			</data>
 		</dict>
 		<key>Default-Landscape@2x.png</key>
@@ -1506,66 +1506,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fot0AKXmOPPS4qPD0BZHR0wSBnU=
+			6bqfZvToAfhti9rSzlLW/ihiuFA=
 			</data>
 			<key>hash2</key>
 			<data>
-			5JKgqo9O+7T2eVYwOEsvaOPSxlgJhDifhAFzUM7UMY8=
+			B4eLlr07lbdWNlQOIqMnOwZeVkXbSN9McK44l7+/Bq4=
 			</data>
 		</dict>
 		<key>JSQMessagesCollectionViewCellOutgoing.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ELzDNsIth7UhXLxDqArdmY0S3jM=
+			bxdzFgjLZuOMJDO2Sdq5bWgLM7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Qp21sq1GkVecuPsfoJyOFUZ7l3fXc4rA9DA0vMX5YU=
+			JahEFRvlmu9cbp5U/r1nut9XcDvBVe6JeY9p3p2AeK4=
 			</data>
 		</dict>
 		<key>JSQMessagesLoadEarlierHeaderView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iovjKeFZ5TmIJ6SPcPHVpdF1u7c=
+			lK9VEsI61aqFWiplm0Pi5S87kZw=
 			</data>
 			<key>hash2</key>
 			<data>
-			JvF967zCRFG0PDS7G3Mg5B/sIUcJfcEtk/m+KNI+4BY=
+			QSRNXrdwEumHqS/V9n95wzOgUP+V2zWgUgjPdtg26rI=
 			</data>
 		</dict>
 		<key>JSQMessagesToolbarContentView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qARa6CaPnGTSLXegdFfbFFbXuog=
+			4wH8CQJi4fg8lW42MYRHD+9uoR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			NoypJJTV25XeDlOeZhOLh3rgIyMSHbA0ZLkEQEZl/A4=
+			Di9NOTZyLxHK9YSdURcYMlz0iCURYvIXiXybzsrQZyE=
 			</data>
 		</dict>
 		<key>JSQMessagesTypingIndicatorFooterView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8brz7FgzIf/p2jp2+8kqSPUvRfk=
+			4RN+7AJM/i3MIA9Yt+GzPxvQgd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			4637yDkhPm30flLbz7RG8M3e2ddH5xJOZPh3emtMR48=
+			hemxeazQDTGrPCnvo5u8MAuhSGYKgmUbowJAhBPzY6I=
 			</data>
 		</dict>
 		<key>JSQMessagesViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TbKjQm6vW/koKBVjgAMNAA5znaE=
+			5SCA8x4UJG0DfpnglhZ2vOrv6NY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sK+nZvL8R1LycRRsIWz1HtYh4tsPOb7W2H+lr5Mw7yk=
+			FMLmkUsaAYnXQJ82PeoegKe5pmoWh1wSPOpgAqUn948=
 			</data>
 		</dict>
 		<key>Kiyana.gif</key>

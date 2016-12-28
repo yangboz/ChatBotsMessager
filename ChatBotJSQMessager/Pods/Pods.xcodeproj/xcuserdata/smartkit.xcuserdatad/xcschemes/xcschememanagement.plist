@@ -14,11 +14,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JSQMessagesViewController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>JSQSystemSoundPlayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -30,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>NSData+Base64.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NSString+Emoji.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,17 +47,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0722532A25FB326D6DDA96E5DCFC97EC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1C1781D13096C0708BD2909AAE5AD1BF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2E92024676DD391858028F02B5E9CDBE</key>
+		<key>20747513245EF6C193C6DF53438C537A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,7 +67,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9999F4770DB4C2BC379502C7F25352C5</key>
+		<key>743830F459ABF482C4F672E2E43F1ED7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,7 +77,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7C930C2F696951F3DB11A639EBB2CE3</key>
+		<key>AF74EFF113B9EF08F855467F6B9688EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

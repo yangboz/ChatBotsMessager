@@ -1,12 +1,14 @@
-# JSQSystemSoundPlayer 
-[![Build Status](https://secure.travis-ci.org/jessesquires/JSQSystemSoundPlayer.svg)](http://travis-ci.org/jessesquires/JSQSystemSoundPlayer) [![Version Status](http://img.shields.io/cocoapods/v/JSQSystemSoundPlayer.png)][docsLink] [![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
+# JSQSystemSoundPlayer
+[![Build Status](https://secure.travis-ci.org/jessesquires/JSQSystemSoundPlayer.svg)](http://travis-ci.org/jessesquires/JSQSystemSoundPlayer) [![Version Status](https://img.shields.io/cocoapods/v/JSQSystemSoundPlayer.png)][podLink] [![license MIT](https://img.shields.io/cocoapods/l/JSQSystemSoundPlayer.png)][mitLink] [![codecov.io](https://img.shields.io/codecov/c/github/jessesquires/JSQSystemSoundPlayer.svg)](http://codecov.io/github/jessesquires/JSQSystemSoundPlayer) [![Platform](https://img.shields.io/cocoapods/p/JSQSystemSoundPlayer.png)][docsLink] [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-A fancy Obj-C wrapper for iOS [System Sound Services](https://developer.apple.com/library/ios/documentation/AudioToolbox/Reference/SystemSoundServicesReference/Reference/reference.html).
+*A fancy Obj-C wrapper for Cocoa [System Sound Services](https://developer.apple.com/library/ios/documentation/AudioToolbox/Reference/SystemSoundServicesReference/Reference/reference.html), for iOS and OS X.*
 
-This class is a light-weight, drop-in component to play sound effects, or other short sounds in your iOS app. 
+## About
+
+This library is a light-weight component to play sound effects in your app.
 To determine your audio needs, see [Best Practices for iOS Audio](https://developer.apple.com/library/ios/DOCUMENTATION/AudioVideo/Conceptual/MultimediaPG/UsingAudio/UsingAudio.html#//apple_ref/doc/uid/TP40009767-CH2-SW10).
-Or, read the tl;dr version:
 
+**tl;dr**
 >*When your sole audio need is to play alerts and user-interface sound effects, use Core Audio’s System Sound Services.*
 >
 >Your sound files must be:
@@ -15,10 +17,10 @@ Or, read the tl;dr version:
 >* In linear PCM or IMA4 (IMA/ADPCM) format
 >* Packaged in a `.caf`, `.aif`, or `.wav` file
 
-If this does not fit your needs, then this control is not for you! 
+If this does not fit your needs, then this library is not for you!
 See [AVAudioPlayer](https://developer.apple.com/library/ios/DOCUMENTATION/AVFoundation/Reference/AVAudioPlayerClassReference/Reference/Reference.html), instead.
 
-![JSQSystemSoundPlayer Screenshot][imgLink] 
+![screenshot ios][imgLinkiOS] &nbsp;&nbsp;&nbsp; ![screenshot osx][imgLinkOSX]
 
 ## Features
 
@@ -26,23 +28,35 @@ See [AVAudioPlayer](https://developer.apple.com/library/ios/DOCUMENTATION/AVFoun
 * "Play" vibration (if available on device)
 * Block-based completion handlers
 * Integration with `NSUserDefaults` to globally toggle sound effects in your app
-* Sweet and efficient memory management
+* Efficient memory management
 * Caches sounds (`SystemSoundID` instances) and purges on memory warning
-* Works with Swift! (v2.0.0 and above)
+* Works with Swift!
 
 ## Requirements
 
-* iOS 6.0+ 
+* iOS 6.0+
+* OS X 10.7+
+* tvOS 9.0+
 * ARC
 
 ## Installation
 
-````
+### [CocoaPods](https://cocoapods.org) (recommended)
+````ruby
 pod 'JSQSystemSoundPlayer'
 ````
-Otherwise, drag the `JSQSystemSoundPlayer/` folder to your project, and add `AudioToolbox.framework`.
+
+### [Carthage](https://github.com/Carthage/Carthage)
+
+````bash
+github "jessesquires/JSQSystemSoundPlayer"
+````
 
 ## Getting Started
+
+````swift
+@import JSQSystemSoundPlayer;
+````
 
 #### Playing sounds
 
@@ -54,9 +68,7 @@ Otherwise, drag the `JSQSystemSoundPlayer/` folder to your project, and add `Aud
                                                 }];
 ````
 
-And that's all! 
-
-String constants for file extensions provided for you: 
+String constants for file extensions provided for you:
 * `kJSQSystemSoundTypeCAF`
 * `kJSQSystemSoundTypeAIF`
 * `kJSQSystemSoundTypeAIFF`
@@ -72,7 +84,7 @@ Need a setting in your app's preferences to toggle sound effects on/off? `JSQSys
 
 #### Specifying a bundle
 
-Need to load your audio resources from a specific bundle? `JSQSystemSoundPlayer` uses the main bundle by default, but you can specify another. 
+Need to load your audio resources from a specific bundle? `JSQSystemSoundPlayer` uses the main bundle by default, but you can specify another.
 
 **NOTE:** for each sound that is played `JSQSystemSoundPlayer` will **always** search the **last specified bundle**. If you are playing sound effects from multiple bundles, you will need to specify the bundle before playing each sound.
 
@@ -80,60 +92,32 @@ Need to load your audio resources from a specific bundle? `JSQSystemSoundPlayer`
 [JSQSystemSoundPlayer sharedPlayer].bundle = [NSBundle mainBundle];
 ````
 
-#### Demo
+#### Demo project
 
-Also see the included demo project: `SoundPlayerDemo.xcodeproj`
-
-#### For a good time
-
-````objective-c
-while (1) {
-    [[JSQSystemSoundPlayer sharedPlayer] playVibrateSound];
-}
-````
+The included example app, `Example.xcodeproj`, exercises all functionality of this framework. There are applications for iOS as well as OS X.
 
 ## Documentation
 
-Read the fucking docs, [available here][docsLink] via [@CocoaDocs](https://twitter.com/CocoaDocs).
+Read the [docs][docsLink]. Generated with [jazzy](https://github.com/realm/jazzy). Hosted by [GitHub Pages](https://pages.github.com). More information on the [`gh-pages`](https://github.com/jessesquires/JSQSystemSoundPlayer/tree/gh-pages) branch.
 
 ## Contribute
 
 Please follow these sweet [contribution guidelines](https://github.com/jessesquires/HowToContribute).
 
-## Design
-
-Why is this a [Singleton](http://en.wikipedia.org/wiki/Singleton_pattern)? Singletons are [garbage](https://twitter.com/jesse_squires/status/532800746656239616). I agree! But here's why this is a valid use case:
-
-1. This library manages the use of audio resources. Semantically, you only have 1 sound asset per sound effect. This is akin to `[NSFileManager defaultManager]`. You only have file system from which to read data. 
-2. The singleton allows the caching of `SystemSoundID` instances.
-
-## Donate
-
-Support the development of this **free**, open-source library! 
-
-> *Donations made via [Square Cash](https://square.com/cash)*
-> <h4><a href="mailto:jesse.squires.developer@gmail.com?cc=cash@square.com&subject=$1&body=Thanks for developing JSQSystemSoundPlayer!">Send $1</a> <em>Just saying thanks!</em></h4>
-> <h4><a href="mailto:jesse.squires.developer@gmail.com?cc=cash@square.com&subject=$5&body=Thanks for developing JSQSystemSoundPlayer!">Send $5</a> <em>This control is great!</em></h4>
-> <h4><a href="mailto:jesse.squires.developer@gmail.com?cc=cash@square.com&subject=$10&body=Thanks for developing JSQSystemSoundPlayer!">Send $10</a> <em>This totally saved me time!</em></h4>
-
 ## Credits
 
-Created by [**@jesse_squires**](https://twitter.com/jesse_squires), a [programming-motherfucker](http://programming-motherfucker.com).
-
-## Apps using this library
-
-* [Hemoglobe](http://bit.ly/hemoglobeapp)
-* [iPaint uPaint](http://bit.ly/ipupappstr)
-* [MUDRammer](https://itunes.apple.com/us/app/mudrammer-a-modern-mud-client/id597157072?mt=8)
+Created and maintained by [**@jesse_squires**](https://twitter.com/jesse_squires).
 
 ## License
 
 `JSQSystemSoundPlayer` is released under an [MIT License][mitLink]. See `LICENSE` for details.
 
->**Copyright &copy; 2014 Jesse Squires.**
+>**Copyright &copy; 2013-present Jesse Squires.**
 
 *Please provide attribution, it is greatly appreciated.*
 
-[docsLink]:http://cocoadocs.org/docsets/JSQSystemSoundPlayer
+[docsLink]:http://www.jessesquires.com/JSQSystemSoundPlayer
+[podLink]:http://cocoapods.org/pods/JSQSystemSoundPlayer
 [mitLink]:http://opensource.org/licenses/MIT
-[imgLink]:https://raw.github.com/jessesquires/JSQSystemSoundPlayer/master/Screenshots/screenshot.png
+[imgLinkiOS]:https://raw.githubusercontent.com/jessesquires/JSQSystemSoundPlayer/develop/Screenshots/ios.png
+[imgLinkOSX]:https://raw.githubusercontent.com/jessesquires/JSQSystemSoundPlayer/develop/Screenshots/osx.png

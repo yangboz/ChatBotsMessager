@@ -53,7 +53,17 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
+                    <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="u6E-CC-7Jt">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="i35-fP-zGl">
+                                <rect key="frame" x="337" y="11" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="f9q-yp-8Uw" kind="show" id="tEl-k0-KHL"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="detailDescriptionLabel" destination="0XM-y9-sOw" id="deQ-Na-JPF"/>
                     </connections>
@@ -61,6 +71,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="709" y="129"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KOR-wE-jEZ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ms3-T2-7Pm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="f9q-yp-8Uw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3V1-CP-1CV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tKu-Pn-6oY" kind="relationship" relationship="rootViewController" id="qaD-e2-zeY"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1390" y="128"/>
+        </scene>
+        <!--Demo Messages View Controller-->
+        <scene sceneID="AFp-Ji-ePg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVc-Ak-6k9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="tKu-Pn-6oY" customClass="DemoMessagesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7f7-sL-neK"/>
+                        <viewControllerLayoutGuide type="bottom" id="E6t-EZ-vsz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Pm-mJ-ZYk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Phs-Dc-Quc"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2156" y="128"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="Nki-YV-4Qg">
@@ -119,7 +164,7 @@
                                 <rect key="frame" x="337" y="11" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="tOp-j9-VTF" kind="showDetail" id="xw0-SI-j8Z"/>
+                                    <segue destination="tOp-j9-VTF" kind="push" id="Bll-r2-exL"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -141,7 +186,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="735"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <mutableString key="text">About The Personality Forge 
+                            <string key="text">About The Personality Forge 
 
 Welcome to the Personality Forge, one of the most advanced artificial intelligence platforms in the world. Here people create and work on AI Personalities called chat bots who, once created, have an independent existence, chatting with both real people and other chat bots. While you're away, they're having conversations, making friends, and making memories that you can look in on.
 
@@ -169,7 +214,7 @@ If another user is online at the same time as you, you can send then a realtime 
 Logging Out
 
 Logging Out &amp; Session Timeouts: 
-There are several advantages to logging out when you are done. Simply closing the window or quitting your browser will not log you out, as such an action can not be detected by the system. In such cases, and cases in which you leave the window open while you are doing something else, there is a 40-minute timeout. If there is no activity (such as posting or changing pages) for 40 minutes, you will get a message and then if you dont respond, you will be logged out. Logging out marks you as gone and so people wont be trying to send you messages when you are not there.</mutableString>
+There are several advantages to logging out when you are done. Simply closing the window or quitting your browser will not log you out, as such an action can not be detected by the system. In such cases, and cases in which you leave the window open while you are doing something else, there is a 40-minute timeout. If there is no activity (such as posting or changing pages) for 40 minutes, you will get a message and then if you dont respond, you will be logged out. Logging out marks you as gone and so people wont be trying to send you messages when you are not there.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         </textView>
@@ -183,12 +228,13 @@ There are several advantages to logging out when you are done. Simply closing th
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zA6-3L-156" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2073" y="-630"/>
+            <point key="canvasLocation" x="2132" y="-630"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lLJ-yF-GfR">
             <objects>
                 <navigationController id="tOp-j9-VTF" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hFK-dA-i4u"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wAX-bC-2fe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

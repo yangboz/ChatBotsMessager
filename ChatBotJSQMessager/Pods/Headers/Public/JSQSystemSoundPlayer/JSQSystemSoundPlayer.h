@@ -1,1 +1,1 @@
-../../../JSQSystemSoundPlayer/JSQSystemSoundPlayer/Classes/JSQSystemSoundPlayer.h
+../../../JSQSystemSoundPlayer/Source/JSQSystemSoundPlayer.h

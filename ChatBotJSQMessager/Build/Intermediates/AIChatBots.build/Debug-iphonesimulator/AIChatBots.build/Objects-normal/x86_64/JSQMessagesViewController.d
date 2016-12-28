@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Controllers/JSQMessagesViewController.m \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Controllers/JSQMessagesViewController.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesCollectionView.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayout.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Layout/JSQMessagesBubbleSizeCalculating.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Model/JSQMessagesCollectionViewDelegateFlowLayout.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Model/JSQMessagesCollectionViewDataSource.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesCollectionViewCell.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesLabel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesCellTextView.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesInputToolbar.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesToolbarContentView.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesComposerTextView.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Controllers/JSQMessagesKeyboardController.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Model/JSQMessageData.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Model/JSQMessageMediaData.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Model/JSQMessageBubbleImageDataSource.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Model/JSQMessageAvatarImageDataSource.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellIncoming.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesCollectionViewCellOutgoing.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesTypingIndicatorFooterView.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Views/JSQMessagesLoadEarlierHeaderView.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Categories/NSString+JSQMessages.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Categories/UIColor+JSQMessages.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Categories/UIDevice+JSQMessages.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Categories/NSBundle+JSQMessages.h

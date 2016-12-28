@@ -13,30 +13,30 @@ PODS:
   - ASIHTTPRequest/S3 (1.8.2):
     - ASIHTTPRequest/Core
   - JSONModel (1.7.0)
-  - JSQMessagesViewController (7.3.4):
-    - JSQSystemSoundPlayer (~> 2.0.1)
-  - JSQSystemSoundPlayer (2.0.1)
+  - JSQSystemSoundPlayer (4.4.0)
   - MBProgressHUD (1.0.0)
   - NSData+Base64 (1.0.0)
+  - NSString+Emoji (0.2.0)
   - Reachability (3.2)
 
 DEPENDENCIES:
   - ASIHTTPRequest
   - JSONModel
-  - JSQMessagesViewController
+  - JSQSystemSoundPlayer
   - MBProgressHUD (~> 1.0.0)
   - NSData+Base64
+  - NSString+Emoji
   - Reachability (~> 3.2)
 
 SPEC CHECKSUMS:
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
-  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
-  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  JSQSystemSoundPlayer: 126ccc4a08db8fc3036bd07d33b0f8eda1559476
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
+  NSString+Emoji: 127da93993ac7c01eadb2edbb039cda89a1369f4
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
-PODFILE CHECKSUM: 9f105b91b5f5ed2f0c043cd782142e2d2da91540
+PODFILE CHECKSUM: c2a4f5c87a9967726eaf6838f0e746277e5df043
 
 COCOAPODS: 1.1.1

@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.m \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/JSQMessagesViewController/Layout/JSQMessagesCollectionViewFlowLayoutInvalidationContext.h

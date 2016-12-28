@@ -91,7 +91,7 @@ NSMutableDictionary *curChatBotProfile;
     cell.textLabel.text = key;
     NSString *value = [allValues objectAtIndex:indexPath.row];
     cell.detailTextLabel.text = value;
-    NSLog(@"index:%d,key-value:%@-%@",indexPath.row,key,value);
+    NSLog(@"index:%ld,key-value:%@-%@",(long)indexPath.row,key,value);
     return cell;
 }
 
