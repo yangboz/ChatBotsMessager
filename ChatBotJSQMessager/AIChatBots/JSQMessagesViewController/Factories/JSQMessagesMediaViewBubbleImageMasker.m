@@ -72,7 +72,7 @@
 - (void)jsq_maskView:(UIView *)view withImage:(UIImage *)image
 {
     NSParameterAssert(view != nil);
-    NSParameterAssert(image != nil);
+//    NSParameterAssert(image != nil);
     
     UIImageView *imageViewMask = [[UIImageView alloc] initWithImage:image];
     imageViewMask.frame = CGRectInset(view.frame, 2.0f, 2.0f);

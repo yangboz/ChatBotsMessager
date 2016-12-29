@@ -24,7 +24,7 @@
 
 + (instancetype)avatarWithImage:(UIImage *)image
 {
-    NSParameterAssert(image != nil);
+//    NSParameterAssert(image != nil);
     
     return [[JSQMessagesAvatarImage alloc] initWithAvatarImage:image
                                               highlightedImage:image

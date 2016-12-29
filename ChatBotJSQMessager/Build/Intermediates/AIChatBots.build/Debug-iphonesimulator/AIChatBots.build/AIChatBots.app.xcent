@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>63X9SGW3ZX.info.smartkit.AIChatBots</string>
+	<string>63X9SGW3ZX.63X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>63X9SGW3ZX.info.smartkit.AIChatBots</string>
+		<string>63X9SGW3ZX.63X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager</string>
 	</array>
 </dict>
 </plist>

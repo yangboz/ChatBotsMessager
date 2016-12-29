@@ -129,7 +129,7 @@
 
 + (UIImage *)jsq_circularImage:(UIImage *)image withDiameter:(NSUInteger)diameter highlightedColor:(UIColor *)highlightedColor
 {
-    NSParameterAssert(image != nil);
+//    NSParameterAssert(image != nil);
     NSParameterAssert(diameter > 0);
 
     CGRect frame = CGRectMake(0.0f, 0.0f, diameter, diameter);

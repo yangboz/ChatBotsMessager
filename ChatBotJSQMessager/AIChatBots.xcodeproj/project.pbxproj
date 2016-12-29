@@ -1057,6 +1057,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63X9SGW3ZX;
 				INFOPLIST_FILE = AIChatBots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -1082,8 +1083,9 @@
 					"$(OTHER_CFLAGS)",
 					"-fno-stack-protector",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.godpaper.app.ios.ChatBotsMessager;
+				PRODUCT_BUNDLE_IDENTIFIER = 63X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1094,6 +1096,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63X9SGW3ZX;
 				INFOPLIST_FILE = AIChatBots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -1119,8 +1122,9 @@
 					"$(OTHER_CFLAGS)",
 					"-fno-stack-protector",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.godpaper.app.ios.ChatBotsMessager;
+				PRODUCT_BUNDLE_IDENTIFIER = 63X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

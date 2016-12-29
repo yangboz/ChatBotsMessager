@@ -24,7 +24,7 @@
 
 - (instancetype)initWithMessageBubbleImage:(UIImage *)image highlightedImage:(UIImage *)highlightedImage
 {
-    NSParameterAssert(image != nil);
+//    NSParameterAssert(image != nil);
     NSParameterAssert(highlightedImage != nil);
     
     self = [super init];
