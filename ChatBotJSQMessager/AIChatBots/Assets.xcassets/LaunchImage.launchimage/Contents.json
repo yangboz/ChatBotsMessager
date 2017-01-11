@@ -2,69 +2,44 @@
   "images" : [
     {
       "orientation" : "portrait",
-      "idiom" : "iphone",
-      "filename" : "Default.png",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "extent" : "full-screen",
+      "scale" : "2x"
+    },
+    {
+      "orientation" : "landscape",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
       "extent" : "full-screen",
       "scale" : "1x"
     },
     {
-      "orientation" : "portrait",
-      "idiom" : "iphone",
-      "filename" : "Default-568h@2x.png",
-      "extent" : "full-screen",
-      "scale" : "2x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "iphone",
-      "filename" : "Default-Portrait@2x-1.png",
-      "extent" : "full-screen",
-      "subtype" : "retina4",
-      "scale" : "2x"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
-      "subtype" : "736h",
-      "filename" : "Default-Portrait.png",
-      "minimum-system-version" : "8.0",
-      "orientation" : "portrait",
-      "scale" : "3x"
-    },
-    {
-      "extent" : "full-screen",
-      "idiom" : "iphone",
-      "subtype" : "736h",
-      "filename" : "Default-Landscape@2x.png",
-      "minimum-system-version" : "8.0",
       "orientation" : "landscape",
-      "scale" : "3x"
-    },
-    {
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
       "extent" : "full-screen",
-      "idiom" : "iphone",
-      "subtype" : "667h",
-      "filename" : "Default-Portrait@2x-3.png",
-      "minimum-system-version" : "8.0",
-      "orientation" : "portrait",
       "scale" : "2x"
     },
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "Default-Portrait@2x.png",
-      "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
     },
     {
-      "extent" : "full-screen",
+      "orientation" : "portrait",
       "idiom" : "iphone",
+      "minimum-system-version" : "7.0",
       "subtype" : "retina4",
-      "filename" : "Default-Portrait@2x-2.png",
-      "minimum-system-version" : "7.0",
-      "orientation" : "portrait",
       "scale" : "2x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "extent" : "full-screen",
+      "scale" : "1x"
     }
   ],
   "info" : {

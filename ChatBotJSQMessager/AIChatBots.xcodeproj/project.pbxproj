@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65023EC81E20C391007A3A3A /* VC_Segue_AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 65023EC71E20C391007A3A3A /* VC_Segue_AppInfo.m */; };
 		A409A0881E10E1C80083A3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A0871E10E1C80083A3CA /* main.m */; };
 		A409A0941E10E1C80083A3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A409A0921E10E1C80083A3CA /* Main.storyboard */; };
 		A409A0991E10E1C80083A3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A409A0971E10E1C80083A3CA /* LaunchScreen.storyboard */; };
@@ -119,6 +120,8 @@
 
 /* Begin PBXFileReference section */
 		4A6E1A207F8F22B66498B1C6 /* Pods-AIChatBots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIChatBots.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIChatBots/Pods-AIChatBots.debug.xcconfig"; sourceTree = "<group>"; };
+		65023EC61E20C391007A3A3A /* VC_Segue_AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Segue_AppInfo.h; sourceTree = "<group>"; };
+		65023EC71E20C391007A3A3A /* VC_Segue_AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Segue_AppInfo.m; sourceTree = "<group>"; };
 		A409A0831E10E1C80083A3CA /* AIChatBots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIChatBots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A409A0871E10E1C80083A3CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A409A0931E10E1C80083A3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -344,6 +347,8 @@
 		A409A0851E10E1C80083A3CA /* AIChatBots */ = {
 			isa = PBXGroup;
 			children = (
+				65023EC61E20C391007A3A3A /* VC_Segue_AppInfo.h */,
+				65023EC71E20C391007A3A3A /* VC_Segue_AppInfo.m */,
 				A41288C41E13E14A002CFAAC /* Default-Portrait@2x.png */,
 				A41288BF1E13BA43002CFAAC /* VC_Segue_ChatBotInfo.h */,
 				A41288C01E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m */,
@@ -837,6 +842,7 @@
 			files = (
 				A4A846DD1E13607900BA07BF /* APIUserVoModel.m in Sources */,
 				A4A3161B1E1263CC009EDA74 /* UIImage+JSQMessages.m in Sources */,
+				65023EC81E20C391007A3A3A /* VC_Segue_AppInfo.m in Sources */,
 				A4A316241E1263CC009EDA74 /* JSQMessagesToolbarButtonFactory.m in Sources */,
 				A4A316321E1263CC009EDA74 /* JSQMessagesCellTextView.m in Sources */,
 				A4A316291E1263CC009EDA74 /* JSQMessagesCollectionViewLayoutAttributes.m in Sources */,
@@ -1055,7 +1061,7 @@
 			baseConfigurationReference = 4A6E1A207F8F22B66498B1C6 /* Pods-AIChatBots.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 63X9SGW3ZX;
 				INFOPLIST_FILE = AIChatBots/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1095,7 +1101,7 @@
 			baseConfigurationReference = E9C850EDD9FB6C9CB50B45BD /* Pods-AIChatBots.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 63X9SGW3ZX;
 				INFOPLIST_FILE = AIChatBots/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

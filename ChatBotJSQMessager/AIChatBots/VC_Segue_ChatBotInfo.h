@@ -12,4 +12,5 @@
 
 @interface VC_Segue_ChatBotInfo : UITableViewController
 {}
+- (IBAction)dissmiss:(id)sender;
 @end
