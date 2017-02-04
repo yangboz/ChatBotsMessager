@@ -7,8 +7,15 @@ AppStore
 ================
 https://itunes.apple.com/us/app/aichatbot/id879922550?l=zh&ls=1&mt=8
 
+*V1.0*
+
 ![Screenshot of master view](https://raw.github.com/yangboz/ChatBotsMessager/master/ChatBotsMessager/ChatBotsMessager/Snapshots/ChatBotsMessagerMaster.jpg)
 ![Screenshot of detail view](https://raw.github.com/yangboz/ChatBotsMessager/master/ChatBotsMessager/ChatBotsMessager/Snapshots/ChatBotsMessagerDetail.jpg)
+
+*V1.1*
+
+![Screenshot of master view](https://github.com/yangboz/ChatBotsMessager/blob/master/ChatBotJSQMessager/screenshots/1.png)
+![Screenshot of detail view](https://github.com/yangboz/ChatBotsMessager/blob/master/ChatBotJSQMessager/screenshots/3.png)
 
 API
 ================
