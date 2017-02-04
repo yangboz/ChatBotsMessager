@@ -14,8 +14,8 @@ https://itunes.apple.com/us/app/aichatbot/id879922550?l=zh&ls=1&mt=8
 
 *V1.1*
 
-![Screenshot of master view](https://github.com/yangboz/ChatBotsMessager/blob/master/ChatBotJSQMessager/screenshots/1.png)
-![Screenshot of detail view](https://github.com/yangboz/ChatBotsMessager/blob/master/ChatBotJSQMessager/screenshots/3.png)
+<img src="https://github.com/yangboz/ChatBotsMessager/blob/master/ChatBotJSQMessager/screenshots/1.png" width="320">
+<img src="https://github.com/yangboz/ChatBotsMessager/blob/master/ChatBotJSQMessager/screenshots/3.png" width="320">
 
 API
 ================
