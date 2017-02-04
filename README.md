@@ -90,3 +90,8 @@ Backlog
 http://www.codeproject.com/Articles/689451/Developing-Android-Applications-with-Voice-Recogni
 
 (!!!Talk to dophi!!!)https://www.goodreads.com/book/show/17803169-are-dolphins-really-smart
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/yangboz/ChatBotsMessager/badge.svg?style=beer-square)](https://beerpay.io/yangboz/ChatBotsMessager)  [![Beerpay](https://beerpay.io/yangboz/ChatBotsMessager/make-wish.svg?style=flat-square)](https://beerpay.io/yangboz/ChatBotsMessager?focus=wish)
