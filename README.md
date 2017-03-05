@@ -91,6 +91,8 @@ http://www.codeproject.com/Articles/689451/Developing-Android-Applications-with-
 
 (!!!Talk to dophi!!!)https://www.goodreads.com/book/show/17803169-are-dolphins-really-smart
 
+(Adobe Character Animator CC) https://helpx.adobe.com/adobe-character-animator/using/behavior.html
+
 ## Support on Beerpay
 Hey dude! Help me out for a couple of :beers:!
 
