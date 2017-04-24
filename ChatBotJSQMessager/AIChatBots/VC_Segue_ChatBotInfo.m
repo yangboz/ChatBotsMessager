@@ -7,6 +7,7 @@
 //
 
 #import "VC_Segue_ChatBotInfo.h"
+#import "UIImageUtils.h"
 
 @interface VC_Segue_ChatBotInfo ()
 
@@ -60,6 +61,34 @@ NSMutableDictionary *curChatBotProfile;
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.title = curChatBot.Name;
+    //UINavigation header with icon functions.
+    UIImage *headerOrignalIcon =  [UIImage imageNamed:curChatBot.Image];
+    UIImage *headerIcon =  [UIImageUtils imageWithImage:headerOrignalIcon scaledToSize:CGSizeMake(40, 40)];
+    NSTextAttachment *textAttachment = [[NSTextAttachment alloc] init];
+    textAttachment.image = headerIcon;
+    NSAttributedString *icon = [NSAttributedString attributedStringWithAttachment:textAttachment];
+    
+    // space between icon and title
+    NSAttributedString *space = [[NSAttributedString alloc] initWithString:@" "];
+    
+    // Title
+    NSAttributedString *title = [[NSAttributedString alloc] initWithString:self.navigationItem.title];
+    
+    // new title
+    NSMutableAttributedString *attributedTitle = [[NSMutableAttributedString alloc] initWithAttributedString:icon];
+    [attributedTitle appendAttributedString:space];
+    [attributedTitle appendAttributedString:title];
+    
+    // move text up to align with image
+    [attributedTitle addAttribute:NSBaselineOffsetAttributeName
+                            value:@(10.0)
+                            range:NSMakeRange(1, attributedTitle.length-1)];
+    
+    UILabel *titleLabel = [UILabel new];
+    //    titleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:17.f];
+    titleLabel.attributedText = attributedTitle;
+    [titleLabel sizeToFit];
+    self.navigationItem.titleView = titleLabel;
 }
 
 - (void)didReceiveMemoryWarning

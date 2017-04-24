@@ -30,6 +30,7 @@
 #import "NSString+Emoji.h"
 #import "DataModel.h"
 #import "ChatBotVoModel.h"
+#import "UIImageUtils.h"
 
 #define BEGIN_FLAG @"[/"
 #define END_FLAG @"]"
@@ -258,6 +259,12 @@ MBProgressHUD *hud;
         
         [self.demoData.messages addObject:newMessage];
         [self finishReceivingMessageAnimated:YES];
+    //Speak it by TTS api
+    AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc]init];
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:emotionalMessage];
+    utterance.rate = AVSpeechUtteranceDefaultSpeechRate;
+    utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"en-US"];
+    [synthesizer speakUtterance:utterance];
         
         
 //        if (newMessage.isMediaMessage) {
@@ -396,6 +403,36 @@ MBProgressHUD *hud;
      *
      *  self.inputToolbar.maximumHeight = 150;
      */
+    
+    //UINavigation header with icon functions.
+    UIImage *headerOrignalIcon =  [UIImage imageNamed:self.detailItem.Image];
+    UIImage *headerIcon =  [UIImageUtils imageWithImage:headerOrignalIcon scaledToSize:CGSizeMake(40, 40)];
+    NSTextAttachment *textAttachment = [[NSTextAttachment alloc] init];
+    textAttachment.image = headerIcon;
+    NSAttributedString *icon = [NSAttributedString attributedStringWithAttachment:textAttachment];
+    
+    // space between icon and title
+    NSAttributedString *space = [[NSAttributedString alloc] initWithString:@" "];
+    
+    // Title
+    NSAttributedString *title = [[NSAttributedString alloc] initWithString:self.navigationItem.title];
+    
+    // new title
+    NSMutableAttributedString *attributedTitle = [[NSMutableAttributedString alloc] initWithAttributedString:icon];
+    [attributedTitle appendAttributedString:space];
+    [attributedTitle appendAttributedString:title];
+    
+    // move text up to align with image
+    [attributedTitle addAttribute:NSBaselineOffsetAttributeName
+                            value:@(10.0)
+                            range:NSMakeRange(1, attributedTitle.length-1)];
+    
+    UILabel *titleLabel = [UILabel new];
+    //    titleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:17.f];
+    titleLabel.attributedText = attributedTitle;
+    [titleLabel sizeToFit];
+    self.navigationItem.titleView = titleLabel;
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -474,7 +511,7 @@ MBProgressHUD *hud;
      *  3. Call `finishSendingMessage`
      */
 
-    // [JSQSystemSoundPlayer jsq_playMessageSentSound];
+    [JSQSystemSoundPlayer jsq_playMessageSentSound];
     
     JSQMessage *message = [[JSQMessage alloc] initWithSenderId:senderId
                                              senderDisplayName:senderDisplayName
@@ -486,6 +523,7 @@ MBProgressHUD *hud;
     [self finishSendingMessageAnimated:YES];
     //
     [self sendMessageToAPI:message.text];
+
 }
 
 - (void)didPressAccessoryButton:(UIButton *)sender

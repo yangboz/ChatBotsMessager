@@ -8,6 +8,7 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>AppIcon20x20</string>
 				<string>AppIcon29x29</string>
 				<string>AppIcon40x40</string>
 				<string>AppIcon57x57</string>
@@ -21,6 +22,7 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>AppIcon20x20</string>
 				<string>AppIcon29x29</string>
 				<string>AppIcon40x40</string>
 				<string>AppIcon57x57</string>

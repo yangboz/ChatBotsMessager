@@ -25,6 +25,8 @@
 		A409A1A81E11580C0083A3CA /* ChatBotVoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A409A1A71E11580C0083A3CA /* ChatBotVoModel.m */; };
 		A41288C11E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A41288C01E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m */; };
 		A41288C51E13E14A002CFAAC /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41288C41E13E14A002CFAAC /* Default-Portrait@2x.png */; };
+		A44386E31EAD7ABB00E035FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44386E21EAD7ABB00E035FD /* AVFoundation.framework */; };
+		A44386E61EAD7CC600E035FD /* UIImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A44386E51EAD7CC600E035FD /* UIImageUtils.m */; };
 		A4A314D91E120480009EDA74 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A314D81E120480009EDA74 /* DataModel.m */; };
 		A4A314DB1E1206D4009EDA74 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A314DA1E1206D4009EDA74 /* iAd.framework */; };
 		A4A314ED1E120B76009EDA74 /* AutoResponder_86889.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4A314DE1E120B76009EDA74 /* AutoResponder_86889.gif */; };
@@ -150,6 +152,9 @@
 		A41288BF1E13BA43002CFAAC /* VC_Segue_ChatBotInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_Segue_ChatBotInfo.h; sourceTree = "<group>"; };
 		A41288C01E13BA43002CFAAC /* VC_Segue_ChatBotInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_Segue_ChatBotInfo.m; sourceTree = "<group>"; };
 		A41288C41E13E14A002CFAAC /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		A44386E21EAD7ABB00E035FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A44386E41EAD7CC600E035FD /* UIImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageUtils.h; sourceTree = "<group>"; };
+		A44386E51EAD7CC600E035FD /* UIImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageUtils.m; sourceTree = "<group>"; };
 		A4A314D71E120480009EDA74 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		A4A314D81E120480009EDA74 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 		A4A314DA1E1206D4009EDA74 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -291,6 +296,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44386E31EAD7ABB00E035FD /* AVFoundation.framework in Frameworks */,
 				A4A314DB1E1206D4009EDA74 /* iAd.framework in Frameworks */,
 				E9E4B58B8A3B64734327C3B1 /* libPods-AIChatBots.a in Frameworks */,
 			);
@@ -347,6 +353,8 @@
 		A409A0851E10E1C80083A3CA /* AIChatBots */ = {
 			isa = PBXGroup;
 			children = (
+				A44386E41EAD7CC600E035FD /* UIImageUtils.h */,
+				A44386E51EAD7CC600E035FD /* UIImageUtils.m */,
 				65023EC61E20C391007A3A3A /* VC_Segue_AppInfo.h */,
 				65023EC71E20C391007A3A3A /* VC_Segue_AppInfo.m */,
 				A41288C41E13E14A002CFAAC /* Default-Portrait@2x.png */,
@@ -622,6 +630,7 @@
 		AC7BAD511C658464F307BA1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A44386E21EAD7ABB00E035FD /* AVFoundation.framework */,
 				A4A314DA1E1206D4009EDA74 /* iAd.framework */,
 				F71192C8D008CF28C5F234B0 /* libPods-AIChatBots.a */,
 			);
@@ -880,6 +889,7 @@
 				A4A316181E1263CC009EDA74 /* NSString+JSQMessages.m in Sources */,
 				A4A315181E124E84009EDA74 /* DemoModelData.m in Sources */,
 				A4A316161E1263CC009EDA74 /* JSQSystemSoundPlayer+JSQMessages.m in Sources */,
+				A44386E61EAD7CC600E035FD /* UIImageUtils.m in Sources */,
 				A4A316271E1263CC009EDA74 /* JSQMessagesCollectionViewFlowLayout.m in Sources */,
 				A4A3163E1E1263CC009EDA74 /* JSQMessagesMediaPlaceholderView.m in Sources */,
 				A4A316331E1263CC009EDA74 /* JSQMessagesCollectionView.m in Sources */,
