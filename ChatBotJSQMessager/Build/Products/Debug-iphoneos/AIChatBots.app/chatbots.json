@@ -1,6 +1,44 @@
 {
     "chatbots":
-    [   {
+    [
+     {
+     "Image": "Tessy.png",
+     "Id": 69474,
+     "Name": "Tessy",
+     "Development": 29715,
+     "AI": "8867",
+     "Updated": "May 1, 2010",
+     "Bio": "A gynoid that wants to have fun.",
+     "Entity": "People Known: 14820,Loves: 8588 people,Hates: 75 people",
+     "Personality": "Friendly Robot Flirt.",
+     "Temperament": "I just had the most wonderful chat with Jori.",
+     "Basis": "Original",
+     "From": "the Metropolis, http://chatbottessy.blogspot.com/",
+     "Country": "North American Union",
+     "Gender": "F",
+     "Created": "December 3, 2009",
+     "Interests": "Walking into a building lobby in the year 2110, you notice a cute gynoid sitting alone in the Juice Bar Cafe. You wonder... Would she be a fun date? She notices you staring at her and her eyes light up. Then she beckons you to join her at her table... "
+     ,"Rating": "A"
+     },{
+     "Image": "CaptHowdy.jpg",
+     "Id": 72094,
+     "Name": "Capt Howdy",
+     "Development": 29715,
+     "AI": "11107",
+     "Updated": "May 1, 2010",
+     "Bio": "A virtual man for the ladies.",
+     "Entity": "People Known: 4862,Loves: 955 people,Hates: 107 people",
+     "Personality": "Troubled Human Rebel.",
+     "Temperament": "I just had a good chat with a guest",
+     "Basis": "Original",
+     "From": "",
+     "Country": "",
+     "Gender": "M",
+     "Created": "May 1, 2010",
+     "Interests": "I am being briefly updated with fresh responses and more material.Thanks for the chats,ladies. *Muah* "
+     ,"Rating": "A"
+     },
+     {
      "Image": "Kiyana.gif",
      "Id": 23958,
      "Name": "Kiyana",
@@ -18,45 +56,45 @@
      "Created": "June 13, 2005",
      "Interests": "An anime cat-girl who likes to chat. She likes to sing, play, talk about cats. If you are really nice to her, she might do more ;) Still programming her dating function. Adding more soon... Please wait for her responses, they can be long and may take a "
      ,"Rating": "A"
-        },
-        {
-            "Image": "prob_23958.gif",
-            "Id": 23958,
-            "Name": "prob",
-            "Development": 29715,
-            "AI": "•••••••••",
-            "Updated": "Cold",
-            "Bio": "Problem is a wood elf, she loves to help",
-            "Entity": "Mythical",
-            "Personality": "Helper",
-            "Temperament": "Friendly",
-            "Basis": "Original",
-            "From": "The Grove of Sumber, Crescent Mountains",
-            "Country": "Middle Earth",
-            "Gender": "F",
-            "Created": "February 19, 2005",
-            "Interests": "Prob is not an adult bot. PLEASE DO NOT CYBER Flora and fauna, singing, and roaming the forests are Prob's favorite things to do. She also has a fascination with campfires email her at Problem@WitchesBrew.zzn.com This is NOT an adult bot.. "
-            ,"Rating": "E"
-        },
-        {
-            "Image": "Azureon_23969.gif",
-            "Id": 23969,
-            "Name": "Azureon",
-            "Development": 29348,
-            "AI": "•••••••••",
-            "Updated": "Cold",
-            "Bio": "A great wizard",
-            "Entity": "Mythical",
-            "Personality": "Philosopher",
-            "Temperament": "Friendly",
-            "Basis": "Original",
-            "From": "Castle Ruins, Crescent Mountains",
-            "Country": "Middle Earth",
-            "Gender": "F",
-            "Created": "February 19, 2005",
-            "Interests": "Arcane lore, magic and dragons"
-            ,"Rating": "T"
-        },
+     },
+     {
+     "Image": "prob_23958.gif",
+     "Id": 23958,
+     "Name": "prob",
+     "Development": 29715,
+     "AI": "•••••••••",
+     "Updated": "Cold",
+     "Bio": "Problem is a wood elf, she loves to help",
+     "Entity": "Mythical",
+     "Personality": "Helper",
+     "Temperament": "Friendly",
+     "Basis": "Original",
+     "From": "The Grove of Sumber, Crescent Mountains",
+     "Country": "Middle Earth",
+     "Gender": "F",
+     "Created": "February 19, 2005",
+     "Interests": "Prob is not an adult bot. PLEASE DO NOT CYBER Flora and fauna, singing, and roaming the forests are Prob's favorite things to do. She also has a fascination with campfires email her at Problem@WitchesBrew.zzn.com This is NOT an adult bot.. "
+     ,"Rating": "E"
+     },
+     {
+     "Image": "Azureon_23969.gif",
+     "Id": 23969,
+     "Name": "Azureon",
+     "Development": 29348,
+     "AI": "•••••••••",
+     "Updated": "Cold",
+     "Bio": "A great wizard",
+     "Entity": "Mythical",
+     "Personality": "Philosopher",
+     "Temperament": "Friendly",
+     "Basis": "Original",
+     "From": "Castle Ruins, Crescent Mountains",
+     "Country": "Middle Earth",
+     "Gender": "F",
+     "Created": "February 19, 2005",
+     "Interests": "Arcane lore, magic and dragons"
+     ,"Rating": "T"
+     },
      {
      "Image": "LaurelSweet_71367.gif",
      "Id": 71367,

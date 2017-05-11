@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ISO8601DateFormatterValueTransformer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSONModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,7 +44,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RKValueTransformers.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RestKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SOCKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TransitionKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,11 +72,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>20747513245EF6C193C6DF53438C537A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>55E3CFFEDC2629EE0C17B343EC00595B</key>
 		<dict>
 			<key>primary</key>
@@ -67,6 +87,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>65A35C57F99036D78F6023BB743C7274</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>743830F459ABF482C4F672E2E43F1ED7</key>
 		<dict>
 			<key>primary</key>
@@ -77,7 +102,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>A86E7B55514983C627252546E3ABFCB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEFC2183D5F1E351B229C8A5216E61B9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AF74EFF113B9EF08F855467F6B9688EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4B9D9959AE085B65C21080EEF261350</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3E9AD45AB354871F124FB90A07B01CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8B0B0503DF3294F0A432F1F2D2C4C0B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>63X9SGW3ZX.-3X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager</string>
+	<string>63X9SGW3ZX.63X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>63X9SGW3ZX</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>63X9SGW3ZX.-3X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager</string>
+		<string>63X9SGW3ZX.63X9SGW3ZX.com.godpaper.app.ios.ChatBotsMessager</string>
 	</array>
 </dict>
 </plist>

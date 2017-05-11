@@ -9,6 +9,7 @@ pod 'Reachability', '~> 3.2'
 pod 'NSData+Base64'
 pod 'JSONModel'
 pod 'NSString+Emoji'
+pod 'RestKit', '0.27.0'
 
 target 'AIChatBots' do
 	

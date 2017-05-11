@@ -10,5 +10,16 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "-[COVITASv1API pfChatWithPostMessage:]:COVITASv1API.m">
+      </ContextState>
+      <ContextState
+         contextName = "__37-[COVITASv1API pfChatWithGetMessage:]_block_invoke:COVITASv1API.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "result.array">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>

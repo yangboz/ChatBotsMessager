@@ -16,4 +16,6 @@
 + (NSString*) HMACWithSecret:(NSString*)secret andData:(NSString *)data;
 //
 + (NSString *)HMACSHA1withKey:(NSString *)secret forString:(NSString *)data;
+//
++(NSString *)HMACSHA256withKey:(NSString *)plaintext withKey:(NSString *)key;
 @end

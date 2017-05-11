@@ -58,4 +58,5 @@ dependencies: \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/APIUserVoModel.h \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/APIFullMessageVoModel.h \
   /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/DataModel.h \
-  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/AllChatBotsModel.h
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/AllChatBotsModel.h \
+  /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/AIChatBots/UIImageUtils.h

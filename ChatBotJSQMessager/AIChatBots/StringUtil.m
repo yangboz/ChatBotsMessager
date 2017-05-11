@@ -7,6 +7,11 @@
 //
 
 #import "StringUtil.h"
+#import <Foundation/Foundation.h>
+#import <CommonCrypto/CommonCrypto.h>
+#include <CommonCrypto/CommonDigest.h>
+#include <CommonCrypto/CommonHMAC.h>
+
 
 @implementation StringUtil
 //
@@ -56,31 +61,40 @@
     return resultStr;
 }
 //@see http://stackoverflow.com/questions/476455/is-there-a-library-for-iphone-to-work-with-hmac-sha-1-encoding
-+ (NSString *)HMACSHA1withKey:(NSString *)secret forString:(NSString *)data
++ (NSString *)HMACSHA1withKey:(NSString *)secret forString:(NSString *)data;
 {
-    NSLog(@"Current selector: %@",NSStringFromSelector(_cmd));
-    NSLog(@"Object class: %@",NSStringFromClass([self class]));
-    NSLog(@"Filename: %@",[[NSString stringWithUTF8String:__FILE__] lastPathComponent]);
-    NSLog(@"Stack trace: %@",[NSThread callStackSymbols]);
-    //
-    CCHmacContext    ctx;
-    const char       *key = [secret UTF8String];
-    const char       *str = [data UTF8String];
-    unsigned char    mac[CC_SHA256_DIGEST_LENGTH];
-    char             hexmac[CC_SHA256_DIGEST_LENGTH];
-    char             *p;
+    const char *cKey  = [secret cStringUsingEncoding:NSASCIIStringEncoding];
+    const char *cData = [data cStringUsingEncoding:NSASCIIStringEncoding];
     
-    CCHmacInit( &ctx, kCCHmacAlgSHA256, key, strlen( key ));
-    CCHmacUpdate( &ctx, str, strlen(str) );
-    CCHmacFinal( &ctx, mac );
+    unsigned char cHMAC[CC_SHA256_DIGEST_LENGTH];
     
-    p = hexmac;
-    for (int i = 0; i < CC_SHA256_DIGEST_LENGTH; i++ ) {
-        snprintf( p, 3, "%02x", mac[ i ] );
-        p += 2;
+    CCHmac(kCCHmacAlgSHA256, cKey, strlen(cKey), cData, strlen(cData), cHMAC);
+    
+    NSData *HMACData = [[NSData alloc] initWithBytes:cHMAC length:sizeof(cHMAC)];
+    
+    const unsigned char *buffer = (const unsigned char *)[HMACData bytes];
+    NSString *HMAC = [NSMutableString stringWithCapacity:HMACData.length * 2];
+    
+    for (int i = 0; i < HMACData.length; ++i)
+        HMAC = [HMAC stringByAppendingFormat:@"%02lx", (unsigned long)buffer[i]];
+    
+    return HMAC;
+}
+
++ (NSString *)HMACSHA256withKey:(NSString *)plaintext withKey:(NSString *)key
+{
+    const char *cKey  = [key cStringUsingEncoding:NSASCIIStringEncoding];
+    const char *cData = [plaintext cStringUsingEncoding:NSASCIIStringEncoding];
+    unsigned char cHMAC[CC_SHA256_DIGEST_LENGTH];
+    CCHmac(kCCHmacAlgSHA256, cKey, strlen(cKey), cData, strlen(cData), cHMAC);
+    NSData *HMACData = [NSData dataWithBytes:cHMAC length:sizeof(cHMAC)];
+    const unsigned char *buffer = (const unsigned char *)[HMACData bytes];
+    NSMutableString *HMAC = [NSMutableString stringWithCapacity:HMACData.length * 2];
+    for (int i = 0; i < HMACData.length; ++i){
+        [HMAC appendFormat:@"%02x", buffer[i]];
     }
-    NSString *result = [[NSString alloc] initWithUTF8String:hexmac];
-    return result;
+    
+    return HMAC;
 }
 
 @end

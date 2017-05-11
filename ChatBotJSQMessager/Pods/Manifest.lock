@@ -12,12 +12,35 @@ PODS:
     - Reachability
   - ASIHTTPRequest/S3 (1.8.2):
     - ASIHTTPRequest/Core
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
   - JSONModel (1.7.0)
   - JSQSystemSoundPlayer (4.4.0)
   - MBProgressHUD (1.0.0)
   - NSData+Base64 (1.0.0)
   - NSString+Emoji (0.2.0)
   - Reachability (3.2)
+  - RestKit (0.27.0):
+    - RestKit/Core (= 0.27.0)
+  - RestKit/Core (0.27.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.0):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.0):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.0):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SOCKit (1.1)
+  - TransitionKit (2.2.1)
 
 DEPENDENCIES:
   - ASIHTTPRequest
@@ -27,16 +50,22 @@ DEPENDENCIES:
   - NSData+Base64
   - NSString+Emoji
   - Reachability (~> 3.2)
+  - RestKit (= 0.27.0)
 
 SPEC CHECKSUMS:
   ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   JSQSystemSoundPlayer: 126ccc4a08db8fc3036bd07d33b0f8eda1559476
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
   NSString+Emoji: 127da93993ac7c01eadb2edbb039cda89a1369f4
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RestKit: a0244db34e14ed9cf059fcee2be6733cc162c34a
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
 
-PODFILE CHECKSUM: c2a4f5c87a9967726eaf6838f0e746277e5df043
+PODFILE CHECKSUM: 1f5572e920f584ee9f72d1897bece850c30486b5
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0

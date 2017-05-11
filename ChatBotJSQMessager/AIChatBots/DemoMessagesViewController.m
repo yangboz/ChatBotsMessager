@@ -31,6 +31,8 @@
 #import "DataModel.h"
 #import "ChatBotVoModel.h"
 #import "UIImageUtils.h"
+#import "COVITASv1API.h"
+#import "MessageVoSimple.h"
 
 #define BEGIN_FLAG @"[/"
 #define END_FLAG @"]"
@@ -61,144 +63,19 @@ MBProgressHUD *hud;
 }
 
 
-#pragma mark - API request
-
-#pragma mark - Responding to API request
+#pragma mark - send API request
 -(void)sendMessageToAPI:(NSString *)content
 {
-    NSString *msgJsonStr = [self getMessageJsonString:content];
-    NSLog(@"msgJsonStr:%@",msgJsonStr);
     //
-    //    NSString *hashStr = [self HMACWithSecret:API_SECERT andData:msgJsonStr];
-    //NSString *hashStr = [StringUtil HMACWithSecret:API_SECERT andData:msgJsonStr];
-    NSString *hashStr = [StringUtil HMACSHA1withKey:API_SECERT forString:msgJsonStr];
-    if(nil == hashStr) return;
-    NSString *urlEncodeStr = [self getUrlEncodeString:msgJsonStr];
-    NSLog(@"msgJsonStr: %@",msgJsonStr);
-    NSLog(@"hashStr: %@",hashStr);
-    NSLog(@"urlEncodeStr: %@",urlEncodeStr);
-    NSString *url = [NSString stringWithFormat:@"%@%@%@%@%@%@",API_DOMAIN,API_KEY,@"&hash=",hashStr,@"&message=",urlEncodeStr ];
-    NSLog(@"sendMessage_Click! url: %@",url);
-    NSURL *nsUrl = [NSURL URLWithString:url];
-    ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:nsUrl];
-    [request setDelegate:self];
-    [request startAsynchronous];
+    MessageVoSimple *messageVoSimple = [MessageVoSimple new];
+    messageVoSimple.message = content;
+    messageVoSimple.chatBotID = self.detailItem.Id;
+//    messageModel.timestamp = [NSNumber numberWithInt:dateInt];
+    NSLog(@"send to API with messageSimple:%@",[messageVoSimple description]);
+    [[COVITASv1API sharedInstance] pfChatWithGetMessage:messageVoSimple];
     //
     hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.userInteractionEnabled = NO;
-}
-
-- (void)requestFinished:(ASIHTTPRequest *)request
-{
-    // Use when fetching text data
-    NSString *responseString = [request responseString];
-    NSLog(@"API request response str:%@",responseString);
-    //
-    NSScanner *scanner = [NSScanner scannerWithString:responseString];
-    //
-    NSString *text = nil;
-    //Find the last pair of { }.
-    while ([scanner isAtEnd] == NO) {
-        // find start of tag
-        [scanner scanUpToString:@"{" intoString:NULL] ;
-        // find end of tag
-        [scanner scanUpToString:@"}" intoString:&text] ;
-        // appending tags(}})
-        text = [text stringByAppendingString:@"}"];
-    } // while //
-    NSLog(@"Scanned text:%@",text);
-    // Pretend like you've called a REST service here and it returns a string.
-    // We'll just create a string from the sample json constant at the top
-    // of this file.
-//    NSLog(@"string from JSONKit: \n%@", text);
-    // 1) Create a dictionary, from the result string,
-    // using JSONKit's NSString category; objectFromJSONString.
-//    NSDictionary* dict = [text objectFromJSONString];
-    
-    // 2) Dump the dictionary to the debug console.
-//    NSLog(@"Dictionary => %@\n", dict);
-    
-    // 3) Now, let's create a Person object from the dictionary.
-    NSError *error=nil;
-    ResponseVoModel *responseVO = [[ResponseVoModel alloc] initWithString:text error:&error];
-    // 4) Dump the contents of the person object
-    // to the debug console.
-//    NSString *message = responseVO.message.message;
-    NSLog(@"responseVO => %@\n", responseVO);
-    NSLog(@"responseVO.message.chatBotName: %@\n", [[responseVO message] chatBotName]);
-    NSLog(@"responseVO.message.chatBotID: %@\n", [[responseVO message] chatBotID]);
-    NSLog(@"responseVO.message.message: %@\n", [[responseVO message] message]);
-    NSLog(@"responseVO.message.emotion: %@\n", [[responseVO message] emotion]);
-    //
-    [hud hideAnimated:YES];
-    //go to receive message
-    if(error==nil){
-        [self receiveMessageFromAPI:responseVO];
-    }else{
-        NSLog(@"API parse error:%@",error.description);
-    }
-
-}
-
-- (void)requestFailed:(ASIHTTPRequest *)request
-{
-    NSError *error = [request error];
-    NSLog(@"API request error:%@",error);
-    //
-    [hud hideAnimated:YES];
-}
-
--(NSString *)getMessageJsonString:(NSString *)content
-{
-    //    NSTimeInterval interval64Bit = (63522762851317000/1000000)-62135596800;
-    //    NSDate *date = [NSDate dateWithTimeIntervalSince1970:interval64Bit];
-    NSTimeInterval time = [[NSDate date] timeIntervalSince1970];
-    long long int dateInt = (long long int)time;
-    //    NSLog(@"date %lld",dateInt);
-    int chatBotId = [self.detailItem.Id intValue];
-    NSLog(@"chatBotID:%d",chatBotId);
-    if(0 == chatBotId)
-    {
-        chatBotId = 6;//Default chatbot id;
-    }
-    //
-//    NSMutableDictionary *messageDict = [[NSMutableDictionary alloc] init];
-//    [messageDict setValue:content forKey:@"message"];
-//    [messageDict setValue:[NSNumber numberWithInt:chatBotId] forKey:@"chatBotID"];
-//    [messageDict setValue:[NSNumber numberWithInt:dateInt] forKey:@"timestamp"];
-//    NSLog(@"messageDict:%@",messageDict);
-    //
-    APIMessageVoModel *messageModel = [APIMessageVoModel new];
-    messageModel.message = content;
-    messageModel.chatBotID = [NSNumber numberWithInt:chatBotId];
-    messageModel.timestamp = [NSNumber numberWithInt:dateInt];
-     NSLog(@"messageModel json:%@",messageModel.toJSONString);
-    //    NSLog(@"messageDict json str:%@",[messageDict JSONString]);
-    
-//    NSMutableDictionary *userDict = [[NSMutableDictionary alloc] init];
-//    [userDict setValue:@"Tugger" forKey:@"firstName"];
-//    [userDict setValue:@"Sufani" forKey:@"lastName"];
-//    [userDict setValue:@"m" forKey:@"gender"];
-//    [userDict setValue:@"abc-639184572" forKey:@"externalID"];
-//    NSLog(@"userDict:%@",userDict);
-    APIUserVoModel *userModel = [APIUserVoModel new];
-    userModel.firstName = @"Tugger";
-    userModel.lastName = @"Sufani";
-    userModel.gender = @"m";
-    userModel.externalID = @"abc-639184572";
-        NSLog(@"userModel json str:%@",userModel.toJSONString);
-    
-//    NSMutableDictionary *messageFullDict = [[NSMutableDictionary alloc] init];
-//    [messageFullDict setValue:messageDict forKey:@"message"];
-//    [messageFullDict setValue:userDict forKey:@"user"];
-//    NSLog(@"messageFullDict:%@",messageFullDict);
-    APIFullMessageVoModel *messageFullModel = [APIFullMessageVoModel new];
-    messageFullModel.message = messageModel;
-    messageFullModel.user = userModel;
-    //Json writer
-    NSLog(@"messageFullDict json:%@",messageFullModel.toJSONString);
-    //
-    return messageFullModel.toJSONString;
 }
 
 -(NSString *)getUrlEncodeString:(NSString *)unEscapedString
@@ -206,7 +83,24 @@ MBProgressHUD *hud;
     return [unEscapedString stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
 }
 
--(void)receiveMessageFromAPI:(ResponseVoModel *)response
+- (void) receiveMessageFromCovitasAPIError:(NSNotification*)notification {
+    //
+    [hud hideAnimated:YES];
+    //
+    NSError *errorMsg = (NSError*)notification.object;
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error" message:[errorMsg localizedDescription] delegate:self cancelButtonTitle:@"Please try again." otherButtonTitles:nil, nil];
+    [alert show];
+}
+
+- (void) receiveMessageFromCovitasAPI:(NSNotification*)notification {
+    MessageVoSimple* response = [notification object];
+    NSLog(@"ResponseVoModel:%@",[response debugDescription]);
+    [self receiveMessageFromAPI:response];
+    //
+    [hud hideAnimated:YES];
+}
+
+-(void)receiveMessageFromAPI:(MessageVoSimple *)response
 {
     
     /**
@@ -238,12 +132,12 @@ MBProgressHUD *hud;
 //        NSString *randomUserId = userIds[arc4random_uniform((int)[userIds count])];
         
         JSQMessage *newMessage = nil;
-        id<JSQMessageMediaData> newMediaData = nil;
-        id newMediaAttachmentCopy = nil;
+//        id<JSQMessageMediaData> newMediaData = nil;
+//        id newMediaAttachmentCopy = nil;
         //Always text message with emoji
-    NSString *emotionalMessage = [[NSString stringWithFormat:@":%@:%@",response.message.emotion,response.message.message] stringByReplacingEmojiCheatCodesWithUnicode];
-            newMessage = [JSQMessage messageWithSenderId:response.message.chatBotID.stringValue
-                                             displayName:response.message.chatBotName
+    NSString *emotionalMessage = [[NSString stringWithFormat:@":%@:%@",response.emotion,response.message] stringByReplacingEmojiCheatCodesWithUnicode];
+            newMessage = [JSQMessage messageWithSenderId:response.chatBotID.stringValue
+                                             displayName:response.chatBotName
                                                     text:emotionalMessage];
 //        }
     
@@ -260,8 +154,8 @@ MBProgressHUD *hud;
         [self.demoData.messages addObject:newMessage];
         [self finishReceivingMessageAnimated:YES];
     //Speak it by TTS api
-    AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc]init];
-    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:emotionalMessage];
+    AVSpeechSynthesizer *synthesizer = [[AVSpeechSynthesizer alloc] init];
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:response.message];
     utterance.rate = AVSpeechUtteranceDefaultSpeechRate;
     utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"en-US"];
     [synthesizer speakUtterance:utterance];
@@ -432,7 +326,9 @@ MBProgressHUD *hud;
     titleLabel.attributedText = attributedTitle;
     [titleLabel sizeToFit];
     self.navigationItem.titleView = titleLabel;
-    
+    // Add notification observer
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveMessageFromCovitasAPI:) name:kNCpN_chat_with_message object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveMessageFromCovitasAPIError:) name:kNCpN_chat_with_message_error object:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated

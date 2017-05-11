@@ -10,6 +10,7 @@
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQMessagesComposerTextView.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQMessagesBubblesSizeCalculator.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/UIDevice+JSQMessages.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/COVITASv1Model.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQMessagesAvatarImage.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/APIMessageVoModel.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/ChatBotVoModel.o
@@ -40,6 +41,7 @@
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQSystemSoundPlayer+JSQMessages.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/UIImageUtils.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQMessagesCollectionViewFlowLayout.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/MessageVoSimple.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQMessagesMediaPlaceholderView.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQMessagesCollectionView.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQMessagesTimestampFormatter.o
@@ -57,3 +59,4 @@
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQAudioMediaItem.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/JSQMessagesAvatarImageFactory.o
 /Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/NSBundle+JSQMessages.o
+/Users/smartkit/git/ChatBotsMessager/ChatBotJSQMessager/Build/Intermediates/AIChatBots.build/Debug-iphonesimulator/AIChatBots.build/Objects-normal/x86_64/COVITASv1API.o
