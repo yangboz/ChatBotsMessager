@@ -17,6 +17,12 @@ https://itunes.apple.com/us/app/aichatbot/id879922550?l=zh&ls=1&mt=8
 <img src="https://github.com/yangboz/ChatBotsMessager/blob/master/ChatBotJSQMessager/screenshots/1.png" width="320">
 <img src="https://github.com/yangboz/ChatBotsMessager/blob/master/ChatBotJSQMessager/screenshots/3.png" width="320">
 
+*V1.2*
+
+I guess that might sound a little bit strange for some people, considering the fact that music is often referred to as “emotional” and something “to feel”, not something “factual” or “mathematical”, but machine learning makes it possible.
+
+Reference: https://medium.com/towards-data-science/deep-learning-with-tensorflow-part-3-music-and-text-generation-8a3fbfdc5e9b
+
 API
 ================
 http://www.personalityforge.com/bookofapi.php
